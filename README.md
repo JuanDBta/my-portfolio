@@ -5,7 +5,7 @@
   <img src="LOGO.jpg" alt="logo" width="160"  height="auto" />
   <br/>
 
-  <h3><b>Hello World Project</b></h3>
+  <h3><b>Mobile Portfolio Project</b></h3>
 
 </div>
 
@@ -33,14 +33,13 @@
 
 # 📖 Hello World <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[Hello World Project]** is a warmth greeting to all of you using HTML and CSS.
+**[Mobile Website Portfolio]** is the first section of creating a Personal Mobile Website that will be a main tool in the Web Developer career.
 
 ## 🛠 Built With <a name="built-with"></a>
 1- HTML
 2- CSS
 3- Linters
+4- Figma Template
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -50,6 +49,7 @@
     <li><a href="https://github.com/"></a>GitHub</li>
     <li><a href="https://youtube.com/"></a>YouTube</li>
     <li><a href="https://www.microverse.org"></a>Microverse</li>
+    <li><a href="https://figma.com"></a>Figma</li>
   </ul>
 </details>
 
@@ -57,7 +57,7 @@
 
 
 
-- **[Added hello.html]**
+- **[Added mobile.html]**
 - **[Added styles.css]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -88,13 +88,13 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone "https://github.com/JuanDBta/Hello-world.git"
+  git clone "https://github.com/JuanDBta/Mobile-portfolio.git"
 ```
 ### Usage
 
 To run the project, execute the following command:
 
-Open hello.html using live server extension.
+Open mobile.html using live server extension.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,9 +115,10 @@ Open hello.html using live server extension.
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Add Body]**
-- [ ] **[Add footer]**
-- [ ] **[Add more styling]**
+- [ ] **[Add Buttons]**
+- [ ] **[Add Modal sections]**
+- [ ] **[Add Menu sections]**
+- [ ] **[Add form section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +138,7 @@ If you like this project, please give me a like, it doesn't cost you anything an
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Bee in Student Success who is always avalaible to solve issues, to Omar Muhammad (CR) for made a tutorial which help us a lot, and finally to Microverse for push us to work hard every day!
+I would like to thank Bee in Student Success who is always avalaible to solve issues and Microverse for push us to work hard every day!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
