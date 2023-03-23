@@ -31,7 +31,7 @@
 - [📝 License](#license)
 
 
-# 📖 Hello World <a name="about-project"></a>
+# 📖 Mobile Portfolio Project <a name="about-project"></a>
 
 **[Mobile Website Portfolio]** is the first section of creating a Personal Mobile Website that will be a main tool in the Web Developer career.
 
@@ -97,8 +97,6 @@ To run the project, execute the following command:
 Open mobile.html using live server extension.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
