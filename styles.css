@@ -1,3 +1,27 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.main-container{
+  width: 100%;
+  min-width: 375px;
+  margin:auto;
+  background: #FFFFFF;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+header{
+  display:flex;
+}
+.toolbar{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
 .menu{
   position: absolute;
   width: 20px;
@@ -7,11 +31,17 @@
 }
 
 .menu-shape{
-    position: absolute;
-    width: 111px;
-    height: 74px;
-    left: -2px;
-    top: 0px;
+  position: absolute;
+  width: 111px;
+  height: 74px;
+  left: -2px;
+  top: 0px;
+}
+
+.headline{
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
 }
 
 .my-name{
@@ -29,45 +59,51 @@
 }
 
 .myname-intro{
-position: absolute;
-width: 288px;
-height: 147px;
-left: 16px;
-top: 221px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-letter-spacing: -0.01em;
-color: #1A2236;
+  position: absolute;
+  width: 288px;
+  height: 147px;
+  left: 16px;
+  top: 221px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1A2236;
 }
 
-.collaboration-button-text{
-    position: absolute;
-width: 203.68px;
-height: 26.47px;
-left: 58px;
-top: 402px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-color: #FFFFFF;
+.links{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 
-box-sizing: border-box;
+}
+.collaboration-button{
+  position: absolute;
+  width: 203.68px;
+  height: 26.47px;
+  left: 58px;
+  top: 402px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
 
-position: absolute;
-width: 288px;
-height: 50px;
-left: 16px;
-top: 390px;
-background: #1A2236;
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 288px;
+  height: 50px;
+  left: 16px;
+  top: 390px;
+  background: #1A2236;
 }
 
-.collaboration-shape{
+.main-bottom-shape{
   position: absolute;
   width: 320px;
   height: 160px;
