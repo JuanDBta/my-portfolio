@@ -4,49 +4,68 @@
   box-sizing: border-box;
 }
 
+body{
+  width: 375px;
+  max-height: 460px;
+  margin:auto;  
+   
+}
+
 .main-container{
   width: 100%;
-  min-width: 375px;
+  height: 460px;
   margin:auto;
-  background: #FFFFFF;
-  display:flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  background: white;
 }
+
 header{
-  display:flex;
+  width: 320px;
+  background: white;
+  display: flex;
+  flex-direction: column;
 }
+
 .toolbar{
+  width: 100%;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-}
+  flex-flow: row-reverse;
+  background: white;
+  flex-wrap: wrap;
+  }
 
 .menu{
-  position: absolute;
-  width: 20px;
+  margin-right: 14px;
+  margin-top: 19px; 
+  width: 21px;
   height: 14px;
   left: 284px;
   top: 19px;
+  display: flex;
 }
 
 .menu-shape{
-  position: absolute;
   width: 111px;
   height: 74px;
-  left: -2px;
+  margin-left: -2px;
   top: 0px;
+  display: flex;
 }
 
 .headline{
-  display: flexbox;
+  margin-left: 16px;
+  width: 100%;
+  height: 336px;
+  left: 16px;
+  top: 104px;
+  display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: stretch; 
 }
 
 .my-name{
-  position: absolute;
-  width: 220px;
+  width: 100%;
   height: 100px;
   left: 16px;
   top: 104px;
@@ -56,11 +75,12 @@ header{
   font-size: 50px;
   line-height: 100%;
   color: #1A2236;
+  list-style-type: none;  
 }
 
 .myname-intro{
-  position: absolute;
-  width: 288px;
+  margin-right: 14px;
+  width: 100%;
   height: 147px;
   left: 16px;
   top: 221px;
@@ -71,17 +91,12 @@ header{
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #1A2236;
+  list-style-type: none;
 }
 
-.links{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-
-}
 .collaboration-button{
-  position: absolute;
-  width: 203.68px;
+  margin-left: 16px;
+  width: 100%;
   height: 26.47px;
   left: 58px;
   top: 402px;
@@ -92,21 +107,10 @@ header{
   line-height: 24px;
   text-align: center;
   color: #FFFFFF;
-
   box-sizing: border-box;
-
-  position: absolute;
   width: 288px;
   height: 50px;
   left: 16px;
   top: 390px;
   background: #1A2236;
-}
-
-.main-bottom-shape{
-  position: absolute;
-  width: 320px;
-  height: 160px;
-  left: 0px;
-  top: 472px;
 }
