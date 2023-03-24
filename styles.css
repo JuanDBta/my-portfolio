@@ -1,31 +1,31 @@
-*{
+* {
   margin: 0;
   padding:0;
   box-sizing: border-box;
 }
 
-body{
+body {
   width: 375px;
   max-height: 460px;
   margin:auto;  
    
 }
 
-.main-container{
+.main-container {
   width: 100%;
   height: 460px;
   margin:auto;
   background: white;
 }
 
-header{
+header { 
   width: 320px;
   background: white;
   display: flex;
   flex-direction: column;
 }
 
-.toolbar{
+.toolbar {
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
@@ -35,7 +35,7 @@ header{
   flex-wrap: wrap;
   }
 
-.menu{
+.menu {
   margin-right: 14px;
   margin-top: 19px; 
   width: 21px;
@@ -45,7 +45,7 @@ header{
   display: flex;
 }
 
-.menu-shape{
+.menu-shape {
   width: 111px;
   height: 74px;
   margin-left: -2px;
@@ -53,7 +53,7 @@ header{
   display: flex;
 }
 
-.headline{
+.headline {
   margin-left: 16px;
   width: 100%;
   height: 336px;
@@ -64,7 +64,7 @@ header{
   align-content: stretch; 
 }
 
-.my-name{
+.my-name {
   width: 100%;
   height: 100px;
   left: 16px;
@@ -78,7 +78,7 @@ header{
   list-style-type: none;  
 }
 
-.myname-intro{
+.myname-intro {
   margin-right: 14px;
   width: 100%;
   height: 147px;
@@ -94,7 +94,7 @@ header{
   list-style-type: none;
 }
 
-.collaboration-button{
+.collaboration-button {
   margin-left: 16px;
   width: 100%;
   height: 26.47px;
@@ -112,5 +112,11 @@ header{
   height: 50px;
   left: 16px;
   top: 390px;
+  cursor: pointer;
   background: #1A2236;
 }
+
+.collaboration-button :hover {
+    background-color: #3e8e41;
+  }
+  
