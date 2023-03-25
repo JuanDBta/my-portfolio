@@ -94,14 +94,111 @@ h1 {
   background-color: #3e8e41;
 }
 
-.image-projects-container {
+.headline-projects-container {
   margin-top: 32px;
   width: 100%;
-  height: 160px;
+  height: 282px;
+  display:flex;
+  flex-direction: column;
 }
 
-.headline-projects {
+.project-title {
+  width: 181px;
+  height: 50px;
   margin-top: 40px;
-  margin-left: 16px;
+  margin-left: 16px;  
 }
 
+.menu-projects {
+  width: 318px;
+  height: 352px;
+  background-image: url('images/Projects1.jpg');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100% 186px;
+  background-color: #1a2236;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  width: 264px;
+  height: 16px;  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: #1A2236;
+}
+
+.menu-languages {
+  display: grid;
+  height: 20px;
+  width: 250px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  list-style: none;
+  padding: 0px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.language-button1 {
+  width: 69px;
+  height: 20px;
+  text-align: center;
+  background-color: #98DEDE;
+}
+
+.language-button2 {
+  width: 87px;
+  height: 20px;
+  text-align: center;
+  background-color: #98DEDE;
+}
+
+.language-button3 {
+  width: 74px;
+  height: 20px;
+  text-align: center;
+  background-color: #98DEDE;
+}
+
+.text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+  color: #1A2236;
+}
+
+.project-button {
+  margin-left: 20px;
+  width: 178px;
+  height: 44px;
+  margin-top: 20px;
+  border: 1px solid gainsboro;
+  background: #1a2236;
+}
+
+.button-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+}
+
+#Flecha {
+  margin-left: 10px;
+}
+
+#descarga {
+  margin-left: 10px;
+}
