@@ -2,7 +2,7 @@
 
 <div align="center">
  
-  <img src="LOGO.jpg" alt="logo" width="160"  height="auto" />
+  <img src="images/LOGO.jpg" alt="logo" width="160"  height="auto" />
   <br/>
 
   <h3><b>Mobile Portfolio Project</b></h3>
@@ -40,6 +40,8 @@
 2- CSS
 3- Linters
 4- Figma Template
+5- Flexbox
+6  Grid Layout
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -59,6 +61,13 @@
 
 - **[Added mobile.html]**
 - **[Added styles.css]**
+- **[Added .gitignore]**
+- **[Added /images]**
+- **[Added Toolbar Mobile Section]**
+- **[Added Headline Mobile Section]**
+- **[Added Projects Mobile section]**
+- **[Added About Me Mobile section]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,12 +120,7 @@ Open mobile.html using live server extension.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Add Buttons]**
-- [ ] **[Add Modal sections]**
-- [ ] **[Add Menu sections]**
-- [ ] **[Add form section]**
+- [ ] **[Add Contact Form Mobile section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +143,6 @@ If you like this project, please give me a like, it doesn't cost you anything an
 I would like to thank Bee in Student Success who is always avalaible to solve issues and Microverse for push us to work hard every day!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
