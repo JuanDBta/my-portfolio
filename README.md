@@ -33,7 +33,7 @@
 
 # 📖 Mobile Portfolio Project <a name="about-project"></a>
 
-**[Mobile Website Portfolio]** is the first section of creating a Personal Mobile Website that will be a main tool in the Web Developer career.
+**[Mobile Website Portfolio]** is the first project for building a Personal Mobile Website that will be a main tool in the Web Developer career.
 
 ## 🛠 Built With <a name="built-with"></a>
 1- HTML
@@ -67,6 +67,7 @@
 - **[Added Headline Mobile Section]**
 - **[Added Projects Mobile section]**
 - **[Added About Me Mobile section]**
+- **[Added Contact Form Mobile section]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -116,6 +117,17 @@ Open mobile.html using live server extension.
 - GitHub: [@JuanDBta](https://github.com/JuanDBta)
 - Twitter: [@diazgjuan](https://twitter.com/diazgjuan)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/juan-david-diaz-)
+
+👤 **Micronaut WLADIMIR PASQUEL**
+
+- GitHub: [@lordksix](https://github.com/lordksix)
+- Email:  wladimir.pasquel@urp.edu.pe
+
+👤 **Micronaut SERGIO PERALTA**
+
+- GitHub: [@SergioPeralta22](https://github.com/SergioPeralta22)
+- Email: seperalta88@gmail.com
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -141,6 +153,8 @@ If you like this project, please give me a like, it doesn't cost you anything an
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Bee in Student Success who is always avalaible to solve issues and Microverse for push us to work hard every day!
+
+I would like to thank the huge contributions that my colleagues: Wladimir Pasquel and Sergio Peralta, who contriubted to my project and made a great job in the Contact Me Section and also, they kindly helped me with corrections and tips to improve my project´s code. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
