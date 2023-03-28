@@ -11,7 +11,7 @@ body {
 }
 
 .main-container {
-  width: 100%; 
+  width: 100%;
   height: 4060px;
   margin: auto;
   background: white;
@@ -303,21 +303,21 @@ h3 {
   padding-block: 106px 31px;
 }
 
-.contact-form{
+.contact-form {
   display: flex;
   flex-direction: column;
   margin-top: 14px;
   gap: 10px;
 }
 
-.form-row{
+.form-row {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-.form-row label{
-  font-size:10px;
+.form-row label {
+  font-size: 10px;
   font-weight: 400;
   line-height: 15px;
   color: #7d7c84;
@@ -325,42 +325,43 @@ h3 {
 }
 
 .form-row input,
-.form-row textarea{
+.form-row textarea {
   height: 52px;
   width: 335px;
   border-radius: 4px;
   border: 1px solid #dfdfe0;
   padding: 23px 16px 8px 16px;
-  color:#1a2236;
+  color: #1a2236;
 }
 
-.form-row textarea{
+.form-row textarea {
   height: 112px;
 }
 
-footer{
+footer {
   background-color: #1a2236;
-  color: #92dcdc ;
+  color: #92dcdc;
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   height: 136px;
 }
 
-.footer-resume{
+.footer-resume {
   display: flex;
   align-items: center;
   gap: 14px;
   margin-top: 28px;
   font-size: 16px;
-  font-family:"Poppins", serif;
+  font-family: "Poppins", serif;
 }
+
 .footer-resume img {
   width: 22px;
   height: 22px;
 }
 
-.social-media{
+.social-media {
   display: flex;
   list-style: none;
   margin-top: 24px;
@@ -369,7 +370,7 @@ footer{
   margin-bottom: 36px;
 }
 
-.social-media img{
+.social-media img {
   width: 24px;
-  height:24px;
+  height: 24px;
 }
