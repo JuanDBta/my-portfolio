@@ -5,38 +5,22 @@
 }
 
 body {
-  width: 375px;
-  max-height: 4060px;
-  margin: auto;
-}
-
-.main-container {
-  width: 100%;
-  height: 4060px;
-  margin: auto;
-  background: white;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
 }
 
 header {
-  width: 320px;
+  width: 100%;
   height: 74px;
-  background-image: url('images/image_geometry_1.jpg');
+  background-color: #fff;
+  background-image: url('Images SVG/image_geometry_1.svg');
   background-position: left top;
   background-repeat: no-repeat;
-  background-size: auto 100%;
-  position: relative;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
 }
 
-.menu {
-  margin-top: 19px;
-  width: 21px;
-  height: 14px;
-  margin-left: 284px;
+.main-menu {
+align-items: end;
 }
 
 .headline {
@@ -73,7 +57,7 @@ header {
   display: flex;
 }
 
-.collaboration-box {
+.button-box {
   margin-left: 16px;
   margin-top: 25px;
   width: 288px;
@@ -89,11 +73,7 @@ header {
   background: #1a2236;
 }
 
-.collaboration-box :hover {
-  background-color: #3e8e41;
-}
-
-.headline-projects-container {
+.projects-container {
   margin-top: 32px;
   width: 100%;
   height: 282px;
@@ -101,17 +81,10 @@ header {
   flex-direction: column;
 }
 
-.project-title {
-  width: 181px;
-  height: 50px;
-  margin-top: 40px;
-  margin-left: 16px;
-}
-
 .menu-projects {
   width: 318px;
   height: 352px;
-  background-image: url('images/Projects1.jpg');
+  background-image: url('Images SVG/Projects1.svg');
   background-position: left top;
   background-repeat: no-repeat;
   background-size: 100% 186px;
@@ -120,7 +93,7 @@ header {
   flex-direction: column;
 }
 
-h3 {
+.projects-title {
   width: 264px;
   height: 16px;
   font-family: 'Poppins', sans-serif;
@@ -145,34 +118,11 @@ h3 {
   margin-left: 20px;
 }
 
-.language-button1 {
+.language-button {
   width: 69px;
   height: 20px;
   text-align: center;
   background-color: #98dede;
-}
-
-.language-button2 {
-  width: 87px;
-  height: 20px;
-  text-align: center;
-  background-color: #98dede;
-}
-
-.language-button3 {
-  width: 74px;
-  height: 20px;
-  text-align: center;
-  background-color: #98dede;
-}
-
-.text {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 10.3334px;
-  line-height: 80%;
-  color: #1a2236;
 }
 
 .project-button {
@@ -182,10 +132,7 @@ h3 {
   margin-top: 20px;
   border: 1px solid gainsboro;
   background: #1a2236;
-}
-
-.button-text {
-  font-family: 'Poppins', sans-serif;
+ font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -194,18 +141,13 @@ h3 {
   color: white;
 }
 
-#Flecha {
-  margin-left: 10px;
+#arrow {
+
 }
 
-#descarga {
-  margin-left: 10px;
-}
+#download-image {
 
-.about-me-skills {
-  height: 926px;
-  width: 289px;
-}
+} 
 
 .languages-template {
   margin-top: 27px;
@@ -215,62 +157,6 @@ h3 {
   background: #1c528a;
   display: flex;
   flex-direction: column;
-}
-
-.templates-title {
-  width: 132px;
-  height: 30px;
-  margin-top: 50px;
-  margin-left: 50px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 30px;
-  color: white;
-}
-
-.list-container-languages {
-  width: 178px;
-  height: 135px;
-  margin-top: 21px;
-  margin-left: 50px;
-  display: flex;
-  flex-direction: column;
-  list-style-type: disc;
-  color: white;
-}
-
-.list-container-frame {
-  width: 121px;
-  height: 108px;
-  margin-top: 21px;
-  margin-left: 50px;
-  display: flex;
-  flex-direction: column;
-  list-style-type: disc;
-  color: white;
-}
-
-.list-container-skills {
-  width: 213px;
-  height: 135px;
-  margin-top: 21px;
-  margin-left: 50px;
-  display: flex;
-  flex-direction: column;
-  list-style-type: disc;
-  color: white;
-}
-
-.template-item {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-  letter-spacing: -0.0525em;
-  color: white;
 }
 
 .frameworks-template {
@@ -293,8 +179,44 @@ h3 {
   flex-direction: column;
 }
 
+
+.templates-title {
+  width: 132px;
+  height: 30px;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+}
+
+.list-container {
+  width: 178px;
+  height: 135px;
+  margin-top: 21px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  color: white;
+}
+
+.template-item {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: white;
+}
+
+
 .contact {
-  background-image: url('images/image_geometry_1.jpg');
+  background-image: url('Images SVG/image_geometry_1.svg');
   background-position: left top;
   background-repeat: no-repeat;
   background-size: 111px 74px;
