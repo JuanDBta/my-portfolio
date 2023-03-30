@@ -11,56 +11,52 @@ body {
 }
 
 header {
-  width: 100%;
-  height: 74px;
+  width: 90vw;
+  height: 20vw;
   background-color: #fff;
   background-image: url('Images SVG/image_geometry_1.svg');
   background-position: left top;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .main-menu {
-align-items: end;
+  display: flex;
+  justify-content: end;
+  margin-inline: 14px;
+  margin-block: 20px;
 }
 
 .headline {
-  margin-left: 16px;
-  width: 288px;
-  height: 270px;
+  margin-block: 30px;
+  margin-inline: 16px;
+  width: 90vw;
   display: flex;
   flex-direction: column;
   align-content: center;
 }
 
 .title {
-  width: 100%;
   font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 15.7vw;
   line-height: 100%;
   color: #1a2236;
-  display: flex;
-  margin-bottom: 20px;
 }
 
 .myname-intro {
-  margin-right: 14px;
-  width: 100%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 4.4vw;
+  line-height: 6.6vw;
   letter-spacing: -0.01em;
   color: #1a2236;
-  display: flex;
 }
 
 .button-box {
-  margin-left: 16px;
-  margin-top: 25px;
-  width: 288px;
+  max-width: 288px;
   height: 50px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -71,72 +67,91 @@ align-items: end;
   color: #fff;
   cursor: pointer;
   background: #1a2236;
+  margin-block: 20px;
 }
 
 .projects-container {
-  margin-top: 32px;
-  width: 100%;
-  height: 282px;
+  width: 90vw;
   display: flex;
   flex-direction: column;
+}
+
+#image-projects
+{
+  width: 90vw;
+}
+
+#image-projects img {
+  width: 90vw;
+  object-fit: cover;
 }
 
 .menu-projects {
-  width: 318px;
-  height: 352px;
-  background-image: url('Images SVG/Projects1.svg');
-  background-position: left top;
-  background-repeat: no-repeat;
-  background-size: 100% 186px;
-  background-color: #1a2236;
+  width: 90vw;
+  height: auto;
   display: flex;
   flex-direction: column;
+  background-color: #1a2236;
+}
+
+.background-projects img{
+  width: 90vw;
+  object-fit: cover;  
 }
 
 .projects-title {
-  width: 264px;
-  height: 16px;
+  max-width: 90vw;
+  height: 5vw;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+  font-size: 6.3vw;
   font-weight: 300;
   line-height: 80%;
   color: white;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-block: 20px;
+  margin-inline: 20px;
   background-color: #1a2236;
 }
 
 .menu-languages {
   display: grid;
-  height: 20px;
-  width: 250px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  height: 6.3vw;
+  width: 78.61vw;
+  grid-template-columns: repeat(3, 21.7vw);
+  grid-gap: 3.14vw;
   list-style: none;
   padding: 0;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-block: 20px;
+  margin-inline: 20px;
 }
 
 .language-button {
-  width: 69px;
-  height: 20px;
+  width: 21.7vw;
+  height: 6.3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   background-color: #98dede;
+  font-family: Poppins;
+  font-size: 3.14vw;
+  font-weight: 300;
+  line-height: 2.51vw;
+  letter-spacing: 0em;
 }
 
 .project-button {
-  margin-left: 20px;
-  width: 178px;
-  height: 44px;
-  margin-top: 20px;
+  margin-inline: 20px;
+  width: 56vw;
+  height: 13.8vw;
+  margin-block: 20px;
   border: 1px solid gainsboro;
   background: #1a2236;
- font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 5vw;
+  line-height: 7.5vw;
   text-align: center;
   color: white;
 }
