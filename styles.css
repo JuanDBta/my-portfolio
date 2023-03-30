@@ -77,12 +77,11 @@ header {
   background: #1a2236;
   margin-block: 20px;
   margin-inline: 5vw;
-  cursor: pointer;
 }
 
 .button-box:hover {
   background-color: #e2505c;
-  color:aqua;
+  color: aqua;
 }
 
 .projects-container {
@@ -90,12 +89,6 @@ header {
   height: auto;
   display: flex;
   flex-direction: column;
-}
-
-#image-projects img {
-  width: 100vw;
-  object-fit: cover;
-  padding-bottom: 10vw;
 }
 
 .menu-projects {
@@ -106,9 +99,9 @@ header {
   background-color: #1a2236;
 }
 
-.background-projects img{
+.background-projects img {
   width: 100vw;
-  object-fit: cover;  
+  object-fit: cover;
 }
 
 .projects-title {
@@ -145,11 +138,10 @@ header {
   justify-content: center;
   text-align: center;
   background-color: #98dede;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 3.14vw;
   font-weight: 300;
   line-height: 2.51vw;
-  letter-spacing: 0em;
 }
 
 .project-button {
@@ -173,13 +165,15 @@ header {
 }
 
 .project-button img {
- margin-inline: 2vw;
- width: 8vw;
- height: 6vw;  
+  margin-inline: 2vw;
+  width: 8vw;
+  height: 6vw;
 }
+
 #download-image {
   margin-inline: 3vw;
 }
+
 #language-template {
   width: 81.5vw;
   height: 81.5vw;
@@ -235,7 +229,7 @@ header {
 }
 
 .template-item {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 5.67;
@@ -250,9 +244,7 @@ header {
   background-repeat: no-repeat;
   background-size: 34.9vw 23.27vw;
   margin-top: 8.49vw;
-  padding-block: 33.3vw 9.74vw;
-  width: 90vw;
-  height: 220.2vw;
+  width: 100vw;
 }
 
 .contact-form {
@@ -272,10 +264,11 @@ header {
 .form-row label {
   font-size: 3.14vw;
   font-weight: 400;
-  line-height: 4.7;
+  line-height: 0.9;
   color: #7d7c84;
   font-family: "Poppins", serif;
   margin-inline: 5vw;
+  padding-top: 1.5vw;
 }
 
 .form-row input,
@@ -285,6 +278,8 @@ header {
   border: 1px solid #dfdfe0;
   color: #1a2236;
   margin-inline: 5vw;
+  height: 8vw;
+  padding-top: 1.5vw;
 }
 
 .form-row textarea {
@@ -327,4 +322,10 @@ footer {
 .social-media img {
   width: 7.55vw;
   height: 7.55vw;
+}
+
+#image-projects img {
+  width: 100vw;
+  object-fit: cover;
+  padding-bottom: 10vw;
 }
