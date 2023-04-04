@@ -34,8 +34,8 @@ header {
 
 .headline {
   margin-block: 30px;
-  margin-inline: 5vw;
-  width: 91.5vw;
+  margin-right: 18px;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -44,7 +44,7 @@ header {
 .title {
   font-family: 'Playfair Display', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 15.7vw;
   line-height: 100%;
   color: #1a2236;
@@ -64,7 +64,7 @@ header {
 }
 
 .button-box {
-  width: 81.5vw;
+  width: 91.5vw;
   height: 15.7vw;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -75,13 +75,14 @@ header {
   color: #fff;
   cursor: pointer;
   background: #1a2236;
-  margin-block: 20px;
+  margin-block: 5px;
   margin-inline: 5vw;
 }
 
 .button-box:hover {
-  background-color: #e2505c;
-  color: aqua;
+  background-color: #fff;
+  color: #1a2236;
+  border: 1px solid #1a2236;
 }
 
 .projects-container {
@@ -249,7 +250,7 @@ header {
 }
 
 .contact-form {
-  width: 81.5vw;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   margin-top: 4.4vw;
@@ -259,6 +260,7 @@ header {
 .form-row {
   display: flex;
   flex-direction: column;
+  width: 100vw;
   gap: 1.26vw;
 }
 
@@ -270,22 +272,33 @@ header {
   font-family: "Poppins", serif;
   margin-inline: 5vw;
   padding-top: 1.5vw;
+  margin-bottom: 3px;
 }
 
 .form-row input,
 .form-row textarea {
-  width: 81.5vw;
+  width: 91.5vw;
   border-radius: 1.25vw;
   border: 1px solid #dfdfe0;
   color: #1a2236;
-  margin-inline: 5vw;
-  height: 8vw;
-  padding-top: 1.5vw;
+  height: 52px;
+  padding-top: 23px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  font-size: 14px;
+  font-family: "Poppins", serif;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-bottom: 9px;
 }
 
 .form-row textarea {
-  height: 35.2vw;
-  margin-inline: 5vw;
+  height: 52px;
+  padding-left: 16px;
+  padding-top: 14px;
+  padding-bottom: 77px;
+  font-size: 14px;
+  overflow: hidden;
 }
 
 footer {
