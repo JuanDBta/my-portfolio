@@ -280,12 +280,18 @@ header {
   color: #1a2236;
   margin-inline: 5vw;
   height: 8vw;
-  padding-top: 1.5vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  padding-left: 2vw;
+  font-size: larger;
+  font-family: "Poppins", serif;
 }
 
 .form-row textarea {
   height: 35.2vw;
   margin-inline: 5vw;
+  padding-left: 2vw;
+  font-size: 3vw;
 }
 
 footer {
