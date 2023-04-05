@@ -7,7 +7,18 @@
 body {
   background-color: #fff;
   display: flex;
+  width: max-content;
   flex-direction: column;
+}
+
+.nav-bar {
+  width: 100vw;
+  height: 5vw;
+  display: none;
+}
+
+.title-bar {
+  display: none;  
 }
 
 header {
@@ -83,6 +94,10 @@ header {
   background-color: #fff;
   color: #1a2236;
   border: 1px solid #1a2236;
+}
+
+.image-projects {
+  margin-top: 32.31px;
 }
 
 .projects-container {
@@ -338,8 +353,122 @@ footer {
   height: 7.55vw;
 }
 
-#image-projects img {
+#main-background1 img {
   width: 100vw;
   object-fit: cover;
-  padding-bottom: 10vw;
+  padding-bottom: 5vw;
+}
+
+#main-background2 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+  .nav-bar {
+    display: flex;
+    background-color: white;
+  }
+    
+
+  header {
+    display: none;
+  }
+
+  .title-bar {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    gap: 2.5vw;
+    padding-left: 37vw;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 24px;
+    text-align: right;
+    color: #1a2236;
+    
+  }
+
+  .title-bar a {
+    text-decoration: none;
+    color: #1a2236;
+}
+
+.headline {
+  width: 110vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 46vw;
+  height: 30vw;
+  margin-top: 10vw;
+}
+
+.title, .myname-intro, .button-box {
+  width: 100%;
+}
+
+.title {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5vw;
+  line-height: 100%;
+  color: #1a2236;
+  margin-inline: 5vw;
+  padding-bottom: 1vw;
+  height: 10vw;
+}
+
+.myname-intro {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  margin-inline: 5vw;
+}
+
+.button-box {
+  width: 20vw;
+  height: 4.7vw;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5vw;
+  line-height: 0.54vw;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background: #1a2236;
+  margin-block: 5px;
+  margin-inline: 5vw;
+}
+
+
+
+.image-projects {
+  width: 48vw;
+}
+
+#main-background1 img {
+  display: none;
+}
+
+#main-background2 {
+  display: block;
+  width: 100%;
+}
+
 }
