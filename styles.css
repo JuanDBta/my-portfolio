@@ -50,6 +50,16 @@ header {
   color: #1a2236;
   margin-inline: 5vw;
   padding-bottom: 5vw;
+  border: 1px solid #7d7c84;
+  display: block;
+  transition: width 2s, height 2s, background-color 2s, rotate 2s;
+
+}
+.title :hover {
+  background-color: #febf52;
+  width: 20vw;
+  height: 20vw;
+  rotate: 180deg;
 }
 
 .myname-intro {
@@ -61,6 +71,19 @@ header {
   letter-spacing: -0.01em;
   color: #1a2236;
   margin-inline: 5vw;
+  animation-duration: 3s;
+  animation-name: slidein;
+
+}
+@keyframes slidein {
+from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .button-box {
@@ -77,12 +100,16 @@ header {
   background: #1a2236;
   margin-block: 5px;
   margin-inline: 5vw;
+  transition-property: font-size;
+  transition-duration: 4s;
+
 }
 
 .button-box:hover {
   background-color: #fff;
   color: #1a2236;
   border: 1px solid #1a2236;
+  font-size: 7vw;
 }
 
 .projects-container {
