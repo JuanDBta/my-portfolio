@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Portfolio Project</title>
   </head>
-  <body>
+  <body> 
     <nav class="nav-bar">
       <ul class="title-bar">
         <li><a href="#" alt="">Hello</a></li>
@@ -164,8 +164,8 @@
 
     <section class="contact">
       <div class="headline">
-        <h2 class="title">Get started</h2>
-        <p class="myname-intro">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+        <h2 class="title get">Get started</h2>
+        <p class="myname-intro started">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
       </div>
       <form action="https://formspree.io/f/xgebneoy" method="post">
           <div class="name-email">
@@ -179,10 +179,12 @@
             </div>
           </div>  
         <div class="form-row">
-          <label for="contact-descrip">Your message</label>
+          <label id="label-textarea" for="contact-descrip">Your message</label>
           <textarea id="contact-descrip" name="contact-descrip" maxlength="500" cols="30" rows="10" placeholder="Enter your message here..."></textarea>
         </div>
-        <button class="button-box" type="submit">Start collaboration</button>
+        <div id="contact-button">
+          <button class="button-box" type="submit">Start collaboration</button>
+        </div>
       </form>      
     </section>
 
