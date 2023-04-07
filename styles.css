@@ -790,8 +790,8 @@ form {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 3vw;
-  margin-left: 5vw;
+  gap: 2vw;
+  margin-left: 10vw;
 }
 
 
@@ -831,7 +831,7 @@ form {
 }
 
 .form-row textarea {
-  margin-left: 34.5vw;
+  margin-left: 35.5vw;
   width: 41vw;
   height: 10vw;
   font-size: 14px;
