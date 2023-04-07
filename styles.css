@@ -63,6 +63,17 @@ header {
   padding-bottom: 5vw;
 }
 
+.title-projects {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.7vw;
+  line-height: 100%;
+  color: #1a2236;
+  margin-inline: 5vw;
+  padding-bottom: 5vw;
+}
+
 .myname-intro {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -109,6 +120,18 @@ header {
   height: auto;
   display: flex;
   flex-direction: column;
+}
+
+.dot-grid-projects {
+  display: none;
+}
+
+.menu-projects-main {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #1a2236;
 }
 
 .menu-projects {
@@ -488,7 +511,136 @@ footer {
 }
 
 .projects-container {
+  width: 100vw;
+  height: 114vw;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(9, 1fr);
+  grid-gap: 0;
+}
+
+.title-projects {
+  grid-row: 1;
+  grid-column: 2;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 10vw;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-left: 0;
+  margin-inline: 0;
+}
+
+.dot-grid-projects {
+  display: block;
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.menu-projects-main {
+  grid-row: 1;
+  grid-column: 4;
+  width: 66.6vw;
+  height: 38.75vw;
+  background-image: url('Images SVG/Projects1.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#goes-here-section {
+  display:block;
+  grid-row: 1;
+  grid-column: 4;
+  height: 25vw;
+  background-color: #1a2236;
+  position: relative;
+  top:14vw;
+  
+}
+
+.background-projects img {
   display: none;
+  width: 66.6vw;
+  height: 38.75vw;
+
+}
+
+#projects2 {
+  display: block;
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.projects-title {
+  max-width: 100vw;
+  height: 5vw;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 4.3vw;
+  font-weight: 300;
+  line-height: 80%;
+  color: white;
+  margin-block: 20px;
+  margin-inline: 3vw;
+  background-color: #1a2236;
+}
+.menu-languages {
+  display: grid;
+  height: 6.3vw;
+  width: 66.6vw;
+  grid-template-columns: repeat(3, 12.7vw);
+  grid-gap: 0.6vw;
+  list-style: none;
+  padding: 0;
+  margin-block: 20px;
+  margin-inline: 3vw;
+}
+
+.language-button {
+  width: 11.7vw;
+  height: 3.3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #98dede;
+  font-family: Poppins, sans-serif;
+  font-size: 1.14vw;
+  font-weight: 300;
+  line-height: 2.51vw;
+}
+
+.project-button {
+  margin-inline: 3vw;
+  width: 20vw;
+  height: 3.8vw;
+  border: 1px solid gainsboro;
+  background: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 1.5vw;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.project-button img {
+  margin-inline: 2vw;
+  width: 2vw;
+  height: 1.5vw;
+}
+
+
+
+
+
+
+.menu-projects {
+  display:none;
 }
 
 .about-skills {
