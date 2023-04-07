@@ -63,17 +63,6 @@ header {
   padding-bottom: 5vw;
 }
 
-.title-projects {
-  font-family: 'Playfair Display', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15.7vw;
-  line-height: 100%;
-  color: #1a2236;
-  margin-inline: 5vw;
-  padding-bottom: 5vw;
-}
-
 .myname-intro {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -120,6 +109,17 @@ header {
   height: auto;
   display: flex;
   flex-direction: column;
+}
+
+.title-projects {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.7vw;
+  line-height: 100%;
+  color: #1a2236;
+  margin-inline: 5vw;
+  padding-bottom: 5vw;
 }
 
 .dot-grid-projects {
@@ -512,39 +512,36 @@ footer {
 
 .projects-container {
   width: 100vw;
-  height: 114vw;
+  height: 40vw;
   display: grid;
-  grid-template-rows: repeat(6, 1fr);
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(1, 38.75);
+  grid-template-columns: repeat(4, 1fr); 
   grid-gap: 0;
 }
 
 .title-projects {
-  grid-row: 1;
-  grid-column: 2;
+  grid-area: 1/2/1/2;
   writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  font-size: 10vw;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  margin-left: 0;
-  margin-inline: 0;
+  transform: rotate(180deg);  
+  font-size: 5.7vw;
+  margin-inline: 0vw;
+  padding-bottom: 0vw;
+  align-self: start;
 }
 
 .dot-grid-projects {
   display: block;
-  grid-row: 1;
-  grid-column: 3;
+  grid-area: 1/3/1/3;
 }
 
 .menu-projects-main {
-  grid-row: 1;
-  grid-column: 4;
+  grid-area: 1/4/1/4;
   width: 66.6vw;
   height: 38.75vw;
   background-image: url('Images SVG/Projects1.svg');
   background-size: cover;
   background-repeat: no-repeat;
+  margin-left: 0vw;
 }
 
 #goes-here-section {
@@ -563,12 +560,6 @@ footer {
   width: 66.6vw;
   height: 38.75vw;
 
-}
-
-#projects2 {
-  display: block;
-  grid-row: 2;
-  grid-column: 1;
 }
 
 .projects-title {
