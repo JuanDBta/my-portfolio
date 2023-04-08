@@ -552,6 +552,7 @@ footer {
   .image-projects {
     width: 48vw;
   }
+
   #main-background2 {
     display: block;
     width: 100%;
@@ -694,7 +695,6 @@ footer {
   .menuprojectsmaindots {
     display: block;
     grid-row: 2;
-    grid-column: 7;
     grid-column: 7;
     width: 31.5vw;
     height: 18.75vw;
