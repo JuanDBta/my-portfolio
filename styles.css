@@ -471,7 +471,7 @@ footer {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1vw;
+    font-size: 1.6vw;
     line-height: 24px;
     text-align: right;
     color: #1a2236;
@@ -492,9 +492,10 @@ footer {
   .main {
     display: flex;
     flex-wrap: wrap;
-    width: 46vw;
+    width: 41vw;
     height: 30vw;
-    margin-top: 10vw;
+    margin-top: 8vw;
+    margin-left: 12vw;
   }
 
   .title,
@@ -508,11 +509,11 @@ footer {
     font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 5vw;
+    font-size: 6vw;
     line-height: 100%;
     color: #1a2236;
     margin-inline: 5vw;
-    padding-bottom: 1vw;
+    padding-bottom: 2vw;
     height: 10vw;
   }
 
@@ -520,37 +521,38 @@ footer {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.5vw;
-    line-height: 2vw;
+    font-size: 0.9vw;
+    line-height: 1.5vw;
     letter-spacing: -0.01em;
     color: #1a2236;
     margin-inline: 5vw;
+    margin-top: 3vw;
   }
 
   .button-box {
-    width: 20vw;
-    height: 4.7vw;
+    width: 15vw;
+    height: 4vw;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.5vw;
+    font-size: 1vw;
     line-height: 0.54vw;
     text-align: center;
     color: #fff;
     cursor: pointer;
     background: #1a2236;
-    margin-block: 5px;
+    margin-block: 1.5vw;
     margin-inline: 5vw;
   }
 
   .dot-grid {
     display: block;
-    margin-top: 0.6vw;
+    margin-top: 0.4vw;
     text-align: right;
   }
 
   .image-projects {
-    width: 48vw;
+    width: 50vw;
   }
 
   #main-background2 {
