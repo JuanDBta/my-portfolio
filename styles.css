@@ -1104,23 +1104,23 @@ footer {
     background-image: url('Images SVG/image-geometry_6.svg'), url('Images SVG/image-geometry_7.svg');
     background-position: left top, right bottom;
     background-repeat: no-repeat;
-    margin-left: 0;
-    margin-top: 0;
-    padding-top: 0;
+    background-size: auto;
     width: 100vw;
     height: 62vw;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    padding-top: 0;
   }
 
   .headlinestarted {
+    width: 40vw;
     margin-bottom: 0;
     margin-top: 0;
   }
 
   .get {
-    text-align: center;
+    margin-left: 31vw;
+    margin-right: 35vw;
     margin-top: 10vw;
     padding-bottom: 0;
     font-size: 7.5vw;
@@ -1130,15 +1130,15 @@ footer {
   }
 
   .started {
-    width: 47vw;
+    width: 36vw;
     height: 4vw;
     font-size: 1.3vw;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 11vw;
     text-align: left;
     font-weight: 400;
     margin-top: 1vw;
+    margin-left: 32vw;
+    margin-right: 35vw;
+    padding-right: 0;
   }
 
   form {
@@ -1150,15 +1150,15 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 2vw;
-    margin-left: 10vw;
+    gap: 0.7vw;
+    margin-left: 0;
   }
 
   .form-row {
     display: flex;
     flex-direction: column;
     width: 18.82vw;
-    gap: 0.6vw;
+    gap: 0.4vw;
     align-items: left;
   }
 
@@ -1173,7 +1173,7 @@ footer {
   }
 
   .form-row input {
-    width: 18.82vw;
+    width: 17vw;
     border-radius: 0.3vw;
     border: 1px solid #dfdfe0;
     color: #1a2236;
@@ -1187,16 +1187,16 @@ footer {
   }
 
   #label-textarea {
-    margin-left: 36.5vw;
+    margin-left: 32vw;
   }
 
   .form-row textarea {
-    margin-left: 36.5vw;
-    width: 40vw;
+    margin-left: 32vw;
+    width: 37vw;
     height: 10vw;
     font-size: 14px;
     overflow: hidden;
-    border-radius: 1.25vw;
+    border-radius: 0.3vw;
     border: 1px solid #dfdfe0;
     color: #1a2236;
     font-family: "Poppins", serif;
@@ -1204,7 +1204,7 @@ footer {
   }
 
   #contact-button {
-    margin-left: 44vw;
+    margin-left: 38vw;
     height: 8vw;
   }
 
@@ -1214,6 +1214,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100vw;
     height: 12.76vw;
   }
 
