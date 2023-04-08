@@ -552,11 +552,6 @@ footer {
   .image-projects {
     width: 48vw;
   }
-
-  #main-background1 img {
-    display: none;
-  }
-
   #main-background2 {
     display: block;
     width: 100%;
@@ -1132,5 +1127,9 @@ footer {
   #dot-grid-template img {
     display: block;
     width: 11.1vw;
+  }
+
+  #main-background1 img {
+    display: none;
   }
 }
