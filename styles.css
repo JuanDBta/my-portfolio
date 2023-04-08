@@ -9,6 +9,7 @@ body {
   display: flex;
   width: 100vw;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .nav-bar {
@@ -553,6 +554,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-right: 5vw;
   }
 
   .main {
@@ -560,8 +562,8 @@ footer {
     flex-wrap: wrap;
     width: 41vw;
     height: 30vw;
-    margin-top: 12vw;
-    margin-left: 12vw;
+    margin-top: 13.7vw;
+    margin-left: 5vw;
   }
 
   .title,
@@ -623,7 +625,7 @@ footer {
 
   #main-background2 {
     display: block;
-    width: 100%;
+    width: 50%;
   }
 
   .projects-container {
@@ -649,17 +651,16 @@ footer {
   .dot-grid-projects {
     display: block;
     grid-area: 1/3/1/3;
-    margin-right: 1vw;
   }
 
   .menu-projects-main {
     grid-area: 1/4/1/6;
-    width: 66.6vw;
+    width: 65vw;
     height: 38.75vw;
     background-image: url('Images SVG/Projects1.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left: 0;
+    margin-left: 2vw;
   }
 
   #goes-here-section {
