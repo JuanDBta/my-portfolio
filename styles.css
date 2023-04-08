@@ -1059,7 +1059,7 @@ footer {
     flex-direction: column;
     align-content: left;
   }
-  
+
   .titleabout {
     font-family: 'Playfair Display', sans-serif;
     font-style: normal;
@@ -1069,7 +1069,7 @@ footer {
     color: #1a2236;
     padding-bottom: 1vw;
   }
-  
+
   .mynameintroabout {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1080,7 +1080,7 @@ footer {
     color: #1a2236;
     padding-bottom: 1vw;
   }
-  
+
   .buttonboxabout {
     width: 16.5vw;
     height: 4vw;
@@ -1114,8 +1114,8 @@ footer {
   }
 
   .headlinestarted {
-    margin-bottom: 0vw;
-    margin-top: 0vw;
+    margin-bottom: 0;
+    margin-top: 0;
   }
 
   .get {
@@ -1143,7 +1143,6 @@ footer {
   form {
     width: 100vw;
     height: 40vw;
-
   }
 
   .name-email {
