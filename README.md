@@ -5,7 +5,7 @@
   <img src="images/LOGO.jpg" alt="logo" width="160"  height="auto" />
   <br/>
 
-  <h3><b>Mobile Portfolio Project</b></h3>
+  <h3><b>Mobile and Desktop Portfolio Project</b></h3>
 
 </div>
 
@@ -68,6 +68,7 @@
 - **[Added Projects Mobile section]**
 - **[Added About Me Mobile section]**
 - **[Added Contact Form Mobile section]**
+- **[Added Desktop Version using media query]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -132,7 +133,7 @@ Open mobile.html using live server extension.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add Contact Form Mobile section]**
+- [ ] **[Add Animations to Mobile and Desktop Version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
