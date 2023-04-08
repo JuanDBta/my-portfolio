@@ -269,6 +269,10 @@ header {
   margin-inline: 3vw;
 }
 
+#downloadimageabout {
+  margin-inline: 3vw;
+}
+
 #language-template {
   width: 81.5vw;
   height: 81.5vw;
@@ -331,6 +335,59 @@ header {
   line-height: 8.49vw;
   letter-spacing: -0.0525em;
   color: white;
+}
+
+.headlineabout {
+  margin-block: 30px;
+  margin-right: 18px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.titleabout {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.7vw;
+  line-height: 100%;
+  color: #1a2236;
+  margin-inline: 5vw;
+  padding-bottom: 5vw;
+}
+
+.mynameintroabout {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.4vw;
+  line-height: 6.6vw;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  margin-inline: 5vw;
+}
+
+.buttonboxabout {
+  width: 91.5vw;
+  height: 15.7vw;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5vw;
+  line-height: 7.54vw;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background: #1a2236;
+  margin-block: 5px;
+  margin-inline: 5vw;
+}
+
+.buttonboxabout:hover {
+  background-color: #fff;
+  color: #1a2236;
+  border: 1px solid #1a2236;
 }
 
 .contact {
@@ -887,15 +944,18 @@ footer {
   }
 
   .about-skills {
-    width: 100vw;
-    height: 45vw;
+    width: 90vw;
+    height: 50vw;
     display: flex;
     flex-direction: row-reverse;
-    align-content: space-around;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
   }
 
   #templates-container {
-    margin-left: 11.1vw;
     width: 40.23vw;
     height: 40.23vw;
     display: grid;
@@ -952,7 +1012,7 @@ footer {
   .templates-title {
     width: 8vw;
     height: 3vw;
-    margin-top: 20px;
+    margin-top: 3vw;
     margin-left: 5.7vw;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -969,7 +1029,7 @@ footer {
     flex-direction: column;
     list-style-type: disc;
     color: white;
-    margin: 10px 0 0 40px;
+    margin: 1.5vw 0 0 7vw;
   }
 
   .template-item {
@@ -981,6 +1041,56 @@ footer {
     letter-spacing: -0.0125em;
     color: white;
   }
+
+  .headlineabout {
+    margin-block: 3vw;
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+  }
+  
+  .titleabout {
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7.7vw;
+    line-height: 100%;
+    color: #1a2236;
+    padding-bottom: 1vw;
+  }
+  
+  .mynameintroabout {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.95vw;
+    line-height: 1.6vw;
+    letter-spacing: -0.01em;
+    color: #1a2236;
+    padding-bottom: 1vw;
+  }
+  
+  .buttonboxabout {
+    width: 16.5vw;
+    height: 4vw;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 3vw;
+    color: #fff;
+    cursor: pointer;
+    background: #1a2236;
+  }
+
+  
+#downloadimageabout {
+  margin-inline: 1vw;
+  margin-top: 0.7vw;
+}
+
 
   .contact {
     background-image: url('Images SVG/image-geometry_6.svg'), url('Images SVG/image-geometry_7.svg');
