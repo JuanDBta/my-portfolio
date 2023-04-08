@@ -7,7 +7,19 @@
 body {
   background-color: #fff;
   display: flex;
+  width: 100vw;
   flex-direction: column;
+  overflow-x: hidden;
+}
+
+.nav-bar {
+  width: 100vw;
+  height: 5vw;
+  display: none;
+}
+
+.title-bar {
+  display: none;
 }
 
 header {
@@ -112,11 +124,94 @@ header {
   font-size: 7vw;
 }
 
+.image-projects {
+  margin-top: 32.31px;
+}
+
+.dot-grid {
+  display: none;
+}
+
+.collage1 {
+  display: none;
+}
+
+.dot-grid-projects {
+  display: none;
+}
+
 .projects-container {
   width: 90vw;
   height: auto;
   display: flex;
   flex-direction: column;
+}
+
+.rombo {
+  display: none;
+}
+
+.backgroundprojects2 {
+  display: none;
+}
+
+.backgroundprojects3 {
+  display: none;
+}
+
+.backgroundprojects4 {
+  display: none;
+}
+
+.backgroundprojects5 {
+  display: none;
+}
+
+.title-projects {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.7vw;
+  line-height: 100%;
+  color: #1a2236;
+  margin-inline: 5vw;
+  padding-bottom: 5vw;
+}
+
+.doblecuadrado {
+  display: none;
+}
+
+.cuadradoazul {
+  display: none;
+}
+
+.bolarosa {
+  display: none;
+}
+
+.bolaamarilla {
+  display: none;
+}
+
+.goespuntos {
+  display: none;
+}
+
+.backgroundcortado {
+  display: none;
+}
+
+.menu-projects-main {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #1a2236;
+}
+
+.menuprojectsmaindots {
+  display: none;
 }
 
 .menu-projects {
@@ -202,6 +297,10 @@ header {
   margin-inline: 3vw;
 }
 
+#downloadimageabout {
+  margin-inline: 3vw;
+}
+
 #language-template {
   width: 81.5vw;
   height: 81.5vw;
@@ -266,6 +365,59 @@ header {
   color: white;
 }
 
+.headlineabout {
+  margin-block: 30px;
+  margin-right: 18px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.titleabout {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.7vw;
+  line-height: 100%;
+  color: #1a2236;
+  margin-inline: 5vw;
+  padding-bottom: 5vw;
+}
+
+.mynameintroabout {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.4vw;
+  line-height: 6.6vw;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  margin-inline: 5vw;
+}
+
+.buttonboxabout {
+  width: 91.5vw;
+  height: 15.7vw;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5vw;
+  line-height: 7.54vw;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background: #1a2236;
+  margin-block: 5px;
+  margin-inline: 5vw;
+}
+
+.buttonboxabout:hover {
+  background-color: #fff;
+  color: #1a2236;
+  border: 1px solid #1a2236;
+}
+
 .contact {
   background-image: url('Images SVG/image_geometry_1.svg');
   background-position: left top;
@@ -274,6 +426,15 @@ header {
   margin-top: 8.49vw;
   width: 100vw;
   padding-top: 30vw;
+}
+
+.headlinestarted {
+  margin-block: 30px;
+  margin-right: 18px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .contact-form {
@@ -365,8 +526,766 @@ footer {
   height: 7.55vw;
 }
 
-#image-projects img {
+#main-background1 img {
   width: 100vw;
   object-fit: cover;
-  padding-bottom: 10vw;
+  padding-bottom: 5vw;
+}
+
+#main-background2 {
+  display: none;
+}
+
+#dot-grid-template {
+  display: none;
+}
+
+.footer-resume-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar {
+    display: flex;
+    background-color: white;
+  }
+
+  header {
+    display: none;
+  }
+
+  .title-bar {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    gap: 2.5vw;
+    padding-left: 37vw;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6vw;
+    line-height: 24px;
+    text-align: right;
+    color: #1a2236;
+  }
+
+  .title-bar a {
+    text-decoration: none;
+    color: #1a2236;
+  }
+
+  .headline {
+    width: 110vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 5vw;
+  }
+
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 41vw;
+    height: 30vw;
+    margin-top: 13.7vw;
+    margin-left: 5vw;
+  }
+
+  .title,
+  .myname-intro,
+  .button-box,
+  .dot-grid {
+    width: 100%;
+  }
+
+  .title {
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10vw;
+    line-height: 100%;
+    color: #1a2236;
+    margin-inline: 5vw;
+    padding-bottom: 2vw;
+    height: 10vw;
+  }
+
+  .myname-intro {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9vw;
+    line-height: 1.5vw;
+    letter-spacing: -0.01em;
+    color: #1a2236;
+    margin-inline: 5vw;
+    margin-top: 13vw;
+  }
+
+  .button-box {
+    width: 15vw;
+    height: 4vw;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 0.54vw;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background: #1a2236;
+    margin-block: 2vw;
+    margin-inline: 5vw;
+  }
+
+  .dot-grid {
+    display: block;
+    margin-top: 0.4vw;
+    text-align: right;
+  }
+
+  .image-projects {
+    width: 50vw;
+  }
+
+  #main-background2 {
+    display: block;
+    width: 50%;
+  }
+
+  .projects-container {
+    width: 100vw;
+    height: 115vw;
+    display: grid;
+    grid-template-rows: 38.25vw 24.55vw 32.3vw 7vw 32.3vw;
+    grid-template-columns: 11vw 11vw 11vw 11vw 11vw 11vw 34vw;
+    row-gap: 0;
+    column-gap: 0;
+  }
+
+  .title-projects {
+    grid-area: 1/2/1/2;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 5.7vw;
+    margin-inline: 0;
+    padding-bottom: 0;
+    align-self: start;
+  }
+
+  .dot-grid-projects {
+    display: block;
+    grid-area: 1/3/1/3;
+  }
+
+  .menu-projects-main {
+    grid-area: 1/4/1/6;
+    width: 65vw;
+    height: 38.75vw;
+    background-image: url('Images SVG/Projects1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 2vw;
+  }
+
+  #goes-here-section {
+    grid-area: 1/4/1/6;
+    height: 25vw;
+    background-color: #1a2236;
+    margin-top: 14vw;
+  }
+
+  .background-projects img {
+    display: none;
+  }
+
+  .projects-title {
+    max-width: 100vw;
+    height: 5vw;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 4.3vw;
+    font-weight: 300;
+    line-height: 80%;
+    color: white;
+    margin-block: 20px;
+    margin-inline: 3vw;
+    background-color: #1a2236;
+  }
+
+  .menu-languages {
+    display: grid;
+    height: 6.3vw;
+    width: 66.6vw;
+    grid-template-columns: repeat(3, 12.7vw);
+    grid-gap: 0.6vw;
+    list-style: none;
+    padding: 0;
+    margin-block: 20px;
+    margin-inline: 3vw;
+  }
+
+  .language-button {
+    width: 11.7vw;
+    height: 3.3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #98dede;
+    font-family: Poppins, sans-serif;
+    font-size: 1.14vw;
+    font-weight: 300;
+    line-height: 2.51vw;
+  }
+
+  .project-button {
+    margin-inline: 3vw;
+    width: 20vw;
+    height: 3.8vw;
+    border: 1px solid gainsboro;
+    background: #1a2236;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .project-button img {
+    margin-inline: 2vw;
+    width: 2vw;
+    height: 1.5vw;
+  }
+
+  .collage1 {
+    display: block;
+    grid-row: 2;
+    grid-column: 4;
+    margin-top: 0.5vw;
+  }
+
+  .collage1 img {
+    width: 35.4vw;
+    height: 24.3vw;
+  }
+
+  .backgroundprojects2 {
+    display: block;
+    grid-area: 2/1/2/3;
+    margin-top: 6vw;
+  }
+
+  .backgroundprojects2 img {
+    width: 32.3vw;
+    height: 18.75vw;
+  }
+
+  .menuprojectsmaindots {
+    display: block;
+    grid-row: 2;
+    grid-column: 7;
+    width: 31.5vw;
+    height: 18.75vw;
+    background-image: url('Images SVG/backgrouncortado.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 2.3vw;
+    margin-top: 0.5vw;
+  }
+
+  .menuprojectsmaindots img {
+    display: none;
+  }
+
+  #dots {
+    grid-row: 2;
+    grid-column: 7;
+    width: 31.5vw;
+    height: 17.75;
+    background-color: #1a2236;
+    margin-top: 4vw;
+    padding-bottom: 2vw;
+  }
+
+  .projectstitledots {
+    max-width: 100vw;
+    height: 5vw;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 2.4vw;
+    font-weight: 300;
+    line-height: 80%;
+    color: white;
+    margin-block: 6px;
+    margin-inline: 3vw;
+    background-color: #1a2236;
+    padding-top: 2vw;
+  }
+
+  .menulanguagesdots {
+    display: grid;
+    height: 3.6vw;
+    width: 60.6vw;
+    grid-template-columns: 10vw 10vw 10vw;
+    grid-gap: 0.2vw;
+    list-style: none;
+    padding: 0;
+    margin-block: 6px;
+    margin-inline: 3vw;
+  }
+
+  .languagebuttondots {
+    width: 8.6vw;
+    height: 2.3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #98dede;
+    font-family: Poppins, sans-serif;
+    font-size: 1.2vw;
+    font-weight: 300;
+    line-height: 2.51vw;
+  }
+
+  .projectbuttondots {
+    margin-inline: 3vw;
+    width: 17vw;
+    height: 3.4vw;
+    border: 1px solid gainsboro;
+    background: #1a2236;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+  }
+
+  .projectbuttondots img {
+    display: block;
+    margin-inline: 2vw;
+    width: 2vw;
+    height: 1.5vw;
+  }
+
+  .backgroundprojects3 {
+    display: block;
+    grid-row: 3;
+    grid-column: 1;
+    width: 55.5vw;
+    height: 32.3vw;
+    background-image: url('Images SVG/Projects3.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .rombo {
+    display: block;
+    grid-row: 3;
+    grid-column: 5;
+    margin-left: 11.5vw;
+    margin-top: 20vw;
+  }
+
+  .rombo img {
+    width: 12.2vw;
+    height: 12.2vw;
+  }
+
+  .doblecuadrado {
+    display: block;
+    grid-row: 3;
+    grid-column: 7;
+    margin-top: 12.9vw;
+    margin-left: 9.5vw;
+  }
+
+  .doblecuadrado img {
+    width: 24.36vw;
+    height: 11.18;
+  }
+
+  .cuadradoazul {
+    display: block;
+    grid-row: 4;
+    grid-column: 1;
+  }
+
+  .cuadradoazul img {
+    width: 7vw;
+    height: 7vw;
+  }
+
+  .bolarosa {
+    display: block;
+    grid-row: 4;
+    grid-column: 1;
+    margin-left: 6.8vw;
+    margin-top: 0.9vw;
+  }
+
+  .bolarosa img {
+    width: 6.1vw;
+    height: 6.1vw;
+  }
+
+  .bolaamarilla {
+    display: block;
+    grid-row: 4;
+    grid-column: 5;
+    margin-left: 5.5vw;
+  }
+
+  .backgroundprojects4 {
+    display: block;
+    grid-row: 4;
+    grid-column: 5;
+    margin-left: 11.2vw;
+  }
+
+  .backgroundprojects4 img {
+    width: 32.3vw;
+    height: 18.75vw;
+  }
+
+  .backgroundprojects5 {
+    display: block;
+    grid-row: 2;
+    grid-column: 7;
+    margin-top: 17.5vw;
+    margin-left: 2.2vw;
+  }
+
+  .backgroundprojects5 img {
+    display: block;
+    width: 31.5vw;
+    height: 21.75vw;
+  }
+
+  .menu-projects {
+    display: none;
+  }
+
+  .about-skills {
+    width: 90vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+
+  #templates-container {
+    width: 40.23vw;
+    height: 40.23vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0;
+  }
+
+  #language-template {
+    grid-row: 1;
+    grid-column: 1;
+    width: 20.1vw;
+    height: 20.1vw;
+    background-color: #1c528a;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+  }
+
+  #frameworks-template {
+    grid-row: 1;
+    grid-column: 2;
+    width: 20.1vw;
+    height: 20.1vw;
+    background-color: #e2505c;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+  }
+
+  #skills-template {
+    grid-row: 2;
+    grid-column: 1;
+    width: 20.1vw;
+    height: 20.1vw;
+    background-color: #febf52;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+  }
+
+  #dot-grid-template {
+    display: block;
+    grid-row: 2;
+    grid-column: 2;
+    background-image: url('Images SVG/Bluesquare.svg');
+    background-repeat: no-repeat;
+    background-size: 4.3vw;
+    background-position: right top;
+    margin-left: 4.7vw;
+    padding-top: 4vw;
+    margin-top: 5vw;
+  }
+
+  .templates-title {
+    width: 8vw;
+    height: 3vw;
+    margin-top: 3vw;
+    margin-left: 5.7vw;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.29vw;
+    line-height: 1.83vw;
+    color: white;
+  }
+
+  .list-container {
+    width: 11vw;
+    height: 8vw;
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    color: white;
+    margin: 1.5vw 0 0 7vw;
+  }
+
+  .template-item {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    line-height: 1.7vw;
+    letter-spacing: -0.0125em;
+    color: white;
+  }
+
+  .headlineabout {
+    margin-block: 3vw;
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+  }
+
+  .titleabout {
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7.7vw;
+    line-height: 100%;
+    color: #1a2236;
+    padding-bottom: 1vw;
+  }
+
+  .mynameintroabout {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.95vw;
+    line-height: 1.6vw;
+    letter-spacing: -0.01em;
+    color: #1a2236;
+    padding-bottom: 1vw;
+  }
+
+  .buttonboxabout {
+    width: 16.5vw;
+    height: 4vw;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 4vw;
+    color: #fff;
+    cursor: pointer;
+    background: #1a2236;
+  }
+
+  #downloadimageabout {
+    margin-inline: 1.2vw;
+    margin-top: 0.3vw;
+  }
+
+  .contact {
+    background-image: url('Images SVG/image-geometry_6.svg'), url('Images SVG/image-geometry_7.svg');
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100vw;
+    height: 62vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  .headlinestarted {
+    width: 40vw;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .get {
+    margin-left: 31vw;
+    margin-right: 35vw;
+    margin-top: 10vw;
+    padding-bottom: 0;
+    font-size: 7.5vw;
+    line-height: 100%;
+    font-family: 400;
+    height: 8vw;
+  }
+
+  .started {
+    width: 36vw;
+    height: 4vw;
+    font-size: 1.3vw;
+    text-align: left;
+    font-weight: 400;
+    margin-top: 1vw;
+    margin-left: 32vw;
+    margin-right: 35vw;
+    padding-right: 0;
+  }
+
+  form {
+    width: 100vw;
+    height: 40vw;
+  }
+
+  .name-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.7vw;
+    margin-left: 0;
+  }
+
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    width: 18.82vw;
+    gap: 0.4vw;
+    align-items: left;
+  }
+
+  .form-row label {
+    width: 10vw;
+    font-size: 0.9vw;
+    font-weight: 400;
+    line-height: 0.7;
+    color: #7d7c84;
+    font-family: "Poppins", serif;
+    margin-left: 1.5vw;
+  }
+
+  .form-row input {
+    width: 17vw;
+    border-radius: 0.3vw;
+    border: 1px solid #dfdfe0;
+    color: #1a2236;
+    height: 52px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+    margin-bottom: 9px;
+  }
+
+  #label-textarea {
+    margin-left: 32vw;
+  }
+
+  .form-row textarea {
+    margin-left: 32vw;
+    width: 37vw;
+    height: 10vw;
+    font-size: 14px;
+    overflow: hidden;
+    border-radius: 0.3vw;
+    border: 1px solid #dfdfe0;
+    color: #1a2236;
+    font-family: "Poppins", serif;
+    margin-bottom: 9px;
+  }
+
+  #contact-button {
+    margin-left: 38vw;
+    height: 8vw;
+  }
+
+  footer {
+    background-color: #1a2236;
+    color: #92dcdc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 12.76vw;
+  }
+
+  .footer-resume {
+    display: none;
+  }
+
+  .footer-resume-desktop {
+    display: flex;
+    align-items: center;
+    gap: 2.4vw;
+    margin-top: 1vw;
+    font-size: 1.7vw;
+    font-family: "Poppins", serif;
+    width: 15vw;
+    margin-left: 10vw;
+  }
+
+  .footer-resume-desktop img {
+    width: 2vw;
+    height: 2vw;
+  }
+
+  .social-media {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 2vw;
+    width: 30vw;
+    margin-top: 12vw;
+    margin-right: 10vw;
+  }
+
+  .social-media img {
+    width: 2vw;
+    height: 2vw;
+  }
+
+  #dot-grid-template img {
+    display: block;
+    width: 11.1vw;
+  }
+
+  #main-background1 img {
+    display: none;
+  }
 }

@@ -8,7 +8,15 @@
     <link rel="stylesheet" href="styles.css">
     <title>Portfolio Project</title>
   </head>
-  <body>
+  <body> 
+    <nav class="nav-bar">
+      <ul class="title-bar">
+        <li><a href="#" alt="">Hello</a></li>
+        <li><a href="#" alt="">Portfolio</a></li>
+        <li><a href="#" alt="">About</a></li>
+        <li><a href="#" alt="">Contact</a></li>
+      </ul>
+    </nav>
     <header>
       <nav class="main-menu">
         <a href="#"><img src="Images SVG/ic_menu.svg" alt=""></a>
@@ -16,33 +24,64 @@
     </header>
       
     <section class="headline">
-      <h1 class="title">Juan<br>Díaz</h1>
-      <p class="myname-intro">Hello! I am a software developer! I can
+      <div class="main">
+        <h1 class="title">Juan<br>Díaz</h1>
+        <p class="myname-intro">Hello! I am a software developer! I can
                               help you build a product, feature or
-                              website. Take a look at my work.
+                              website. Take a look at my work.<br><br>
                               If you like what you see and have a
                               project you need coded, don’t hesitate to
                               contact me.</p>
-      <button type="button" class="button-box">Start collaboration</button>
+        <button type="button" class="button-box">Start collaboration</button>
+        <div class="dot-grid"><img src="Images SVG/image_dots.svg" alt=""></div>
+      </div>
+      <div class="image-projects">
+        <div id="main-background1"><img src="Images SVG/image_geometry_2.svg" alt=""></div>
+        <div id="main-background2"><img src="Images SVG/image-geometry_1.svg" alt=""></div>
+      </div>
     </section>
  
     <section class="projects-container">
-      <div id="image-projects"><img src="Images SVG/image_geometry_2.svg" alt=""></div>
-      <h1 class="title">Projects</h1>
-      
-      <div class="menu-projects">
-          <div class="background-projects"><img src="Images SVG/Projects1.svg"></div>
-          <h3 class="projects-title">Project names goes here</h3>
-          <ul class="menu-languages">
-            <li class="language-button">HTML/CSS</li>
-            <li class="language-button">Ruby on Rail</li>
-            <li class="language-button">JavaScript</li>
-          </ul>
-      <button type="button" class="project-button">See this project
-           <img src="Images SVG/ic_arrow_right.svg"></button>
+      <h1 class="title-projects">Projects</h1>
+      <div class="dot-grid-projects"><img src="Images SVG/image_dots.svg" alt=""></div>
+      <div class="collage1"><img src="Images SVG/image-geometry_collage1.svg" alt=""></div>
+      <div class="backgroundprojects2"><img src="Images SVG/Projects2.svg" alt=""></div>
+      <div class="backgroundprojects3"><img src="Images SVG/Projects3.svg" alt=""></div>
+      <div class="backgroundprojects4"><img src="Images SVG/Projects4.svg" alt=""></div>
+      <div class="backgroundprojects5"><img src="Images SVG/Project5.svg" alt=""></div>
+      <div class="rombo"><img src="Images SVG/rombomorado.svg" alt=""></div>
+      <div class="doblecuadrado"><img src="Images SVG/doblecuadrado.svg" alt=""></div>
+      <div class="cuadradoazul"><img src="Images SVG/cuadradoazul.svg" alt=""></div>
+      <div class="bolarosa"><img src="Images SVG/bolarosa.svg" alt=""></div>
+      <div class="bolaamarilla"><img src="Images SVG/bolaamarilla.svg" alt=""></div>
+      <div class="menu-projects-main">
+            <div class="background-projects"><img src="Images SVG/Projects1.svg"></div>
+            <div id="goes-here-section">
+              <h3 class="projects-title">Project names goes here</h3>
+                <ul class="menu-languages">
+                  <li class="language-button">HTML/CSS</li>
+                  <li class="language-button">Ruby on Rails</li>
+                  <li class="language-button">JavaScript</li>
+                </ul>
+              <button type="button" class="project-button">See this project
+                <img src="Images SVG/ic_arrow_right.svg"></button>
+            </div>      
+      </div> 
+      <div class="menuprojectsmaindots">
+        <div class="backgroundprojectsdots"><img src="Images SVG/Projects5.svg"></div>
+        <div id="dots">
+          <h3 class="projectstitledots">Project names goes...</h3>
+            <ul class="menulanguagesdots">
+              <li class="languagebuttondots">HTML/CSS</li>
+              <li class="languagebuttondots">Ruby on Rails</li>
+              <li class="languagebuttondots">+1</li>
+            </ul>
+          <button type="button" class="projectbuttondots">See this project
+            <img src="Images SVG/ic_arrow_right.svg"></button>
+        </div>      
       </div> 
       <div class="menu-projects">
-        <div class="background-projects"><img src="Images SVG/Projects2.svg"></div>
+        <div class="background-projects"><img id="projects2" src="Images SVG/Projects2.svg"></div>
         <h3 class="projects-title">Project names goes here</h3>
         <ul class="menu-languages">
           <li class="language-button">HTML/CSS</li>
@@ -99,77 +138,90 @@
         </ul>
         <button type="button" class="project-button">See this project
                 <img src="Images SVG/ic_arrow_right.svg"></button>
+      </div>          
     </section>
     
-    <section class="headline">
-      <h1 class="title">About</h1>
-      <p class="myname-intro">I can help you build a product , feature or
+    <section class="about-skills">
+      <div class="headlineabout">
+        <h1 class="titleabout">About</h1>
+        <p class="mynameintroabout">I can help you build a product , feature or
                               website Look through some of my work
                               and experience! If you like what you see
                               and have a project you need coded,
                               don’t hesitate to contact me.</p>
-      <button type="button" class="button-box">Get my CV
-           <img id="download-image" src="Images SVG/ic_download.svg"></button>  
-    
-      <div id="language-template">
-        <p class="templates-title">Languages</p>
-        <ul class="list-container">
-          <li class="template-item">JavaScript(ES5/ES6)</li>
-          <li class="template-item">Ruby</li>
-          <li class="template-item">HTML</li>
-          <li class="template-item">CSS</li>
-        </ul>
-      </div>
+        <button type="button" class="buttonboxabout">Get my CV
+             <img id="downloadimageabout" src="Images SVG/ic_download.svg"></button>  
+      </div> 
+      
+      <div id="templates-container">
+        <div id="language-template">
+          <p class="templates-title">Languages</p>
+          <ul class="list-container">
+            <li class="template-item">JavaScript(ES5/ES6)</li>
+            <li class="template-item">Ruby</li>
+            <li class="template-item">HTML</li>
+            <li class="template-item">CSS</li>
+          </ul>
+        </div>
         
-      <div id="frameworks-template">
-        <p class="templates-title">Frameworks</p>
-        <ul class="list-container">
-          <li class="template-item">React.js</li>
-          <li class="template-item">Ruby on rails</li>
-          <li class="template-item">RSpec</li>
-          <li class="template-item">Capibara</li>
-        </ul>
-      </div>
+        <div id="frameworks-template">
+          <p class="templates-title">Frameworks</p>
+          <ul class="list-container">
+            <li class="template-item">React.js</li>
+            <li class="template-item">Ruby on rails</li>
+            <li class="template-item">RSpec</li>
+            <li class="template-item">Capibara</li>
+          </ul>
+        </div>
         
-      <div id="skills-template">
-        <p class="templates-title">Skills</p>
-        <ul class="list-container">
-          <li class="template-item">Database Management</li>
-          <li class="template-item">CLI</li>
-          <li class="template-item">API Design</li>
-          <li class="template-item">Version Control</li>
-          <li class="template-item">Web Development</li>
-        </ul>
-      </div>
+        <div id="skills-template">
+          <p class="templates-title">Skills</p>
+          <ul class="list-container">
+            <li class="template-item">Database Management</li>
+            <li class="template-item">CLI</li>
+            <li class="template-item">API Design</li>
+            <li class="template-item">Version Control</li>
+            <li class="template-item">Web Development</li>
+          </ul>
+        </div>
+        <div id="dot-grid-template"><img src="Images SVG/image_dots.svg" alt=""></div>
+      </div>     
     </section>
 
     <section class="contact">
-      <div class="headline">
-        <h2 class="title">Get started</h2>
-        <p class="myname-intro">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+      <div class="headlinestarted">
+        <h2 class="title get">Get started</h2>
+        <p class="myname-intro started">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
       </div>
-
       <form action="https://formspree.io/f/xgebneoy" method="post">
+          <div class="name-email"> 
+            <div class="form-row">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" maxlength="30" placeholder="Write Your name..." required>
+            </div>
+            <div class="form-row">
+              <label for="email">Your email</label>
+              <input type="email" id="email" name="email" placeholder="Write Your email..." required>
+            </div>
+          </div>  
         <div class="form-row">
-           <label for="name">Your name</label>
-           <input type="text" id="name" name="name" maxlength="30" placeholder="Write Your name..." required>
+          <label id="label-textarea" for="contact-descrip">Your message</label>
+          <textarea id="contact-descrip" name="contact-descrip" maxlength="500" cols="30" rows="10" placeholder="Enter your message here..."></textarea>
         </div>
-        <div class="form-row">
-          <label for="email">Your email</label>
-          <input type="email" id="email" name="email" placeholder="Write Your email..." required>
-       </div>
-       <div class="form-row">
-        <label for="contact-descrip">Your message</label>
-        <textarea id="contact-descrip" name="contact-descrip" maxlength="500" cols="30" rows="10" placeholder="Enter your message here..."></textarea>
-       </div>
-         <button class="button-box" type="submit">Start collaboration</button>
-      </form>
+        <div id="contact-button">
+          <button class="button-box" type="submit">Start collaboration</button>
+        </div>
+      </form>      
     </section>
 
     <footer>
       <div class="footer-resume">
         <span>Get my Resume</span> 
-        <img src="Images SVG/UnionResume.svg" alt="Get my Resume">
+        <img src="Images SVG/UnionResume.svg" alt="Get my Resume">      
+      </div>
+      <div class="footer-resume-desktop">
+        <span>Get my CV</span> 
+        <img src="Images SVG/UnionResume.svg" alt="Get my CV">      
       </div>
       <ul class="social-media">
         <li><a href="https://stackoverflow.com/"><img src="Images SVG/ic_stackoverflow.svg" alt="Stackflow"></a></li>
