@@ -678,6 +678,7 @@ footer {
     grid-template-columns: 11vw 11vw 11vw 11vw 11vw 11vw 34vw;
     row-gap: 0;
     column-gap: 0;
+    margin-top: 5vw;
   }
 
   .title-projects {
@@ -1204,7 +1205,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     gap: 0vw;
-    margin-left: 5vw;
+    margin-left: 7vw;
   }
 
   .form-row {
@@ -1222,7 +1223,7 @@ footer {
     line-height: 0.7;
     color: #7d7c84;
     font-family: "Poppins", serif;
-    margin-left: 2vw;
+    margin-left: 1vw;
   }
 
   .form-row input {
