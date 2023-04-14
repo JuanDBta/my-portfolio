@@ -118,6 +118,7 @@ Open mobile.html using live server extension.
 - GitHub: [@JuanDBta](https://github.com/JuanDBta)
 - Twitter: [@diazgjuan](https://twitter.com/diazgjuan)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/juan-david-diaz-)
+- Loom: [Loom](https://www.loom.com/share/ebf387404c2f4ad6bbdbd91b318444d2)
 
 👤 **Micronaut WLADIMIR PASQUEL**
 
