@@ -33,7 +33,6 @@ header {
   background-position: left top, center bottom;
   background-repeat: no-repeat;
   background-size: 50vw 25vw, 66vw 30vw;
-  
 }
 
 .nav-bar.active {
@@ -52,7 +51,7 @@ header {
   list-style: none;
   text-align: center;
   margin-top: 20vw;
-  gap:4vw;
+  gap: 4vw;
 }
 
 .title-bar a {
