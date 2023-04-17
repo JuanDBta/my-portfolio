@@ -634,6 +634,8 @@ footer {
     margin-inline: 0;
     padding-bottom: 0;
     align-self: start;
+    margin-left: 3vw;
+    margin-top: 10vw;
   }
 
   .dot-grid-projects {
@@ -739,10 +741,11 @@ footer {
     display: block;
     grid-area: 2/1/2/3;
     margin-top: 6vw;
+    margin-left: 0.4vw;
   }
 
   .backgroundprojects2 img {
-    width: 32.3vw;
+    width: 32.5vw;
     height: 18.75vw;
   }
 
@@ -849,6 +852,7 @@ footer {
     background-image: url('Images SVG/Projects3.svg');
     background-size: cover;
     background-repeat: no-repeat;
+    margin-left: 0.7vw;
   }
 
   .backgroundprojects3 img {
@@ -859,7 +863,7 @@ footer {
     display: block;
     grid-row: 3;
     grid-column: 5;
-    margin-left: 11.5vw;
+    margin-left: 12.2vw;
     margin-top: 20vw;
   }
 
@@ -885,6 +889,7 @@ footer {
     display: block;
     grid-row: 4;
     grid-column: 1;
+    margin-left: 0.7vw;
   }
 
   .bluesquare img {
@@ -896,7 +901,7 @@ footer {
     display: block;
     grid-row: 4;
     grid-column: 1;
-    margin-left: 6.8vw;
+    margin-left: 7.5vw;
     margin-top: 0.9vw;
   }
 
@@ -909,14 +914,14 @@ footer {
     display: block;
     grid-row: 4;
     grid-column: 5;
-    margin-left: 2.5vw;
+    margin-left: 8vw;
   }
 
   .backgroundprojects4 {
     display: block;
     grid-row: 4;
     grid-column: 5;
-    margin-left: 11.2vw;
+    margin-left: 12vw;
   }
 
   .backgroundprojects4 img {
