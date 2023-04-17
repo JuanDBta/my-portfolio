@@ -31,7 +31,7 @@ header {
   background-position: left top, center bottom;
   background-repeat: no-repeat;
   background-size: 35vw 15vw, 46vw 20vw;
-  display: block;
+  display: none;
 }
 
 .title-bar {
@@ -517,6 +517,9 @@ footer {
   .nav-bar {
     display: flex;
     background-color: white;
+    background-image: none;
+    margin-left: 0;
+    height: 5vw;
   }
 
   header {
@@ -538,6 +541,7 @@ footer {
     line-height: 24px;
     text-align: right;
     color: #1a2236;
+    margin-top: 0;
   }
 
   .title-bar a {
