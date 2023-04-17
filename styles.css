@@ -64,13 +64,6 @@ header {
   padding-bottom: 5vw;
 }
 
-.title :hover {
-  background-color: #febf52;
-  width: 20vw;
-  height: 20vw;
-  rotate: 180deg;
-}
-
 .myname-intro {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -644,6 +637,13 @@ footer {
     margin-inline: 5vw;
   }
 
+  .button-box:hover {
+    background-color: #fff;
+    color: #1a2236;
+    border: 1px solid #1a2236;
+    font-size: 1.5vw;
+  }
+  
   .dot-grid {
     display: block;
     margin-left: 28vw;
