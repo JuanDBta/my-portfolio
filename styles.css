@@ -23,21 +23,23 @@ header {
 }
 
 .nav-bar {
-  width: 45vw;
-  height: 60.75vw;
-  margin-left: 40vw;
+  display: none;
+  width: 70vw;
+  height: 90vw;
+  margin-left: 15vw;
+  margin-bottom: 5vw;
   background-color: white;
   background-image: url('Images SVG/menumobile_imagegeometry1.svg'), url('Images SVG/menumobile_imagegeometry2.svg');
   background-position: left top, center bottom;
   background-repeat: no-repeat;
-  background-size: 35vw 15vw, 46vw 20vw;
-  display: block;
+  background-size: 50vw 25vw, 66vw 30vw;
+  
 }
 
 #closex {
   display: block;
-  margin-left: 42vw;
-  margin-top: 3vw;
+  margin-left: 65vw;
+  margin-top: 7vw;
 }
 
 .title-bar {
@@ -45,15 +47,15 @@ header {
   flex-direction: column;
   list-style: none;
   text-align: center;
-  margin-top: 14vw;
-  gap:2vw;
+  margin-top: 20vw;
+  gap:4vw;
 }
 
 .title-bar a {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.5vw;
+  font-size: 3.5vw;
   line-height: 24px;
   text-decoration: none;
   color: black;
