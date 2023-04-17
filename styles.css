@@ -64,13 +64,6 @@ header {
   padding-bottom: 5vw;
 }
 
-.title :hover {
-  background-color: #febf52;
-  width: 20vw;
-  height: 20vw;
-  rotate: 180deg;
-}
-
 .myname-intro {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -121,19 +114,15 @@ header {
   font-size: 7vw;
 }
 
-.image-projects {
-  margin-top: 10vw;
-}
-
 .dot-grid {
   display: none;
 }
 
-.collage1 {
-  display: none;
+.image-projects {
+  margin-top: 10vw;
 }
 
-.dot-grid-projects {
+.collage {
   display: none;
 }
 
@@ -144,27 +133,7 @@ header {
   flex-direction: column;
 }
 
-.rombo {
-  display: none;
-}
-
-.backgroundprojects2 {
-  display: none;
-}
-
-.backgroundprojects3 {
-  display: none;
-}
-
-.backgroundprojects4 {
-  display: none;
-}
-
-.backgroundprojects5 {
-  display: none;
-}
-
-.title-projects {
+.projects {
   font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -173,30 +142,6 @@ header {
   color: #1a2236;
   margin-inline: 5vw;
   padding-bottom: 5vw;
-}
-
-.doblecuadrado {
-  display: none;
-}
-
-.cuadradoazul {
-  display: none;
-}
-
-.bolarosa {
-  display: none;
-}
-
-.bolaamarilla {
-  display: none;
-}
-
-.goespuntos {
-  display: none;
-}
-
-.backgroundcortado {
-  display: none;
 }
 
 .menu-projects-main {
@@ -371,7 +316,7 @@ header {
   align-content: center;
 }
 
-.titleabout {
+.about {
   font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -674,7 +619,7 @@ footer {
     margin-top: 5vw;
   }
 
-  .title-projects {
+  .projects {
     grid-area: 1/2/1/2;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
@@ -687,6 +632,7 @@ footer {
   .dot-grid-projects {
     display: block;
     grid-area: 1/3/1/3;
+    margin-top: 0.3vw;
   }
 
   .menu-projects-main {
@@ -902,7 +848,7 @@ footer {
     display: none;
   }
 
-  .rombo {
+  .rhombus {
     display: block;
     grid-row: 3;
     grid-column: 5;
@@ -910,36 +856,36 @@ footer {
     margin-top: 20vw;
   }
 
-  .rombo img {
+  .rhombus img {
     width: 12.2vw;
     height: 12.2vw;
   }
 
-  .doblecuadrado {
+  .twosquares {
     display: block;
     grid-row: 3;
     grid-column: 7;
     margin-top: 12.9vw;
-    margin-left: 9.5vw;
+    margin-left: 9.33vw;
   }
 
-  .doblecuadrado img {
+  .twosquares img {
     width: 24.36vw;
     height: 11.18;
   }
 
-  .cuadradoazul {
+  .bluesquare {
     display: block;
     grid-row: 4;
     grid-column: 1;
   }
 
-  .cuadradoazul img {
+  .bluesquare img {
     width: 7vw;
     height: 7vw;
   }
 
-  .bolarosa {
+  .pinkball {
     display: block;
     grid-row: 4;
     grid-column: 1;
@@ -947,16 +893,16 @@ footer {
     margin-top: 0.9vw;
   }
 
-  .bolarosa img {
+  .pinkball img {
     width: 6.1vw;
     height: 6.1vw;
   }
 
-  .bolaamarilla {
+  .yellowball {
     display: block;
     grid-row: 4;
     grid-column: 5;
-    margin-left: 5.5vw;
+    margin-left: 2.5vw;
   }
 
   .backgroundprojects4 {
@@ -1097,7 +1043,7 @@ footer {
     align-content: left;
   }
 
-  .titleabout {
+  .about {
     font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: 400;
