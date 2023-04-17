@@ -589,6 +589,13 @@ footer {
     margin-inline: 5vw;
   }
 
+  .button-box:hover {
+    background-color: #fff;
+    color: #1a2236;
+    border: 1px solid #1a2236;
+    font-size: 1.5vw;
+  }
+
   .dot-grid {
     display: block;
     margin-left: 28vw;
