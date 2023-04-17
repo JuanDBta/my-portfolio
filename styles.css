@@ -36,6 +36,10 @@ header {
   
 }
 
+.nav-bar.active {
+  display: block;
+}
+
 #closex {
   display: block;
   margin-left: 65vw;
