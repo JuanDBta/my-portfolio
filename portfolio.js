@@ -13,3 +13,14 @@ menuButton.addEventListener('click', (event) => {
     header.style.display = 'none';
   }
 });
+
+closeX.addEventListener('click', (event) => {
+  event.preventDefault();
+  if (navBar.style.display === 'block') {
+    navBar.style.display = 'none';
+    header.style.display = 'block';
+  } else {
+    navBar.style.display = 'block';
+    header.style.display = 'none';
+  }
+});
