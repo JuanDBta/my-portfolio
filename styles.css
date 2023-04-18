@@ -267,6 +267,15 @@ header {
   height: 6vw;
 }
 
+.project-description {
+  width 91.3vw;
+  height 50vw;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+  display: flex;
+  flex-direction: column;
+}
+
 #download-image {
   margin-inline: 3vw;
 }
@@ -666,6 +675,10 @@ footer {
     margin-top: 5vw;
   }
 
+  .project-description {
+    display: none;
+  }
+
   .projects {
     grid-area: 1/2/1/2;
     writing-mode: vertical-rl;
@@ -694,7 +707,7 @@ footer {
     margin-left: 2vw;
   }
 
-  #goes-here-section {
+  .goes-here-section {
     grid-area: 1/4/1/6;
     height: 25vw;
     background-color: #1a2236;
