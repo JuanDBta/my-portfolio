@@ -17,6 +17,6 @@ closeCardButton.addEventListener('click', () => {
     projectDisplay.style.display = 'none';
     projectContainer.style.display = 'grid';
   } else {
-    projectContainer.style.display = 'none';
+    projectContainer.style.display = 'flex';
   }
 });

@@ -592,7 +592,7 @@ footer {
 }
 
 .popup-project-mobile {
-  display: block;
+  display: none;
   margin-bottom: 5vw;
   margin-left: 5vw;
 }
@@ -619,7 +619,7 @@ footer {
   margin-left: 0.5vw;
 }
 
-.desktoppopx {
+.desktoppopxmobile {
   width: 45vw;
   height: 5vw;
   padding-top: 0.5vw;
@@ -693,6 +693,7 @@ footer {
     flex-wrap: wrap;
     padding-right: 5vw;
     margin-top: 0;
+    margin-left: 0;
   }
 
   .main {
@@ -777,6 +778,11 @@ footer {
     width: 12vw;
   }
 
+  .projects-container.active {
+    display: grid;
+  }
+  
+
   .projects-container {
     width: 100vw;
     height: 115vw;
@@ -786,6 +792,7 @@ footer {
     row-gap: 0;
     column-gap: 0;
     margin-top: 5vw;
+    margin-left: 0;
   }
 
   .project-description {
@@ -1119,7 +1126,7 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    margin-left: 4vw;
+    margin-left: 0;
     margin-right: 4vw;
     padding-top: 5vw;
     padding-bottom: 5vw;
@@ -1273,6 +1280,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding-top: 0;
+    margin-left: 0;
   }
 
   .headlinestarted {
@@ -1511,6 +1519,7 @@ footer {
   }
 
   .previous-next-arrows {
+    display: block;
     margin-top: 5vw;
   }
 
