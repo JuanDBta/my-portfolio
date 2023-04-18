@@ -267,11 +267,15 @@ header {
   height: 6vw;
 }
 
-.descriptionpopup {
-  display: none;
+.popup-mobile {
+  display: block;
   width: 81.3vw;
   height: auto;
   margin-top: 10vw;
+}
+
+.popup-desktop {
+  display: none;
 }
 
 .description {
@@ -312,6 +316,7 @@ header {
   color: #1a2236;
   border: 1px #1a2236 solid;
   padding-left: 20vw;
+  margin-left: 5vw;
 }
 
 .live img {
@@ -1371,5 +1376,112 @@ footer {
   #main-background2 {
     display: block;
     width: 100%;
+  }
+
+  .popup-mobile {
+    display: none;
+  }
+
+  .popup-desktop {
+    display: block;
+    width: 100vw;
+    height: 125vw;
+    margin: 2vw 2vw 2vw 2vw;
+    border: 40px #1a2236 solid;
+
+    }
+
+  .popup-desktop-title {
+    width: 80vw;
+    height: 7vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .projectdesktoptitlepopup {
+    width: 80vw;
+    height: 6vw;
+    color: #1a2236;
+    font-family: Poppins, sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 1.5vw;
+    letter-spacing: 0em;
+    padding-top: 2vw;
+  }
+
+  .desktoppopx {
+    width: 45vw;
+    height: 5vw;
+    padding-top: 0.5vw;
+    text-align: right;
+  }
+
+  .desktoppopx img {
+    width: 4vw;
+  }
+
+  .desktoppop-languages {
+    margin-left: 5vw;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .popdesktop {
+    background-color: white;
+    border: 1px #1a2236 solid;
+  }
+
+  .background-projects-description {
+    margin-left: -0.5vw;
+  }
+
+  .description-intro {
+    width: 42vw;
+    margin-left: 25vw;
+    margin-top: 2vw;
+    font-size: 1.2vw;
+  }
+
+  .desktop-popup-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 22vw;
+  }
+
+  .live {
+    background-color: white;
+    color: #1a2236;
+    padding-left: 6vw;
+    width: 18vw;
+  }
+
+  .source {
+    color: white;
+    padding-left: 6vw;
+    width: 18vw;
+  }
+
+  .previous-next-arrows {
+    margin-top: 5vw;
+  }
+
+  #next-button {
+    margin-left: 9vw;
+  }
+  
+   #previous-button {
+    margin-left: 26vw;    
+  }
+
+  #next-button img {
+    width: 10vw;
+    margin-left: 10vw;
+  }
+
+  #previous-button img {
+    width: 12vw;
   }
 }
