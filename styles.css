@@ -301,7 +301,7 @@ header {
   margin-bottom: 5vw;
 }
 
-.background-projects-description img{
+.background-projects-description img {
   width: 81.3vw;
   margin-left: 5vw;
 }
@@ -310,7 +310,7 @@ header {
   width: 81.3vw;
 }
 
-.live, .source {
+.live,.source {
   width: 81.3vw;
   background-color: white;
   color: #1a2236;
@@ -320,12 +320,12 @@ header {
 }
 
 .live img {
-margin-left: 25vw;
+  margin-left: 25vw;
 }
 
 .source img {
   margin-left: 16vw;
-  }
+}
 
 #download-image {
   margin-inline: 3vw;
@@ -1358,21 +1358,6 @@ footer {
     display: none;
   }
 
-  #dot-grid-template img {
-    display: block;
-    width: 11.1vw;
-  }
-
-  #main-background1 img {
-    display: none;
-  }
-
-  #main-background2 img {
-    display: block;
-    width: 48.75vw;
-    height: 60.9vw;
-  }
-
   #main-background2 {
     display: block;
     width: 100%;
@@ -1388,7 +1373,7 @@ footer {
     height: 125vw;
     margin-left: 2vw;
     border: 40px #1a2236 solid;
-    }
+  }
 
   .popup-desktop-title {
     width: 80vw;
@@ -1407,7 +1392,7 @@ footer {
     font-size: 4vw;
     font-weight: 700;
     line-height: 1.5vw;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     padding-top: 2vw;
   }
 
@@ -1470,9 +1455,9 @@ footer {
   #next-button {
     margin-left: 9vw;
   }
-  
-   #previous-button {
-    margin-left: 26vw;    
+
+  #previous-button {
+    margin-left: 26vw;
   }
 
   #next-button img {
@@ -1482,5 +1467,20 @@ footer {
 
   #previous-button img {
     width: 12vw;
+  }
+
+  #dot-grid-template img {
+    display: block;
+    width: 11.1vw;
+  }
+
+  #main-background1 img {
+    display: none;
+  }
+
+  #main-background2 img {
+    display: block;
+    width: 48.75vw;
+    height: 60.9vw;
   }
 }

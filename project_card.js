@@ -6,6 +6,7 @@ const projectContainer = document.querySelector('.projects-container');
 projectButton.addEventListener('click', () => {
   projectDisplay.classList.add('active');
   if (window.innerWidth >= 768) {
+    projectDisplay.style.display = 'block';
     projectContainer.style.display = 'none';
   }
 });
@@ -13,7 +14,8 @@ projectButton.addEventListener('click', () => {
 closeCardButton.addEventListener('click', () => {
   projectDisplay.classList.remove('active');
   if (window.innerWidth >= 768) {
-    projectContainer.style.display = 'block';
+    projectDisplay.style.display = 'none';
+    projectContainer.style.display = 'grid';
   } else {
     projectContainer.style.display = 'none';
   }
