@@ -268,7 +268,7 @@ header {
 }
 
 .popup-mobile {
-  display: block;
+  display: none;
   width: 81.3vw;
   height: auto;
   margin-top: 10vw;
@@ -1383,12 +1383,11 @@ footer {
   }
 
   .popup-desktop {
-    display: block;
-    width: 100vw;
+    display: none;
+    width: 95vw;
     height: 125vw;
-    margin: 2vw 2vw 2vw 2vw;
+    margin-left: 2vw;
     border: 40px #1a2236 solid;
-
     }
 
   .popup-desktop-title {
