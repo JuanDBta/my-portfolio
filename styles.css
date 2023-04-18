@@ -83,7 +83,7 @@ header {
   display: flex;
   flex-direction: column;
   align-content: center;
-  margin-left: 5vw;
+  margin-left: 0;
 }
 
 .title {
@@ -162,7 +162,7 @@ header {
 .projects-container {
   width: 90vw;
   height: 630vw;
-  margin-left: 5vw;
+  margin-left: 0;
   display: flex;
   flex-direction: column;
 }
@@ -312,7 +312,7 @@ header {
   width: 81.3vw;
 }
 
-.live,.source {
+.live .source {
   width: 81.3vw;
   background-color: white;
   color: #1a2236;
@@ -402,7 +402,7 @@ header {
 }
 
 .about-skills {
-  margin-left: 5vw;
+  margin-left: 0;
 }
 
 .headlineabout {
@@ -466,7 +466,7 @@ header {
   margin-top: 8.49vw;
   width: 100vw;
   padding-top: 30vw;
-  margin-left: 5vw;
+  margin-left: 0;
 }
 
 .headlinestarted {
@@ -569,20 +569,6 @@ footer {
   height: 7.55vw;
 }
 
-#main-background1 img {
-  width: 100vw;
-  object-fit: cover;
-  padding-bottom: 5vw;
-}
-
-#main-background2 {
-  display: none;
-}
-
-#main-background2 img {
-  display: none;
-}
-
 #dot-grid-template {
   display: none;
 }
@@ -640,7 +626,6 @@ footer {
   background-color: white;
   border: 1px #1a2236 solid;
 }
-
 
 .previous-next-arrows {
   display: none;
@@ -777,11 +762,6 @@ footer {
   .dot-grid-projects img {
     width: 12vw;
   }
-
-  .projects-container.active {
-    display: grid;
-  }
-  
 
   .projects-container {
     width: 100vw;
@@ -1428,11 +1408,6 @@ footer {
     display: none;
   }
 
-  #main-background2 {
-    display: block;
-    width: 100%;
-  }
-
   .popup-mobile {
     display: none;
   }
@@ -1545,17 +1520,21 @@ footer {
     width: 11.1vw;
   }
 
+  .popup-project-mobile {
+    display: none;
+  }
+
   #main-background1 img {
+    width: 100vw;
+    object-fit: cover;
+    padding-bottom: 5vw;
+  }
+
+  #main-background2 {
     display: none;
   }
 
   #main-background2 img {
-    display: block;
-    width: 48.75vw;
-    height: 60.9vw;
-  }
-
-  .popup-project-mobile {
     display: none;
   }
 }

@@ -20,3 +20,11 @@ closeCardButtonMobile.addEventListener('click', () => {
     projectContainerMobile.style.display = 'grid';
   }
 });
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth >= 768) {
+    projectContainerMobile.style.display = 'grid';
+  } else {
+    projectContainerMobile.style.display = 'flex';
+  }
+});
