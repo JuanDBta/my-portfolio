@@ -83,6 +83,7 @@ header {
   display: flex;
   flex-direction: column;
   align-content: center;
+  margin-left: 5vw;
 }
 
 .title {
@@ -161,6 +162,7 @@ header {
 .projects-container {
   width: 90vw;
   height: 630vw;
+  margin-left: 5vw;
   display: flex;
   flex-direction: column;
 }
@@ -399,6 +401,10 @@ header {
   color: white;
 }
 
+.about-skills {
+  margin-left: 5vw;
+}
+
 .headlineabout {
   margin-block: 30px;
   margin-right: 18px;
@@ -460,6 +466,7 @@ header {
   margin-top: 8.49vw;
   width: 100vw;
   padding-top: 30vw;
+  margin-left: 5vw;
 }
 
 .headlinestarted {
@@ -581,6 +588,61 @@ footer {
 }
 
 .footer-resume-desktop {
+  display: none;
+}
+
+.popup-project-mobile {
+  display: block;
+  margin-bottom: 5vw;
+  margin-left: 5vw;
+}
+
+.popup-desktop-title {
+  width: 80vw;
+  height: 7vw;
+  margin-left: 5vw;
+  margin-top: 5vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.projectdesktoptitlepopup {
+  width: 80vw;
+  height: 6vw;
+  color: #1a2236;
+  font-family: Poppins, sans-serif;
+  font-size: 4vw;
+  font-weight: 700;
+  line-height: 1.5vw;
+  letter-spacing: 0;
+  padding-top: 2vw;
+  margin-left: 0.5vw;
+}
+
+.desktoppopx {
+  width: 45vw;
+  height: 5vw;
+  padding-top: 0.5vw;
+  text-align: right;
+}
+
+.desktoppopx img {
+  width: 4vw;
+}
+
+.desktoppop-languages {
+  margin-left: 5.5vw;
+  margin-top: 0;
+  margin-bottom: 2vw;
+}
+
+.popdesktop {
+  background-color: white;
+  border: 1px #1a2236 solid;
+}
+
+
+.previous-next-arrows {
   display: none;
 }
 
@@ -1482,5 +1544,9 @@ footer {
     display: block;
     width: 48.75vw;
     height: 60.9vw;
+  }
+
+  .popup-project-mobile {
+    display: none;
   }
 }
