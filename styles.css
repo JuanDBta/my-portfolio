@@ -631,6 +631,20 @@ footer {
   display: none;
 }
 
+#main-background1 img {
+  width: 100vw;
+  object-fit: cover;
+  padding-bottom: 5vw;
+}
+
+#main-background2 {
+  display: none;
+}
+
+#main-background2 img {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .nav-bar {
     display: flex;
@@ -1525,16 +1539,17 @@ footer {
   }
 
   #main-background1 img {
-    width: 100vw;
-    object-fit: cover;
-    padding-bottom: 5vw;
-  }
-
-  #main-background2 {
     display: none;
   }
 
   #main-background2 img {
-    display: none;
+    display: block;
+    width: 48.75vw;
+    height: 60.9vw;
+  }
+
+  #main-background2 {
+    display: block;
+    width: 100%;
   }
 }
