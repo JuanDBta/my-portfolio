@@ -148,18 +148,18 @@
       </div>          
     </section>
 
-    <section class="popup-mobile">
-        <div id="closexdescription"><a href="#"><img src="Images SVG/ic_crossdescription.svg" alt=""></a></div>
-        <div class="goes-here-section description">
-          <h3 class="projects-title description-title">Project names goes here</h3>
-              <ul class="menu-languages description-languages">
-                <li class="language-button">HTML/CSS</li>
-                <li class="language-button">Ruby on Rails</li>
-                <li class="language-button">JavaScript</li>
-              </ul>
-        </div>            
-        <div class="background-projects-description"><img src="Images SVG/projectdescriptioncomplete.svg"></div>
-        <p class="myname-intro description-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    <section class="popup-project-mobile">
+      <div class="popup-desktop-title">
+        <h3 class="projectdesktoptitlepopup">Project names goes here</h3>
+        <div class="desktoppopxmobile"><a id="projectclose" href="#"><img src="Images SVG/ic_crossdescription.svg" alt=""></a></div>
+      </div>  
+      <ul class="menu-languages description-languages desktoppop-languages">
+        <li class="language-button popdesktop">HTML/CSS</li>
+        <li class="language-button popdesktop">Ruby on Rails</li>
+        <li class="language-button popdesktop">JavaScript</li>
+      </ul>     
+      <div class="background-projects-description"><img src="Images SVG/projectdescriptioncomplete.svg"></div>
+      <p class="myname-intro description-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                             sed do eiusmod tempor incididunt ut labore et dolore magna 
                                             aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                                             ullamco laboris nisi<br><br>
@@ -168,43 +168,17 @@
                                             sed do eiusmod tempor incididunt ut labore et dolore magna 
                                             aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                                             ullamco laboris nisi.</p>
+      <div class="desktop-popup-buttons">
         <button type="button" class="project-button live">See live
-                  <img src="Images SVG/ic_link.svg"></button>
+                <img src="Images SVG/ic_link.svg"></button>
         <button type="button" class="project-button source">See source
-                  <img src="Images SVG/ic_github_white.svg"></button> 
-      </section>
-
-      <section class="popup-project-mobile">
-        <div class="popup-desktop-title">
-          <h3 class="projectdesktoptitlepopup">Project names goes here</h3>
-          <div class="desktoppopxmobile"><a id="projectclose" href="#"><img src="Images SVG/ic_crossdescription.svg" alt=""></a></div>
-        </div>  
-        <ul class="menu-languages description-languages desktoppop-languages">
-          <li class="language-button popdesktop">HTML/CSS</li>
-          <li class="language-button popdesktop">Ruby on Rails</li>
-          <li class="language-button popdesktop">JavaScript</li>
-        </ul>     
-        <div class="background-projects-description"><img src="Images SVG/projectdescriptioncomplete.svg"></div>
-        <p class="myname-intro description-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                            sed do eiusmod tempor incididunt ut labore et dolore magna 
-                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                                            ullamco laboris nisi<br><br>
-                                            Ut aliquip ex ea commodo consequat. 
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                            sed do eiusmod tempor incididunt ut labore et dolore magna 
-                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                                            ullamco laboris nisi.</p>
-        <div class="desktop-popup-buttons">
-          <button type="button" class="project-button live">See live
-                  <img src="Images SVG/ic_link.svg"></button>
-          <button type="button" class="project-button source">See source
-                  <img src="Images SVG/ic_github_white.svg"></button> 
-        </div>
-        <div class="previous-next-arrows">   
-          <a id="previous-button" href="#"><img src="Images SVG/previousproject.svg" alt=""></a>
-          <a id="next-button" href="#"><img src="Images SVG/nextproject.svg" alt=""></a>
-        </div>
-      </section>
+                <img src="Images SVG/ic_github_white.svg"></button> 
+      </div>
+      <div class="previous-next-arrows">   
+        <a id="previous-button" href="#"><img src="Images SVG/previousproject.svg" alt=""></a>
+        <a id="next-button" href="#"><img src="Images SVG/nextproject.svg" alt=""></a>
+      </div>
+    </section>
     
     <section class="popup-desktop">
       <div class="popup-desktop-title">
@@ -331,6 +305,7 @@
     </footer>
   <script src="mobile_menu.js"></script>
   <script src="desktop_project_card.js"></script>
-  <script src="mobile_project_card.js"></script>
+  <script src="mobile_mainproject_card.js"></script>
+  <script src="projects_info.js"></script>
   </body>
 </html>
