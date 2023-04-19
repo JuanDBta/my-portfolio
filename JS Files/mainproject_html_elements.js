@@ -1,6 +1,15 @@
-import { projects } from './projects_info.js';
+const projectsContainer = document.querySelector('.projects-container');
 
-const parentElement = document.querySelector('.projects-container');
+const projects = [
+  {
+    name: 'Project 1',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    image: 'Images SVG/Projects1.svg',
+    tech: ['HTML/CSS', 'Ruby On Rails', 'JavaScript'],
+    liveLink: 'https://juandbta.github.io/Portfolio-project/',
+    sourceLink: 'https://github.com/JuanDBta/Porfolio-project',
+  },
+];
 
 projects.forEach((project) => {
   const menuProjectsMain = document.createElement('div');
@@ -42,5 +51,5 @@ projects.forEach((project) => {
 
   menuProjectsMain.appendChild(goesHereSection);
 
-  parentElement.appendChild(menuProjectsMain);
+  projectsContainer.appendChild(menuProjectsMain);
 });

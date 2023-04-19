@@ -179,11 +179,7 @@ header {
 }
 
 .menu-projects-main {
-  width: 100vw;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  background-color: #1a2236;
+  display: none;
 }
 
 .menuprojectsmaindots {
@@ -812,6 +808,7 @@ footer {
   }
 
   .menu-projects-main {
+    display: block;
     grid-area: 1/4/1/6;
     width: 65vw;
     height: 38.75vw;
