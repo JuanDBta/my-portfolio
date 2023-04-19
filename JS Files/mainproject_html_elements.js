@@ -1,9 +1,8 @@
-import { projects } from './projects_info.js'
+import { projects } from './projects_info.js';
 
 const parentElement = document.querySelector('.projects-container');
 
 projects.forEach((project) => {
-  let fetch = document.querySelector('.projects').innerHTML;
   const menuProjectsMain = document.createElement('div');
   menuProjectsMain.classList.add('menu-projects-main');
 
@@ -44,4 +43,4 @@ projects.forEach((project) => {
   menuProjectsMain.appendChild(goesHereSection);
 
   parentElement.appendChild(menuProjectsMain);
-}) +fetch;
+});
