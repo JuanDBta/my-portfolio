@@ -45,6 +45,7 @@ const projects = [
     liveLink: 'https://juandbta.github.io/Portfolio-project/',
     sourceLink: 'https://github.com/JuanDBta/Porfolio-project',
   },
+
 ];
 
 for (let i = 0; i < projects.length; i++) {

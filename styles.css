@@ -918,13 +918,13 @@ footer {
     height: 18.75vw;
   }
 
-  .menuprojectsdots {
+  .menuprojectsmaindots {
     display: block;
     grid-row: 2;
     grid-column: 7;
     width: 31.5vw;
     height: 18.75vw;
-    background-image: url('Images SVG/backgrouncortado.svg');
+    background-image: url('Images SVG/Project6.svg');
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 2.3vw;
