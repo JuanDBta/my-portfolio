@@ -1,6 +1,6 @@
-const projectsContainer = document.querySelector('.projects-container');
+const parentElement = document.querySelector('.projects-container');
 
-const projects = [
+const pro = [
   {
     name: 'Project 1',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
@@ -11,7 +11,7 @@ const projects = [
   },
 ];
 
-projects.forEach((project) => {
+pro.forEach((project) => {
   const menuProjectsMain = document.createElement('div');
   menuProjectsMain.classList.add('menu-projects-main');
 
@@ -51,5 +51,5 @@ projects.forEach((project) => {
 
   menuProjectsMain.appendChild(goesHereSection);
 
-  projectsContainer.appendChild(menuProjectsMain);
+  parentElement.appendChild(menuProjectsMain);
 });
