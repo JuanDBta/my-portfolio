@@ -11,7 +11,7 @@ const projectdots = [
   },
 ];
 
-for (let i = 0; i < projectdots.length; i++) {
+for (let i = 0; i < projectdots.length; i += 1) {
   const project = projectdots[i];
 
   const projectDots = document.createElement('div');
@@ -33,7 +33,7 @@ for (let i = 0; i < projectdots.length; i++) {
 
   const techList = document.createElement('ul');
   techList.classList.add('menulanguagesdots');
-  for (let j = 0; j < project.tech.length; j++) {
+  for (let j = 0; j < project.tech.length; j += 1) {
     const tech = project.tech[j];
     const techItem = document.createElement('li');
     techItem.classList.add('languagebuttondots');
@@ -43,7 +43,7 @@ for (let i = 0; i < projectdots.length; i++) {
   infoDots.appendChild(techList);
 
   const button = document.createElement('button');
-  button.classList.add('projectbuttondots');
+  button.classList.add('project-button');
   button.setAttribute('type', 'button');
   button.textContent = 'See this project';
   const icon = document.createElement('img');

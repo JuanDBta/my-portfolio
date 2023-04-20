@@ -1,4 +1,4 @@
-const projectButtonMobile = document.querySelector('.project-button');
+const projectButtonsMobile = document.querySelectorAll('.project-button');
 const projectDisplayMobile = document.querySelector('.popup-mobile');
 const closeCardButtonMobile = document.querySelector('.desktoppopxmobile');
 const projectContainerMobile = document.querySelector('.projects-container');
@@ -33,14 +33,16 @@ function updateProjectInfo() {
   projectSourceButton.href = mainproject[currentProject].sourceLink;
 }
 
-projectButtonMobile.addEventListener('click', () => {
-  projectDisplayMobile.classList.add('active');
-  updateProjectInfo();
-  if (window.innerWidth <= 768) {
-    projectDisplayMobile.style.display = 'block';
-    projectContainerMobile.style.display = 'none';
-  }
-});
+for (let i = 0; i < projectButtonsMobile.length; i += 1) {
+  projectButtonsMobile[i].addEventListener('click', () => {
+    projectDisplayMobile.classList.add('active');
+    updateProjectInfo();
+    if (window.innerWidth <= 768) {
+      projectDisplayMobile.style.display = 'block';
+      projectContainerMobile.style.display = 'none';
+    }
+  });
+}
 
 closeCardButtonMobile.addEventListener('click', () => {
   projectDisplayMobile.classList.remove('active');
@@ -64,7 +66,7 @@ const previousButton = projectDisplayMobile.querySelector('#previous-button');
 const nextButton = projectDisplayMobile.querySelector('#next-button');
 
 previousButton.addEventListener('click', () => {
-  currentProject -= 1;
+  currentProject += 1;
   if (currentProject < 0) {
     currentProject = mainproject.length - 1;
   }
@@ -72,7 +74,7 @@ previousButton.addEventListener('click', () => {
 });
 
 nextButton.addEventListener('click', () => {
-  currentProject -= 1;
+  currentProject += 1;
   if (currentProject >= mainproject.length) {
     currentProject = 0;
   }

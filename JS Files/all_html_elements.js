@@ -48,7 +48,7 @@ const projects = [
 
 ];
 
-for (let i = 0; i < projects.length; i++) {
+for (let i = 0; i < projects.length; i += 1) {
   const project = projects[i];
 
   const menuProjects = document.createElement('div');
@@ -69,7 +69,7 @@ for (let i = 0; i < projects.length; i++) {
   const techList = document.createElement('ul');
   techList.classList.add('menu-languages');
 
-  for (let j = 0; j < project.tech.length; j++) {
+  for (let j = 0; j < project.tech.length; j += 1) {
     const techItem = document.createElement('li');
     techItem.classList.add('language-button');
     techItem.innerText = project.tech[j];
