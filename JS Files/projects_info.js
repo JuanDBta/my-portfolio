@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 const projects = [
   {
     name: 'Project 1',

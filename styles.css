@@ -918,7 +918,7 @@ footer {
     height: 18.75vw;
   }
 
-  .menuprojectsmaindots {
+  .menuprojectsdots {
     display: block;
     grid-row: 2;
     grid-column: 7;
