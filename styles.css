@@ -161,7 +161,7 @@ header {
 
 .projects-container {
   width: 90vw;
-  height: 600vw;
+  height: 620vw;
   margin-left: 0;
   display: flex;
   flex-direction: column;
@@ -179,7 +179,11 @@ header {
 }
 
 .menu-projects-main {
-  display: none;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #1a2236;
 }
 
 .menuprojectsmaindots {
@@ -308,7 +312,8 @@ header {
   width: 81.3vw;
 }
 
-.live, .source {
+.live,
+.source {
   width: 81.3vw;
   background-color: white;
   color: #1a2236;
