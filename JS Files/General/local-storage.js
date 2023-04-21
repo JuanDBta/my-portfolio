@@ -11,3 +11,11 @@ function storeFormData() {
   
     localStorage.setItem('formData', JSON.stringify(formData));
   }
+
+  const nameInput = document.getElementById('name');
+const emailInputt = document.getElementById('email');
+const commentsInput = document.getElementById('contact-description');
+
+nameInput.addEventListener('change', storeFormData);
+emailInputt.addEventListener('change', storeFormData);
+commentsInput.addEventListener('change', storeFormData);
