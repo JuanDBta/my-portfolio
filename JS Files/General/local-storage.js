@@ -19,3 +19,14 @@ const commentsInput = document.getElementById('contact-description');
 nameInput.addEventListener('change', storeFormData);
 emailInputt.addEventListener('change', storeFormData);
 commentsInput.addEventListener('change', storeFormData);
+function loadFormData() {
+    const formDataString = localStorage.getItem('formData');
+  
+    if (formDataString) {
+      const formData = JSON.parse(formDataString);
+  
+      document.getElementById('name').value = formData.name;
+      document.getElementById('email').value = formData.email;
+      document.getElementById('contact-description').value = formData.comments;
+    }
+  }
