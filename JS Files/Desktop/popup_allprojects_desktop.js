@@ -2,7 +2,7 @@ const projectButtonsDesktop = document.querySelectorAll('.project-button');
 const projectDisplayDesktop = document.querySelector('.popup-desktop');
 const closeCardButtonDesktop = document.querySelector('.desktoppopx');
 const projectContainerDesktop = document.querySelector('.projects-container');
-const projectInfoDesktop = document.querySelector('.myname-intro');
+const projectInfoDesktop = document.querySelector('.description-intro');
 
 const mainprojectdesktop = [
   {
