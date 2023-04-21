@@ -30,3 +30,4 @@ function loadFormData() {
       document.getElementById('contact-description').value = formData.comments;
     }
   }
+  window.addEventListener('load', loadFormData);
