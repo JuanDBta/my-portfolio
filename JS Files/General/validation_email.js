@@ -2,14 +2,14 @@ const form = document.querySelector('form');
 const emailInput = document.querySelector('#email');
 const submitBtn = document.querySelector('#contact-button button');
 const errorMsg = document.createElement('p');
-errorMsg.textContent = 'Please enter a lower case email address.';
+errorMsg.textContent = 'Please enter a lower case email address';
 errorMsg.classList.add('error-msg');
 errorMsg.style.display = 'none';
 emailInput.parentNode.appendChild(errorMsg);
 errorMsg.style.display = 'none';
 
 function updateErrorMsgStyle() {
-  if (window.matchMedia('(min-width: 769px)').matches) {
+  if (window.matchMedia('(min-width: 768px)').matches) {
     errorMsg.textContent = errorMsgTextLargeScreen;
     errorMsg.style.fontSize = '0.8vw';
     errorMsg.style.marginLeft = '1vw';
@@ -24,10 +24,10 @@ updateErrorMsgStyle();
 
 window.addEventListener('resize', updateErrorMsgStyle);
 form.addEventListener('submit', (event) => {
-    if (emailInput.value !== emailInput.value.toLowerCase()) {
-      event.preventDefault();
-      errorMsg.style.display = 'block';
-    } else {
-      errorMsg.style.display = 'none';
-    }
-  });
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    event.preventDefault();
+    errorMsg.style.display = 'block';
+  } else {
+    errorMsg.style.display = 'none';
+  }
+});
