@@ -23,3 +23,11 @@ function updateErrorMsgStyle() {
 updateErrorMsgStyle();
 
 window.addEventListener('resize', updateErrorMsgStyle);
+form.addEventListener('submit', (event) => {
+    if (emailInput.value !== emailInput.value.toLowerCase()) {
+      event.preventDefault();
+      errorMsg.style.display = 'block';
+    } else {
+      errorMsg.style.display = 'none';
+    }
+  });
