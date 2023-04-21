@@ -271,9 +271,12 @@ header {
 
 .popup-mobile {
   display: none;
-  width: 81.3vw;
-  height: auto;
-  margin-top: 10vw;
+  position: fixed;
+  width: 95.3vw;
+  height: 220vw;
+  margin-top: 0;
+  background-color: white;
+  margin-left: 2vw;
 }
 
 .popup-desktop {
@@ -1464,7 +1467,6 @@ footer {
     height: 5vw;
     padding-top: 1.5vw;
     text-align: center;
-    ma
   }
 
   .desktoppopx img {
@@ -1564,6 +1566,12 @@ footer {
     margin-top: 0;
   }
 
+  .background-projects-description img {
+    margin-left: 3vw;
+    width: 20.5vw;
+    margin-top: 2vw;
+  }
+
   #next-button img {
     width: 4vw;
     margin-left: 2vw;
@@ -1577,13 +1585,6 @@ footer {
     display: block;
     width: 11.1vw;
   }
-
-  .background-projects-description img {
-    margin-left: 3vw;
-    width: 20.5vw;
-    margin-top: 2vw;
-  }
-
 
   .popup-project-mobile {
     display: none;

@@ -2,7 +2,7 @@ const projectButtonsMobile = document.querySelectorAll('.project-button');
 const projectDisplayMobile = document.querySelector('.popup-mobile');
 const closeCardButtonMobile = document.querySelector('.desktoppopxmobile');
 const projectContainerMobile = document.querySelector('.projects-container');
-const projectInfoMobile = document.querySelector('.myname-intro');
+const projectInfoMobile = document.querySelector('.description-intro');
 
 const mainproject = [
   {
