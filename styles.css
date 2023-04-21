@@ -516,7 +516,7 @@ header {
   border: 1px solid #dfdfe0;
   color: #1a2236;
   height: 52px;
-  padding-top: 15px;
+  padding-top: 12px;
   padding-bottom: 8px;
   padding-left: 16px;
   font-size: 14px;
@@ -1350,8 +1350,8 @@ footer {
     height: 3vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
-    padding-left: 2vw;
-    font-size: 1vw;
+    padding-left: 0.8vw;
+    font-size: 0.8vw;
     font-family: "Poppins", serif;
     margin-bottom: 1vw;
   }
@@ -1364,7 +1364,7 @@ footer {
     margin-left: 33vw;
     width: 37vw;
     height: 10vw;
-    font-size: 14px;
+    font-size: 16px;
     overflow: hidden;
     border-radius: 0.3vw;
     border: 1px solid #dfdfe0;
