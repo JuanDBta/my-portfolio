@@ -70,6 +70,12 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+<a href="https://juandbta.github.io/Portfolio-project/">Portfolio</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -105,7 +111,7 @@ Open mobile.html using live server extension.
 
 - GitHub: [@JuanDBta](https://github.com/JuanDBta)
 - Twitter: [@diazgjuan](https://twitter.com/diazgjuan)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/juan-david-diaz-)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-david-d%C3%ADaz-74bb14277/)
 - Loom: [Loom](https://www.loom.com/share/ebf387404c2f4ad6bbdbd91b318444d2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
