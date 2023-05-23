@@ -31,9 +31,9 @@
 - [📝 License](#license)
 
 
-# 📖 Mobile Portfolio Project <a name="about-project"></a>
+# 📖 Portfolio Project <a name="about-project"></a>
 
-**[Mobile Website Portfolio]** is the first project for building a Personal Mobile Website that will be a main tool in the Web Developer career.
+**[Portfolio Website]** is the first project for building a Personal Portfolio Website including Mobile and Desktop Version that will be a main tool in the Web Developer career. 
 
 ## 🛠 Built With <a name="built-with"></a>
 1- HTML
@@ -57,8 +57,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-
-
 - **[Added mobile.html]**
 - **[Added styles.css]**
 - **[Added .gitignore]**
@@ -69,7 +67,6 @@
 - **[Added About Me Mobile section]**
 - **[Added Contact Form Mobile section]**
 - **[Added Desktop Version using media query]**
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,24 +101,12 @@ Open mobile.html using live server extension.
 
 ## 👥 Authors <a name="authors"></a>
 
-
-
 👤 **Micronaut JUAN DAVID DIAZ**
 
 - GitHub: [@JuanDBta](https://github.com/JuanDBta)
 - Twitter: [@diazgjuan](https://twitter.com/diazgjuan)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/juan-david-diaz-)
 - Loom: [Loom](https://www.loom.com/share/ebf387404c2f4ad6bbdbd91b318444d2)
-
-👤 **Micronaut WLADIMIR PASQUEL**
-
-- GitHub: [@lordksix](https://github.com/lordksix)
-- Email:  wladimir.pasquel@urp.edu.pe
-
-👤 **Micronaut SERGIO PERALTA**
-
-- GitHub: [@SergioPeralta22](https://github.com/SergioPeralta22)
-- Email: seperalta88@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,6 +135,17 @@ If you like this project, please give me a like, it doesn't cost you anything an
 I would like to thank Bee in Student Success who is always avalaible to solve issues and Microverse for push us to work hard every day!
 
 I would like to thank the huge contributions that my colleagues: Wladimir Pasquel and Sergio Peralta, who contriubted to my project and made a great job in the Contact Me Section and also, they kindly helped me with corrections and tips to improve my project´s code. 
+
+👤 **Micronaut WLADIMIR PASQUEL**
+
+- GitHub: [@lordksix](https://github.com/lordksix)
+- Email:  wladimir.pasquel@urp.edu.pe
+
+👤 **Micronaut SERGIO PERALTA**
+
+- GitHub: [@SergioPeralta22](https://github.com/SergioPeralta22)
+- Email: seperalta88@gmail.com
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
