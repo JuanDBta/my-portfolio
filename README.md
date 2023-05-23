@@ -36,12 +36,12 @@
 **[Portfolio Website]** is the first project for building a Personal Portfolio Website including Mobile and Desktop Version that will be a main tool in the Web Developer career. 
 
 ## 🛠 Built With <a name="built-with"></a>
-1- HTML
-2- CSS
-3- Linters
-4- Figma Template
-5- Flexbox
-6  Grid Layout
+1- HTML<br>
+2- CSS<br>
+3- Linters<br>
+4- Figma Template<br>
+5- Flexbox<br>
+6  Grid Layout<br>
 
 ### Tech Stack <a name="tech-stack"></a>
 
