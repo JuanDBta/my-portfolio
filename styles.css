@@ -820,7 +820,7 @@ footer {
     grid-area: 1/4/1/6;
     width: 65vw;
     height: 38.75vw;
-    background-image: url('Images SVG/Projects1.svg');
+    background-image: url('images/Projects1.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 2vw;
@@ -927,7 +927,7 @@ footer {
     grid-column: 7;
     width: 31.5vw;
     height: 18.75vw;
-    background-image: url('Images SVG/Project6.svg');
+    background-image: url('images/Project6.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 2.3vw;
@@ -1021,7 +1021,7 @@ footer {
     grid-column: 1;
     width: 55.5vw;
     height: 32.3vw;
-    background-image: url('Images SVG/Projects3.svg');
+    background-image: url('images/Projects3.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 0.7vw;
