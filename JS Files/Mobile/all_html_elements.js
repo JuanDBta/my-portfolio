@@ -2,48 +2,48 @@ const projectsContainer = document.querySelector('.projects-container');
 
 const projects = [
   {
-    name: 'Project 2',
+    name: 'My Finances',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: 'Images SVG/Projects2.svg',
-    tech: ['HTML/CSS', 'Ruby On Rails', 'JavaScript'],
-    liveLink: 'https://juandbta.github.io/Portfolio-project/',
-    sourceLink: 'https://github.com/JuanDBta/Porfolio-project',
+    image: 'images/Projects2.png',
+    tech: ['Ruby On Rails', 'PostgreSQL', 'RSpec'],
+    liveLink: 'https://my-finances-h7t3.onrender.com/',
+    sourceLink: 'https://github.com/JuanDBta/my-finances',
   },
 
   {
-    name: 'Project 3',
+    name: 'Blog App',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: 'Images SVG/Projects3.svg',
-    tech: ['HTML/CSS', 'Ruby On Rails', 'JavaScript'],
-    liveLink: 'https://juandbta.github.io/Portfolio-project/',
-    sourceLink: 'https://github.com/JuanDBta/Porfolio-project',
+    image: 'images/Projects3.png',
+    tech: ['Ruby On Rails', 'PostgreSQL', 'RSpec'],
+    liveLink: 'https://blog-app-po5m.onrender.com/',
+    sourceLink: 'https://github.com/JuanDBta/blog-app',
   },
 
   {
-    name: 'Project 4',
+    name: 'MET Art App',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: 'Images SVG/Projects4.svg',
-    tech: ['HTML/CSS', 'Ruby On Rails', 'JavaScript'],
-    liveLink: 'https://juandbta.github.io/Portfolio-project/',
-    sourceLink: 'https://github.com/JuanDBta/Porfolio-project',
+    image: 'images/Projects4.jpg',
+    tech: ['React', 'Redux', 'Jest'],
+    liveLink: 'https://met-app.onrender.com/',
+    sourceLink: 'https://github.com/JuanDBta/met-art-app',
   },
 
   {
-    name: 'Project 5',
+    name: 'Space Hub',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: 'Images SVG/Project5.svg',
-    tech: ['HTML/CSS', 'Ruby On Rails', 'JavaScript'],
-    liveLink: 'https://juandbta.github.io/Portfolio-project/',
-    sourceLink: 'https://github.com/JuanDBta/Porfolio-project',
+    image: 'images/Projects5.png',
+    tech: ['React', 'Redux', 'Jest'],
+    liveLink: 'https://spacex-4e71.onrender.com/',
+    sourceLink: 'https://github.com/JuanDBta/spacex',
   },
 
   {
-    name: 'Project 6',
+    name: 'Math Magicians Website',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: 'Images SVG/Project6.svg',
-    tech: ['HTML/CSS', 'Ruby On Rails', 'JavaScript'],
-    liveLink: 'https://juandbta.github.io/Portfolio-project/',
-    sourceLink: 'https://github.com/JuanDBta/Porfolio-project',
+    image: 'images/Projects6.png',
+    tech: ['React', 'CSS3', 'Jest'],
+    liveLink: 'https://math-magicians-project-4enh.onrender.com/',
+    sourceLink: 'https://github.com/JuanDBta/math-magicians',
   },
 
 ];
