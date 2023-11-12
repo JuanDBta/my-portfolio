@@ -2,13 +2,13 @@ const projectsContainerr = document.querySelector('.projects-container');
 
 const projectdots = [
   {
-    name: 'Space Hub',
+    name: 'MET Art App',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: 'images/Projects5.png',
+    image: 'images/Projects4.jpg',
     tech: ['React', 'Redux', 'Jest'],
-    liveLink: 'https://spacex-4e71.onrender.com/',
-    sourceLink: 'https://github.com/JuanDBta/spacex',
-  },
+    liveLink: 'https://met-app.onrender.com/',
+    sourceLink: 'https://github.com/JuanDBta/met-art-app',
+  }
 ];
 
 for (let i = 0; i < projectdots.length; i += 1) {
