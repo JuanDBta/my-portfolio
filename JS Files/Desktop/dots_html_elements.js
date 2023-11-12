@@ -2,12 +2,12 @@ const projectsContainerr = document.querySelector('.projects-container');
 
 const projectdots = [
   {
-    name: 'Project 6',
+    name: 'Space Hub',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: 'Images SVG/Project6.svg',
-    tech: ['HTML/CSS', 'Ruby On Rails', 'JavaScript'],
-    liveLink: 'https://juandbta.github.io/Portfolio-project/',
-    sourceLink: 'https://github.com/JuanDBta/Porfolio-project',
+    image: 'images/Projects5.png',
+    tech: ['React', 'Redux', 'Jest'],
+    liveLink: 'https://spacex-4e71.onrender.com/',
+    sourceLink: 'https://github.com/JuanDBta/spacex',
   },
 ];
 
