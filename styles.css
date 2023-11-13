@@ -1467,6 +1467,7 @@ footer {
     height: 5vw;
     padding-top: 1.5vw;
     text-align: center;
+    margin-left: 2vw;
   }
 
   .desktoppopx img {
@@ -1487,7 +1488,7 @@ footer {
   .popdesktop {
     background-color: white;
     border: 1px #1a2236 solid;
-    width: 7vw;
+    width: 5vw;
     height: 2vw;
     font-size: 0.6vw;
   }
