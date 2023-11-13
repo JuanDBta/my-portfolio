@@ -7,7 +7,7 @@ const projectInfoMobile = document.querySelector('.description-intro');
 const mainproject = [
   {
     name: 'BookingBites',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    description: 'Built with Ruby on Rails on the backend and React & Redux on the frontend, our responsive web application offers a seamless dining reservation experience. Users can conveniently choose their preferred dining ambience, whether it is the cozy bar, the chic lounge, the scenic rooftop, the tranquil garden, or the vibrant live music area.',
     image: 'images/Projects1.png',
     tech: ['Ruby On Rails', 'React/Redux', 'PostgreSQL'],
     liveLink: 'https://bookingbites-ve9h.onrender.com/',
