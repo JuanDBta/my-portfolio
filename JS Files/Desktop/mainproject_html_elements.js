@@ -3,7 +3,7 @@ const parentElement = document.querySelector('.projects-container');
 const pro = [
   {
     name: 'BookingBites',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    description: 'Built with Ruby on Rails on the backend and React & Redux on the frontend, our responsive web application offers a seamless dining reservation experience. Users can conveniently choose their preferred dining ambience, whether it is the cozy bar, the chic lounge, the scenic rooftop, the tranquil garden, or the vibrant live music area.',
     image: 'images/Projects1.png',
     tech: ['Ruby On Rails', 'React/Redux', 'PostgreSQL'],
     liveLink: 'https://bookingbites-ve9h.onrender.com/',
@@ -17,6 +17,9 @@ pro.forEach((project) => {
 
   const backgroundProjects = document.createElement('div');
   backgroundProjects.classList.add('background-projects');
+  const imageLink = document.createElement('a');
+  imageLink.href = "https://github.com/JuanDBta/booking-bites";
+  imageLink.target = "_blank";
   const image = document.createElement('img');
   image.src = project.image;
   backgroundProjects.appendChild(image);
