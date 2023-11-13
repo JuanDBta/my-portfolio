@@ -2,15 +2,6 @@ const projectsContainer = document.querySelector('.projects-container');
 
 const projects = [
   {
-    name: 'BookingBites',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: 'images/Projects1.png',
-    tech: ['Ruby On Rails', 'React/Redux', 'PostgreSQL'],
-    liveLink: 'https://bookingbites-ve9h.onrender.com/',
-    sourceLink: 'https://github.com/JuanDBta/booking-bites',
-  },
-  
-  {
     name: 'My Finances',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: 'images/Projects2.png',
