@@ -845,6 +845,7 @@ footer {
     margin-block: 20px;
     margin-inline: 3vw;
     background-color: #1a2236;
+    padding-top: 1vw;
   }
 
   .menu-languages {
