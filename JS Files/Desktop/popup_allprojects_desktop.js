@@ -2,7 +2,7 @@ const projectButtonsDesktop = document.querySelectorAll('.project-button');
 const projectDisplayDesktop = document.querySelector('.popup-desktop');
 const closeCardButtonDesktop = document.querySelector('.desktoppopx');
 const projectContainerDesktop = document.querySelector('.projects-container');
-const projectInfoDesktop = document.querySelector('.desktop-description');
+
 
 const mainprojectdesktop = [
   {
@@ -18,6 +18,7 @@ const mainprojectdesktop = [
 let currentDesktopProject = 0;
 const projectImageD = projectDisplayDesktop.querySelector('.background-projects-description img');
 const projectTitleD = projectDisplayDesktop.querySelector('.projectdesktoptitlepopup');
+const projectInfoDesktop = projectDisplayDesktop.querySelector('.desktop-description');
 const projectLanguagesD = projectDisplayDesktop.querySelectorAll('.popdesktop');
 const projectLiveButtonD = projectDisplayDesktop.querySelector('.live');
 const projectSourceButtonD = projectDisplayDesktop.querySelector('.source');
@@ -32,7 +33,6 @@ function updateProjectInfo() {
   projectLiveButtonD.href = mainprojectdesktop[currentDesktopProject].liveLink;
   projectSourceButtonD.href = mainprojectdesktop[currentDesktopProject].sourceLink;
 }
-console.log('Update Project Info:', mainprojectdesktop[currentDesktopProject]);
 
 for (let i = 0; i < projectButtonsDesktop.length; i += 1) {
   projectButtonsDesktop[i].addEventListener('click', () => {
