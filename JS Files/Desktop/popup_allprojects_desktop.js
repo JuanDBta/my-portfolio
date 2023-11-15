@@ -2,7 +2,7 @@ const projectButtonsDesktop = document.querySelectorAll('.project-button');
 const projectDisplayDesktop = document.querySelector('.popup-desktop');
 const closeCardButtonDesktop = document.querySelector('.desktoppopx');
 const projectContainerDesktop = document.querySelector('.projects-container');
-const projectInfoDesktop = document.querySelector('.description-intro');
+const projectInfoDesktop = document.querySelector('.myname-intro.description-intro');
 
 const mainprojectdesktop = [
   {
@@ -55,11 +55,11 @@ closeCardButtonDesktop.addEventListener('click', () => {
 });
 
 projectLiveButtonD.addEventListener('click', function() {
-  window.location.href = mainprojectdesktop[currentDesktopProject].liveLink;
+  window.open(mainprojectdesktop[currentDesktopProject].liveLink, '_blank');
 });
 
 projectSourceButtonD.addEventListener('click', function() {
-  window.location.href = mainprojectdesktop[currentDesktopProject].sourceLink;
+  window.open(mainprojectdesktop[currentDesktopProject].sourceLink, '_blank');
 });
 
 const previousButtonD = projectDisplayDesktop.querySelector('#previous-button');
