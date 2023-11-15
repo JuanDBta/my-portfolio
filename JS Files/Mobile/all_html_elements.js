@@ -2,6 +2,15 @@ const projectsContainer = document.querySelector('.projects-container');
 
 const projects = [
   {
+    name: 'BookingBites',
+    description: 'Built with Ruby on Rails on the backend and React & Redux on the frontend, our responsive web application offers a seamless dining reservation experience. Users can conveniently choose their preferred dining ambience, whether it is the cozy bar, the chic lounge, the scenic rooftop, the tranquil garden, or the vibrant live music area.',
+    image: 'images/Projects1.png',
+    tech: ['Ruby On Rails', 'React/Redux', 'PostgreSQL'],
+    liveLink: 'https://bookingbites-ve9h.onrender.com/',
+    sourceLink: 'https://github.com/JuanDBta/booking-bites',
+  },
+  
+  {
     name: 'My Finances',
     description: 'This app is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
     image: 'images/Projects2.png',

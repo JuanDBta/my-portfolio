@@ -54,6 +54,14 @@ closeCardButtonDesktop.addEventListener('click', () => {
   }
 });
 
+projectLiveButtonD.addEventListener('click', function() {
+  window.location.href = mainprojectdesktop[currentDesktopProject].liveLink;
+});
+
+projectSourceButtonD.addEventListener('click', function() {
+  window.location.href = mainprojectdesktop[currentDesktopProject].sourceLink;
+});
+
 const previousButtonD = projectDisplayDesktop.querySelector('#previous-button');
 const nextButtonD = projectDisplayDesktop.querySelector('#next-button');
 
