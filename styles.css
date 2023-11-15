@@ -1225,6 +1225,21 @@ footer {
     align-content: left;
   }
 
+  .desktop-description {
+    width: 22.5vw;
+    padding-left: 1.5vw;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    letter-spacing: -0.01em;
+    color: #1a2236;
+    margin-inline: 1vw;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
   .about {
     font-family: 'Playfair Display', sans-serif;
     font-style: normal;
