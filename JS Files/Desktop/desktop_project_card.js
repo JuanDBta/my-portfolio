@@ -1,9 +1,18 @@
 const projectButton = document.querySelector('.project-button');
+const Dots = document.querySelector('.projectbuttondots');
 const projectDisplay = document.querySelector('.popup-desktop');
 const closeCardButton = document.querySelector('.desktoppopx');
 const projectContainer = document.querySelector('.projects-container');
 
 projectButton.addEventListener('click', () => {
+  projectDisplay.classList.add('active');
+  if (window.innerWidth >= 768) {
+    projectDisplay.style.display = 'block';
+    projectContainer.style.display = 'none';
+  }
+});
+
+Dots.addEventListener('click', () => {
   projectDisplay.classList.add('active');
   if (window.innerWidth >= 768) {
     projectDisplay.style.display = 'block';
