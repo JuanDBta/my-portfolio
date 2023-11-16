@@ -797,6 +797,10 @@ footer {
     display: none;
   }
 
+  .blogapp {
+    margin-top: 63vw;
+  }
+
   .projects {
     grid-area: 1/2/1/2;
     writing-mode: vertical-rl;
@@ -914,7 +918,6 @@ footer {
     display: block;
     grid-area: 2/1/2/3;
     margin-top: 6vw;
-    margin-left: 0.4vw;
   }
 
   .backgroundprojects2 img {
@@ -1020,9 +1023,8 @@ footer {
     width: 55.5vw;
     height: 32.3vw;
     background-image: url('images/Projects3.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 0.7vw;
   }
 
   .backgroundprojects3 img {
@@ -1059,7 +1061,6 @@ footer {
     display: block;
     grid-row: 4;
     grid-column: 1;
-    margin-left: 0.7vw;
   }
 
   .bluesquare img {
@@ -1110,7 +1111,7 @@ footer {
   .backgroundprojects5 img {
     display: block;
     width: 31.5vw;
-    height: 21.75vw;
+    height: auto;
   }
 
   .menu-projects {
@@ -1123,10 +1124,11 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    margin-left: 0;
+    margin-left: -2.1vw;
     margin-right: 4vw;
     padding-top: 5vw;
     padding-bottom: 5vw;
+    gap: 18vw;
   }
 
   #templates-container {
@@ -1292,7 +1294,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding-top: 0;
-    margin-left: 0;
+    margin-left: -3vw;
   }
 
   .headlinestarted {
