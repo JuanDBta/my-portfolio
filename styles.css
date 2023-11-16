@@ -26,7 +26,7 @@ header {
   display: none;
   width: 70vw;
   height: 90vw;
-  margin-left: 15vw;
+  margin-left: 18vw;
   margin-bottom: 5vw;
   background-color: white;
   background-image: url('Images SVG/menumobile_imagegeometry1.svg'), url('Images SVG/menumobile_imagegeometry2.svg');
@@ -654,7 +654,7 @@ footer {
     display: flex;
     background-color: white;
     background-image: none;
-    margin-left: 0;
+    margin-left: 5vw;
     height: 5vw;
   }
 
@@ -697,6 +697,7 @@ footer {
     padding-right: 5vw;
     margin-top: 0;
     margin-left: 0;
+    gap: 2vw;
   }
 
   .main {
@@ -764,7 +765,7 @@ footer {
 
   .dot-grid {
     display: block;
-    margin-left: 28vw;
+    margin-left: 30vw;
     margin-top: 5.5vw;
   }
 
@@ -1072,7 +1073,7 @@ footer {
     display: block;
     grid-row: 4;
     grid-column: 1;
-    margin-left: 7.5vw;
+    margin-left: 6.9vw;
     margin-top: 0.9vw;
   }
 
@@ -1289,7 +1290,7 @@ footer {
     background-position: left top, right bottom;
     background-repeat: no-repeat;
     background-size: 24.3vw 24.3vw;
-    width: 100vw;
+    width: 101.5vw;
     height: 62vw;
     display: flex;
     flex-direction: column;
