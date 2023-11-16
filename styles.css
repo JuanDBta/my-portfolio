@@ -654,7 +654,7 @@ footer {
     display: flex;
     background-color: white;
     background-image: none;
-    margin-left: 5vw;
+    margin-left: 7vw;
     height: 5vw;
   }
 
@@ -697,7 +697,7 @@ footer {
     padding-right: 5vw;
     margin-top: 0;
     margin-left: 0;
-    gap: 2vw;
+    gap: 4vw;
   }
 
   .main {
@@ -765,7 +765,7 @@ footer {
 
   .dot-grid {
     display: block;
-    margin-left: 30vw;
+    margin-left: 32vw;
     margin-top: 5.5vw;
   }
 
@@ -786,7 +786,7 @@ footer {
     width: 100vw;
     height: 115vw;
     display: grid;
-    grid-template-rows: 38.25vw 24.55vw 32.3vw 7vw 32.3vw;
+    grid-template-rows: 38.25vw 24.55vw 31.1vw 7vw 32.3vw;
     grid-template-columns: 11vw 11vw 11vw 11vw 11vw 11vw 34vw;
     row-gap: 0;
     column-gap: 0;
@@ -1021,8 +1021,8 @@ footer {
     display: block;
     grid-row: 3;
     grid-column: 1;
-    width: 55.5vw;
-    height: 32.3vw;
+    width: 56.2vw;
+    height: 31vw;
     background-image: url('images/Projects3.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -1041,8 +1041,8 @@ footer {
   }
 
   .rhombus img {
-    width: 12.2vw;
-    height: 12.2vw;
+    width: 11.2vw;
+    height: 11.2vw;
   }
 
   .twosquares {
@@ -1336,8 +1336,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 0;
-    margin-left: 7vw;
+    gap: 2vw;
+    margin-left: 8vw;
   }
 
   .form-row {
@@ -1355,11 +1355,11 @@ footer {
     line-height: 0.7;
     color: #7d7c84;
     font-family: "Poppins", serif;
-    margin-left: 1vw;
+    margin-left: 1.2vw;
   }
 
   .form-row input {
-    width: 15vw;
+    width: 14vw;
     border-radius: 0.3vw;
     border: 1px solid #dfdfe0;
     color: #1a2236;
@@ -1370,10 +1370,11 @@ footer {
     font-size: 0.8vw;
     font-family: "Poppins", serif;
     margin-bottom: 1vw;
+    margin-left: 1vw;
   }
 
   #label-textarea {
-    margin-left: 33vw;
+    margin-left: 33.2vw;
   }
 
   .form-row textarea {
@@ -1390,7 +1391,7 @@ footer {
   }
 
   #contact-button {
-    margin-left: 40vw;
+    margin-left: 41vw;
     height: 8vw;
   }
 
