@@ -273,9 +273,9 @@ header {
   display: none;
   position: fixed;
   width: 95.3vw;
-  height: 220vw;
+  height: 122vw;
   margin-top: 0;
-  background-color: white;
+  background-color: #fff;
   margin-left: 2vw;
 }
 
@@ -313,6 +313,13 @@ header {
 
 .description-intro {
   width: 81.3vw;
+  font-size: 2.5vw;
+  line-height: 2.6vw;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  margin-inline: 5vw;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 .live,
