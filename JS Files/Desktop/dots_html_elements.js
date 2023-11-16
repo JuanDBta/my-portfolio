@@ -3,7 +3,7 @@ const projectsContainerr = document.querySelector('.projects-container');
 const projectdots = [
   {
     name: 'MET Art App',
-    description: 'This App connects the user with the Metropolitan Art Museum of New York API and display NINETEENTH CENTURY TOP ARTISTS. When you click an artists image you can access to all their paintings available in MET with main details like title, year of creation and medium.',
+    description: 'This App connects the user with the Metropolitan Art Museum of New York API and display NINETEENTH CENTURY TOP ARTISTS. When you click an artist\'s image you can access all their paintings available in MET with main details like title, year of creation, and medium.',
     image: 'images/Projects4.jpg',
     tech: ['React', 'Redux', 'Jest'],
     liveLink: 'https://met-app.onrender.com/',
@@ -19,6 +19,7 @@ for (let i = 0; i < projectdots.length; i += 1) {
 
   const infoDots = document.createElement('div');
   infoDots.setAttribute('id', 'dots');
+
   const title = document.createElement('h3');
   title.classList.add('projectstitledots');
   title.textContent = project.name;
@@ -39,11 +40,14 @@ for (let i = 0; i < projectdots.length; i += 1) {
   button.classList.add('projectbuttondots');
   button.setAttribute('type', 'button');
   button.textContent = 'See this project';
+
   const arrowImage = document.createElement('img');
   arrowImage.src = 'Images SVG/ic_arrow_right.svg';
   button.appendChild(arrowImage);
+
   infoDots.appendChild(button);
 
   projectDots.appendChild(infoDots);
   projectsContainerr.appendChild(projectDots);
 }
+
