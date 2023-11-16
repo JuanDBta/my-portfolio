@@ -932,12 +932,16 @@ footer {
     grid-column: 7;
     width: 31.5vw;
     height: 18.75vw;
-    margin-left: 2.3vw;
-    margin-top: 3vw;
+    margin-left: 2.4vw;
+    margin-top: 0.7vw;
+    background-image: url('images/met-art-desktop.jpg');
+    background-size: cover;
   }
 
   .menuprojectsmaindots img {
-    display: none;
+    display: block;
+    width: 31.7vw;
+    margin-top: -0.5vw;
   }
 
   #dots {
@@ -946,7 +950,7 @@ footer {
     width: 31.5vw;
     height: 17.75;
     background-color: #1a2236;
-    margin-top: 4vw;
+    margin-top: 6.3vw;
     padding-bottom: 2vw;
   }
 
@@ -1012,9 +1016,10 @@ footer {
 
   .projectbuttondots img {
     display: block;
-    margin-inline: 2vw;
+    margin-left: 2vw;
     width: 2vw;
-    height: 1.5vw;
+    height: 2vw;
+    padding-top: 0.5vw;
   }
 
   .backgroundprojects3 {
@@ -1105,7 +1110,7 @@ footer {
     display: block;
     grid-row: 2;
     grid-column: 7;
-    margin-top: -7.5vw;
+    margin-top: 0.5vw;
     margin-left: 2.2vw;
   }
 

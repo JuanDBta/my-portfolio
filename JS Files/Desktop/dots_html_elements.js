@@ -17,13 +17,6 @@ for (let i = 0; i < projectdots.length; i += 1) {
   const projectDots = document.createElement('div');
   projectDots.classList.add('menuprojectsmaindots');
 
-  const imageDots = document.createElement('div');
-  imageDots.classList.add('backgroundprojectsdots');
-  const image = document.createElement('img');
-  image.setAttribute('src', project.image);
-  imageDots.appendChild(image);
-  projectDots.appendChild(imageDots);
-
   const infoDots = document.createElement('div');
   infoDots.setAttribute('id', 'dots');
   const title = document.createElement('h3');
@@ -43,7 +36,7 @@ for (let i = 0; i < projectdots.length; i += 1) {
   infoDots.appendChild(techList);
 
   const button = document.createElement('button');
-  button.classList.add('project-button');
+  button.classList.add('projectbuttondots');
   button.setAttribute('type', 'button');
   button.textContent = 'See this project';
   const arrowImage = document.createElement('img');
