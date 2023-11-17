@@ -646,7 +646,10 @@ footer {
 }
 
 .previous-next-arrows {
-  display: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -4vw;
+  gap: 26vw;
 }
 
 #main-background1 img {
@@ -1560,6 +1563,7 @@ footer {
     margin-block: 1vw;
     margin-inline: 0;
     border: 0.1px #1a2236 solid;
+    padding-bottom: 0;
   }
 
   .live img {
@@ -1579,6 +1583,7 @@ footer {
     margin-inline: 0;
     font-size: 0.7vw;
     border: 0.1px #1a2236 solid;
+    padding-bottom: 0;
   }
 
   .source img {
@@ -1588,9 +1593,10 @@ footer {
   }
 
   .previous-next-arrows {
-    display: block;
-    margin-top: 0.5vw;
+    margin-top: 2.5vw;
+    margin-left: 1vw;
     height: 1vw;
+    gap: 0;
   }
 
   #next-button {
