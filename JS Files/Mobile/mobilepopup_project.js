@@ -66,7 +66,8 @@ const projectLiveButton = popupDisplayMobile.querySelector('.live');
 const projectSourceButton = popupDisplayMobile.querySelector('.source');
 const projectInfoMobileVersion = popupDisplayMobile.querySelector('.description-intro');
 
-function updateProjectInfo() {
+
+function updateProjectMobileInfo() {
   projectTitle.textContent = mainproject[currentProject].name;
   projectInfoMobileVersion.textContent = mainproject[currentProject].description;
   projectImage.src = mainproject[currentProject].image;
@@ -80,7 +81,7 @@ function updateProjectInfo() {
 for (let i = 0; i < buttonMobileVersion.length; i += 1) {
   buttonMobileVersion[i].addEventListener('click', () => {
     popupDisplayMobile.classList.add('active');
-    updateProjectInfo();
+    updateProjectMobileInfo();
     if (window.innerWidth <= 768) {
       popupDisplayMobile.style.display = 'block';
       projectContainerMobileVersion.style.display = 'none';
@@ -114,7 +115,7 @@ previousButton.addEventListener('click', () => {
   if (currentProject < 0) {
     currentProject = mainproject.length - 1;
   }
-  updateProjectInfo();
+  updateProjectMobileInfo();
 });
 
 nextButton.addEventListener('click', () => {
@@ -122,5 +123,5 @@ nextButton.addEventListener('click', () => {
   if (currentProject >= mainproject.length) {
     currentProject = 0;
   }
-  updateProjectInfo();
+  updateProjectMobileInfo();
 });
