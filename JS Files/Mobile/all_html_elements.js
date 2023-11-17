@@ -87,7 +87,7 @@ for (let i = 0; i < projects.length; i += 1) {
   menuProjects.appendChild(techList);
 
   const projectButton = document.createElement('button');
-  projectButton.classList.add('project-button');
+  projectButton.classList.add('project-button-mobile');
   projectButton.setAttribute('type', 'button');
   projectButton.innerText = 'See this project';
 

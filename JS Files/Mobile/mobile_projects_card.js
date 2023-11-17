@@ -1,4 +1,4 @@
-const projectButtonMobile = document.querySelector('.project-button');
+const projectButtonMobile = document.querySelector('.project-button-mobile');
 const projectDisplayMobile = document.querySelector('.popup-mobile');
 const closeCardButtonMobile = document.querySelector('.desktoppopxmobile');
 const projectContainerMobile = document.querySelector('.projects-container');

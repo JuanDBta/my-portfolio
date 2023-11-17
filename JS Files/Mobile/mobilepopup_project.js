@@ -1,8 +1,7 @@
-const projectButtonsMobile = document.querySelectorAll('.project-button');
-const projectDisplayMobile = document.querySelector('.popup-mobile');
-const closeCardButtonMobile = document.querySelector('.desktoppopxmobile');
-const projectContainerMobile = document.querySelector('.projects-container');
-const projectInfoMobile = document.querySelector('.description-intro');
+const buttonMobileVersion = document.querySelectorAll('.project-button-mobile');
+const popupDisplayMobile = document.querySelector('.popup-mobile');
+const closeCardButtonMobileVersion = document.querySelector('.desktoppopxmobile');
+const projectContainerMobileVersion = document.querySelector('.projects-container');
 
 const mainproject = [
   {
@@ -60,15 +59,16 @@ const mainproject = [
 ];
 
 let currentProject = 0;
-const projectImage = projectDisplayMobile.querySelector('.background-projects-description img');
-const projectTitle = projectDisplayMobile.querySelector('.projectdesktoptitlepopup');
-const projectLanguages = projectDisplayMobile.querySelectorAll('.popdesktop');
-const projectLiveButton = projectDisplayMobile.querySelector('.live');
-const projectSourceButton = projectDisplayMobile.querySelector('.source');
+const projectImage = popupDisplayMobile.querySelector('.background-projects-description img');
+const projectTitle = popupDisplayMobile.querySelector('.projectdesktoptitlepopup');
+const projectLanguages = popupDisplayMobile.querySelectorAll('.popdesktop');
+const projectLiveButton = popupDisplayMobile.querySelector('.live');
+const projectSourceButton = popupDisplayMobile.querySelector('.source');
+const projectInfoMobileVersion = popupDisplayMobile.querySelector('.description-intro');
 
 function updateProjectInfo() {
   projectTitle.textContent = mainproject[currentProject].name;
-  projectInfoMobile.textContent = mainproject[currentProject].description;
+  projectInfoMobileVersion.textContent = mainproject[currentProject].description;
   projectImage.src = mainproject[currentProject].image;
   for (let i = 0; i < projectLanguages.length; i += 1) {
     projectLanguages[i].textContent = mainproject[currentProject].tech[i];
@@ -77,37 +77,37 @@ function updateProjectInfo() {
   projectSourceButton.href = mainproject[currentProject].sourceLink;
 }
 
-for (let i = 0; i < projectButtonsMobile.length; i += 1) {
-  projectButtonsMobile[i].addEventListener('click', () => {
-    projectDisplayMobile.classList.add('active');
+for (let i = 0; i < buttonMobileVersion.length; i += 1) {
+  buttonMobileVersion[i].addEventListener('click', () => {
+    popupDisplayMobile.classList.add('active');
     updateProjectInfo();
     if (window.innerWidth <= 768) {
-      projectDisplayMobile.style.display = 'block';
-      projectContainerMobile.style.display = 'none';
+      popupDisplayMobile.style.display = 'block';
+      projectContainerMobileVersion.style.display = 'none';
     }
   });
 }
 
-closeCardButtonMobile.addEventListener('click', () => {
-  projectDisplayMobile.classList.remove('active');
+closeCardButtonMobileVersion.addEventListener('click', () => {
+  popupDisplayMobile.classList.remove('active');
   if (window.innerWidth <= 768) {
-    projectDisplayMobile.style.display = 'none';
-    projectContainerMobile.style.display = 'flex';
+    popupDisplayMobile.style.display = 'none';
+    projectContainerMobileVersion.style.display = 'flex';
   } else {
-    projectContainerMobile.style.display = 'grid';
+    projectContainerMobileVersion.style.display = 'grid';
   }
 });
 
 window.addEventListener('resize', () => {
   if (window.innerWidth >= 768) {
-    projectContainerMobile.style.display = 'grid';
+    projectContainerMobileVersion.style.display = 'grid';
   } else {
-    projectContainerMobile.style.display = 'flex';
+    projectContainerMobileVersion.style.display = 'flex';
   }
 });
 
-const previousButton = projectDisplayMobile.querySelector('#previous-button');
-const nextButton = projectDisplayMobile.querySelector('#next-button');
+const previousButton = popupDisplayMobile.querySelector('#previous-button');
+const nextButton = popupDisplayMobile.querySelector('#next-button');
 
 previousButton.addEventListener('click', () => {
   currentProject += 1;

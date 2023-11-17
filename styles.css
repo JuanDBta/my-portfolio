@@ -159,11 +159,18 @@ header {
   display: none;
 }
 
+.menu-projects-main {
+  display: none;
+  width: 100vw;
+  height: auto;
+  flex-direction: column;
+  background-color: #1a2236;
+}
+
 .projects-container {
   width: 90vw;
   height: 620vw;
   margin-left: 0;
-  display: flex;
   flex-direction: column;
 }
 
@@ -176,14 +183,6 @@ header {
   color: #1a2236;
   margin-inline: 5vw;
   padding-bottom: 5vw;
-}
-
-.menu-projects-main {
-  width: 100vw;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  background-color: #1a2236;
 }
 
 .menuprojectsmaindots {
@@ -243,7 +242,7 @@ header {
   line-height: 2.51vw;
 }
 
-.project-button {
+.project-button-mobile {
   margin-inline: 20px;
   width: 56vw;
   height: 13.8vw;
@@ -263,7 +262,7 @@ header {
   padding-left: 5vw;
 }
 
-.project-button img {
+.project-button-mobile img {
   margin-inline: 2vw;
   width: 8vw;
   height: 6vw;
@@ -828,7 +827,7 @@ footer {
   }
 
   .menu-projects-main {
-    display: block;
+    display: flex;
     grid-area: 1/4/1/6;
     width: 65vw;
     height: 38.75vw;
@@ -902,6 +901,7 @@ footer {
     cursor: pointer;
     display: flex;
     align-items: center;
+    padding-left: 2vw;
   }
 
   .project-button img {

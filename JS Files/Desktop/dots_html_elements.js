@@ -47,7 +47,6 @@ for (let i = 0; i < projectdots.length; i += 1) {
   arrowImage.src = 'Images SVG/ic_arrow_right.svg';
   button.appendChild(arrowImage);
 
-  // Agrega el evento click al botón
   button.addEventListener('click', () => {
     projectDisplay.classList.add('active');
     if (window.innerWidth >= 768) {
