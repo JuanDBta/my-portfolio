@@ -951,7 +951,7 @@ footer {
     width: 31.5vw;
     height: 9.6vw;
     margin-left: 2.4vw;
-    margin-top: 0.7vw;
+    margin-top: 0.5vw;
     background-image: url('images/met-art-desktop.jpg');
     background-size: cover;
   }
@@ -1366,7 +1366,7 @@ footer {
   .form-row {
     display: flex;
     flex-direction: column;
-    width: 18.82vw;
+    width: 18.5vw;
     gap: 0.4vw;
     align-items: left;
   }
