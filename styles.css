@@ -1035,8 +1035,8 @@ footer {
     grid-column: 1;
     width: 56.2vw;
     height: 31vw;
-    background-image: url('images/Projects3.png');
-    background-size: contain;
+    background-image: url('images/Projects1.png');
+    background-size: cover;
     background-repeat: no-repeat;
   }
 

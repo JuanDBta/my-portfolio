@@ -78,3 +78,7 @@ nextButton.addEventListener('click', () => {
   }
   updateProjectInfo();
 });
+
+<script src="JS Files/Mobile/all_html_elements.js"></script>
+<script src="JS Files/Mobile/mobile_menu.js"></script>
+<script src="JS Files/Mobile/mobilepopup_project.js"></script>
