@@ -272,7 +272,7 @@ header {
   display: none;
   position: fixed;
   width: 95.3vw;
-  height: 120vw;
+  height: 125vw;
   margin-top: 0;
   background-color: #fff;
   margin-left: 2vw;
@@ -340,11 +340,11 @@ header {
 }
 
 .live img {
-  margin-left: 12vw;
+  margin-left: 14vw;
 }
 
 .source img {
-  margin-left: 7.5vw;
+  margin-left: 5vw;
 }
 
 #download-image {
