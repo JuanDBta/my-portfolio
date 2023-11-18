@@ -82,7 +82,6 @@ function updateProjectInfo() {
 
 for (let i = 0; i < projectButtonsDesktop.length; i += 1) {
   projectButtonsDesktop[i].addEventListener('click', () => {
-    // Establecer currentDesktopProject en 1 cuando se hace clic en project-button
     currentDesktopProject = 1;
     projectDisplayDesktop.classList.add('active');
     updateProjectInfo();
@@ -95,7 +94,6 @@ for (let i = 0; i < projectButtonsDesktop.length; i += 1) {
 
 for (let i = 0; i < projectButtonsDots.length; i += 1) {
   projectButtonsDots[i].addEventListener('click', () => {
-    // Establecer currentDesktopProject en 3 cuando se hace clic en projectbuttondots
     currentDesktopProject = 3;
     projectDisplayDesktop.classList.add('active');
     updateProjectInfo();
