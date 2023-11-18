@@ -62,8 +62,8 @@ let currentProject = 0;
 const projectImage = popupDisplayMobile.querySelector('.background-projects-description img');
 const projectTitle = popupDisplayMobile.querySelector('.projectdesktoptitlepopup');
 const projectLanguages = popupDisplayMobile.querySelectorAll('.popdesktop');
-const projectLiveButton = popupDisplayMobile.querySelector('.live');
-const projectSourceButton = popupDisplayMobile.querySelector('.source');
+const projectLiveMobile = popupDisplayMobile.querySelector('.live-mobile');
+const projectSourceMobile = popupDisplayMobile.querySelector('.source-mobile');
 const projectInfoMobileVersion = popupDisplayMobile.querySelector('.description-intro');
 
 
@@ -74,8 +74,8 @@ function updateProjectMobileInfo() {
   for (let i = 0; i < projectLanguages.length; i += 1) {
     projectLanguages[i].textContent = mainproject[currentProject].tech[i];
   }
-  projectLiveButton.href = mainproject[currentProject].liveLink;
-  projectSourceButton.href = mainproject[currentProject].sourceLink;
+  projectLiveMobile.href = mainproject[currentProject].liveLink;
+  projectSourceMobile.href = mainproject[currentProject].sourceLink;
 }
 
 for (let i = 0; i < buttonMobileVersion.length; i += 1) {
@@ -124,4 +124,12 @@ nextButton.addEventListener('click', () => {
     currentProject = 0;
   }
   updateProjectMobileInfo();
+});
+
+projectLiveMobile.addEventListener('click', () => {
+  window.open(mainproject[currentProject].liveLink, '_blank');
+});
+
+projectSourceMobile.addEventListener('click', () => {
+  window.open(mainproject[currentProject].sourceLink, '_blank');
 });

@@ -322,8 +322,8 @@ header {
   margin-bottom: 1vw;
 }
 
-.live,
-.source {
+.live-mobile,
+.source-mobile {
   width: 81.3vw;
   height: 10vw;
   background-color: white;
@@ -339,11 +339,11 @@ header {
   cursor: pointer;
 }
 
-.live img {
+.live-mobile img {
   margin-left: 14vw;
 }
 
-.source img {
+.source-mobile img {
   margin-left: 5vw;
 }
 
