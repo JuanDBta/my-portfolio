@@ -347,6 +347,32 @@ header {
   margin-left: 5vw;
 }
 
+.live,
+.source {
+  width: 81.3vw;
+  height: 10vw;
+  background-color: white;
+  color: #1a2236;
+  font-weight: 600;
+  border: 1px #1a2236 solid;
+  padding-left: 27vw;
+  padding-bottom: 0.5vw;
+  margin-left: 5vw;
+  margin-bottom: 1vw;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.live img {
+  margin-left: 14vw;
+}
+
+.source img {
+  margin-left: 5vw;
+}
+
+
 #download-image {
   margin-inline: 3vw;
 }
