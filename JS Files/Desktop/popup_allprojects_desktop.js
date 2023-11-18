@@ -4,7 +4,6 @@ const projectDisplayDesktop = document.querySelector('.popup-desktop');
 const closeCardButtonDesktop = document.querySelector('.desktoppopx');
 const projectContainerDesktop = document.querySelector('.projects-container');
 
-
 const mainprojectdesktop = [
   {
     name: 'BookingBites',
@@ -14,7 +13,7 @@ const mainprojectdesktop = [
     liveLink: 'https://bookingbites-ve9h.onrender.com/',
     sourceLink: 'https://github.com/JuanDBta/booking-bites',
   },
-  
+
   {
     name: 'My Finances',
     description: 'This app is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
@@ -114,11 +113,11 @@ closeCardButtonDesktop.addEventListener('click', () => {
   }
 });
 
-projectLiveButtonD.addEventListener('click', function() {
+projectLiveButtonD.addEventListener('click', () => {
   window.open(mainprojectdesktop[currentDesktopProject].liveLink, '_blank');
 });
 
-projectSourceButtonD.addEventListener('click', function() {
+projectSourceButtonD.addEventListener('click', () => {
   window.open(mainprojectdesktop[currentDesktopProject].sourceLink, '_blank');
 });
 

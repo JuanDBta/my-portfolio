@@ -18,8 +18,8 @@ pro.forEach((project) => {
   const backgroundProjects = document.createElement('div');
   backgroundProjects.classList.add('background-projects');
   const imageLink = document.createElement('a');
-  imageLink.href = "https://github.com/JuanDBta/booking-bites";
-  imageLink.target = "_blank";
+  imageLink.href = 'https://github.com/JuanDBta/booking-bites';
+  imageLink.target = '_blank';
   const image = document.createElement('img');
   image.src = project.image;
   backgroundProjects.appendChild(image);

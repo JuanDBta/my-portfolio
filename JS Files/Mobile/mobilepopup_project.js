@@ -66,7 +66,6 @@ const projectLiveMobile = popupDisplayMobile.querySelector('.live-mobile');
 const projectSourceMobile = popupDisplayMobile.querySelector('.source-mobile');
 const projectInfoMobileVersion = popupDisplayMobile.querySelector('.description-intro');
 
-
 function updateProjectMobileInfo() {
   projectTitle.textContent = mainproject[currentProject].name;
   projectInfoMobileVersion.textContent = mainproject[currentProject].description;

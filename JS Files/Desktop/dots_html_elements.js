@@ -10,7 +10,7 @@ const projectdots = [
     tech: ['React', 'Redux', 'Jest'],
     liveLink: 'https://met-app.onrender.com/',
     sourceLink: 'https://github.com/JuanDBta/met-art-app',
-  }
+  },
 ];
 
 for (let i = 0; i < projectdots.length; i += 1) {

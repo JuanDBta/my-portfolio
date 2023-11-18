@@ -9,7 +9,7 @@ const projects = [
     liveLink: 'https://bookingbites-ve9h.onrender.com/',
     sourceLink: 'https://github.com/JuanDBta/booking-bites',
   },
-  
+
   {
     name: 'My Finances',
     description: 'This app is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
@@ -96,7 +96,6 @@ for (let i = 0; i < projects.length; i += 1) {
   projectButton.appendChild(arrowImg);
 
   projectButton.addEventListener('click', () => {
-
     currentProject = i;
     updateProjectMobileInfo();
     popupDisplayMobile.classList.add('active');
