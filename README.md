@@ -5,7 +5,7 @@
   <img src="images/LOGO.jpg" alt="logo" width="160"  height="auto" />
   <br/>
 
-  <h3><b>Mobile and Desktop Portfolio Project</b></h3>
+  <h3><b>My Portfolio</b></h3>
 
 </div>
 
@@ -41,7 +41,7 @@
 3- Linters<br>
 4- Figma Template<br>
 5- Flexbox<br>
-6  Grid Layout<br>
+6-  Grid Layout<br>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -72,7 +72,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<a href="https://juandbta.github.io/Portfolio-project/">Portfolio</a>
+<a href="https://juandbta.github.io/Portfolio-project/">My Portfolio</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +101,7 @@ Clone this repository to your desired folder:
 
 To run the project, execute the following command:
 
-Open mobile.html using live server extension.
+Open index.html using live server extension.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,8 +111,7 @@ Open mobile.html using live server extension.
 
 - GitHub: [@JuanDBta](https://github.com/JuanDBta)
 - Twitter: [@diazgjuan](https://twitter.com/diazgjuan)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-david-d%C3%ADaz-74bb14277/)
-- Loom: [Loom](https://www.loom.com/share/ebf387404c2f4ad6bbdbd91b318444d2)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/simplebet)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
