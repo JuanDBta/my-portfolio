@@ -95,6 +95,17 @@ for (let i = 0; i < projects.length; i += 1) {
   arrowImg.setAttribute('src', 'Images SVG/ic_arrow_right.svg');
   projectButton.appendChild(arrowImg);
 
+  projectButton.addEventListener('click', () => {
+
+    currentProject = i;
+    updateProjectMobileInfo();
+    popupDisplayMobile.classList.add('active');
+    if (window.innerWidth <= 768) {
+      popupDisplayMobile.style.display = 'block';
+      projectContainerMobileVersion.style.display = 'none';
+    }
+  });
+
   menuProjects.appendChild(projectButton);
 
   projectsContainer.appendChild(menuProjects);
