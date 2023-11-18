@@ -1,4 +1,5 @@
 const projectButtonsDesktop = document.querySelectorAll('.project-button');
+const projectButtonsDots = document.querySelectorAll('.projectbuttondots');
 const projectDisplayDesktop = document.querySelector('.popup-desktop');
 const closeCardButtonDesktop = document.querySelector('.desktoppopx');
 const projectContainerDesktop = document.querySelector('.projects-container');
@@ -81,6 +82,21 @@ function updateProjectInfo() {
 
 for (let i = 0; i < projectButtonsDesktop.length; i += 1) {
   projectButtonsDesktop[i].addEventListener('click', () => {
+    // Establecer currentDesktopProject en 1 cuando se hace clic en project-button
+    currentDesktopProject = 1;
+    projectDisplayDesktop.classList.add('active');
+    updateProjectInfo();
+    if (window.innerWidth >= 768) {
+      projectDisplayDesktop.style.display = 'block';
+      projectContainerDesktop.style.display = 'none';
+    }
+  });
+}
+
+for (let i = 0; i < projectButtonsDots.length; i += 1) {
+  projectButtonsDots[i].addEventListener('click', () => {
+    // Establecer currentDesktopProject en 3 cuando se hace clic en projectbuttondots
+    currentDesktopProject = 3;
     projectDisplayDesktop.classList.add('active');
     updateProjectInfo();
     if (window.innerWidth >= 768) {
