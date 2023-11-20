@@ -95,7 +95,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone "https://github.com/JuanDBta/Mobile-portfolio.git"
+  git clone "https://github.com/JuanDBta/my-portfolio.git"
 ```
 ### Usage
 
