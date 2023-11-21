@@ -72,7 +72,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<a href="https://juandbta.github.io/Portfolio-project/">My Portfolio</a>
+<a href="(http://juan-diaz.me/my-portfolio/)">My Portfolio</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
