@@ -698,6 +698,7 @@ footer {
     background-image: none;
     margin-left: 7vw;
     height: 5vw;
+    margin-bottom: 0;
   }
 
   #closex {
@@ -714,7 +715,7 @@ footer {
     align-content: space-between;
     align-items: center;
     gap: 2.5vw;
-    padding-left: 37vw;
+    padding-left: 36vw;
     list-style: none;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -737,7 +738,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     padding-right: 5vw;
-    margin-top: 0;
+    margin-top: -2vw;
     margin-left: 0;
     gap: 4vw;
   }
@@ -747,8 +748,12 @@ footer {
     flex-wrap: wrap;
     width: 41vw;
     height: 30vw;
-    margin-top: 12.7vw;
+    margin-top: 10.7vw;
     margin-left: 5vw;
+  }
+
+  .image-projects {
+    margin-top: 0;
   }
 
   .title,
@@ -808,7 +813,7 @@ footer {
   .dot-grid {
     display: block;
     margin-left: 32vw;
-    margin-top: 5.5vw;
+    margin-top: 7.5vw;
   }
 
   .dot-grid img {
