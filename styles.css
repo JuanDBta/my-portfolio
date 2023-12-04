@@ -20,12 +20,13 @@ header {
   background-position: left top;
   background-repeat: no-repeat;
   background-size: contain;
+  position: fixed;
 }
 
 .nav-bar {
   display: none;
   width: 100%;
-  height: 180vw;
+  height: 170vw;
   background-color: white;
   background-image: url('Images SVG/menumobile_imagegeometry1.svg'), url('Images SVG/menumobile_imagegeometry2.svg');
   background-position: left top, center bottom;
