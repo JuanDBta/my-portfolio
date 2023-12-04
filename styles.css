@@ -675,7 +675,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   margin-left: -4vw;
-  gap: 26vw;
+  gap: 10vw;
 }
 
 #main-background1 img {
