@@ -692,6 +692,11 @@ footer {
   display: none;
 }
 
+.cv-image {
+  margin-left: 2vw;
+  margin-top: 0.5vw;
+}
+
 @media screen and (min-width: 768px) {
   .nav-bar {
     display: flex;
