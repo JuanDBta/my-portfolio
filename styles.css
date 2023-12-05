@@ -1531,6 +1531,7 @@ footer {
     margin-left: 30vw;
     border: 30px #1a2236 solid;
     background-color: #dfdfe0;
+    z-index: 1000;
   }
 
   .popup-desktop-title {
@@ -1540,6 +1541,7 @@ footer {
     margin-top: 1vw;
     display: flex;
     flex-direction: row;
+    z-index: 1000;
   }
 
   .projectdesktoptitlepopup {
@@ -1552,6 +1554,7 @@ footer {
     line-height: 1.5vw;
     letter-spacing: 0;
     padding-top: 2vw;
+    z-index: 1000;
   }
 
   .desktoppopx {
@@ -1560,10 +1563,12 @@ footer {
     padding-top: 1.5vw;
     text-align: center;
     margin-left: 2vw;
+    z-index: 1000;
   }
 
   .desktoppopx img {
     width: 2vw;
+    z-index: 3000;
   }
 
   .desktoppop-languages {
@@ -1574,6 +1579,7 @@ footer {
     height: 0.5vw;
     grid-template-columns: repeat(3, 4vw);
     grid-gap: 1.5vw;
+    z-index: 2000;
   }
 
   .popdesktop {
@@ -1582,6 +1588,7 @@ footer {
     width: 5vw;
     height: 2vw;
     font-size: 0.6vw;
+    z-index: 1000;
   }
 
   .background-projects-description {
@@ -1701,5 +1708,9 @@ footer {
   #main-background2 {
     display: block;
     width: 100%;
+  }
+
+  .blurred {
+    filter: blur(5px);
   }
 }

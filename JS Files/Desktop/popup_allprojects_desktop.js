@@ -3,6 +3,10 @@ const projectButtonsDots = document.querySelectorAll('.projectbuttondots');
 const projectDisplayDesktop = document.querySelector('.popup-desktop');
 const closeCardButtonDesktop = document.querySelector('.desktoppopx');
 const projectContainerDesktop = document.querySelector('.projects-container');
+const bar = document.querySelector('.nav-bar');
+const headline = document.querySelector('.headline');
+const about = document.querySelector('.about-skills');
+const contact = document.querySelector('.contact');
 
 const mainprojectdesktop = [
   {
@@ -60,6 +64,22 @@ const mainprojectdesktop = [
   },
 ];
 
+function applyBlurEffect() {
+  bar.classList.add('blurred');
+  headline.classList.add('blurred');
+  projectContainerDesktop.classList.add('blurred');
+  about.classList.add('blurred');
+  contact.classList.add('blurred');
+}
+
+function removeBlurEffect() {
+  bar.classList.remove('blurred');
+  headline.classList.remove('blurred');
+  projectContainerDesktop.classList.remove('blurred');
+  about.classList.remove('blurred');
+  contact.classList.remove('blurred');
+}
+
 let currentDesktopProject = 0;
 const projectImageD = projectDisplayDesktop.querySelector('.background-projects-description img');
 const projectTitleD = projectDisplayDesktop.querySelector('.projectdesktoptitlepopup');
@@ -83,6 +103,7 @@ for (let i = 0; i < projectButtonsDesktop.length; i += 1) {
   projectButtonsDesktop[i].addEventListener('click', () => {
     currentDesktopProject = 1;
     projectDisplayDesktop.classList.add('active');
+    applyBlurEffect();
     updateProjectInfo();
     if (window.innerWidth >= 768) {
       projectDisplayDesktop.style.display = 'block';
@@ -95,6 +116,7 @@ for (let i = 0; i < projectButtonsDots.length; i += 1) {
   projectButtonsDots[i].addEventListener('click', () => {
     currentDesktopProject = 3;
     projectDisplayDesktop.classList.add('active');
+    applyBlurEffect();
     updateProjectInfo();
     if (window.innerWidth >= 768) {
       projectDisplayDesktop.style.display = 'block';
@@ -105,6 +127,7 @@ for (let i = 0; i < projectButtonsDots.length; i += 1) {
 
 closeCardButtonDesktop.addEventListener('click', () => {
   projectDisplayDesktop.classList.remove('active');
+  removeBlurEffect();
   if (window.innerWidth >= 768) {
     projectDisplayDesktop.style.display = 'none';
     projectContainerDesktop.style.display = 'grid';
