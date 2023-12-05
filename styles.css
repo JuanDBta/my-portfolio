@@ -764,7 +764,7 @@ footer {
     flex-wrap: wrap;
     width: 41vw;
     height: 30vw;
-    margin-top: 10.7vw;
+    margin-top: 15.7vw;
     margin-left: 5vw;
   }
 
@@ -838,7 +838,7 @@ footer {
 
   .image-projects {
     width: 50vw;
-    margin-top: 3vw;
+    margin-top: 8vw;
   }
 
   .dot-grid-projects img {
