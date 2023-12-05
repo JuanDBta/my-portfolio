@@ -1333,7 +1333,7 @@ footer {
     font-style: normal;
     font-weight: 400;
     font-size: 0.95vw;
-    line-height: 1.6vw;
+    line-height: 1.4vw;
     letter-spacing: -0.01em;
     color: #1a2236;
     padding-bottom: 1vw;
@@ -1394,6 +1394,7 @@ footer {
     width: 36vw;
     height: 4vw;
     font-size: 1.3vw;
+    line-height: 1.5vw;
     text-align: left;
     font-weight: 400;
     margin-top: 1vw;
