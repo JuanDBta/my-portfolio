@@ -675,7 +675,7 @@ footer {
 .previous-next-arrows {
   display: flex;
   justify-content: space-between;
-  margin-left: 3vw;
+  margin-left: 0;
   gap: 10vw;
 }
 
