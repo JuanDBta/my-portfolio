@@ -26,7 +26,7 @@ header {
 .nav-bar {
   display: none;
   width: 100%;
-  height: 167vw;
+  height: 170vw;
   background-color: white;
   background-image: url('Images SVG/menumobile_imagegeometry1.svg'), url('Images SVG/menumobile_imagegeometry2.svg');
   background-position: left top, center bottom;
@@ -79,6 +79,7 @@ header {
 
 .headline {
   margin-block: 30px;
+  margin-top: 25vw;
   margin-right: 18px;
   width: 100vw;
   display: flex;
@@ -272,11 +273,11 @@ header {
 .popup-mobile {
   display: none;
   position: fixed;
-  width: 95.3vw;
+  width: 100vw;
   height: 201vw;
   margin-top: 0;
   background-color: #fff;
-  margin-left: 2vw;
+  margin-left: 0;
 }
 
 .popup-desktop {
@@ -673,8 +674,8 @@ footer {
 
 .previous-next-arrows {
   display: flex;
-  justify-content: space-evenly;
-  margin-left: -4vw;
+  justify-content: space-between;
+  margin-left: 3vw;
   gap: 10vw;
 }
 
