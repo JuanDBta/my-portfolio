@@ -4,7 +4,7 @@ const pro = [
   {
     name: 'My Finances',
     description: 'This app is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
-    image: 'images/Projects2.png',
+    image: 'images/Projects2.svg',
     tech: ['Ruby On Rails', 'PostgreSQL', 'RSpec'],
     liveLink: 'https://my-finances-h7t3.onrender.com/',
     sourceLink: 'https://github.com/JuanDBta/my-finances',

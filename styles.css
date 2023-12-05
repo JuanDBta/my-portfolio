@@ -894,7 +894,7 @@ footer {
     grid-area: 1/4/1/6;
     width: 65vw;
     height: 38.75vw;
-    background-image: url('images/Projects2.png');
+    background-image: url('images/Projects2.svg');
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 2vw;
@@ -1004,7 +1004,7 @@ footer {
     height: 9.6vw;
     margin-left: 2.4vw;
     margin-top: 0.5vw;
-    background-image: url('images/met-art-desktop.jpg');
+    background-image: url('images/met-art-desktop.svg');
     background-size: cover;
   }
 
@@ -1098,7 +1098,7 @@ footer {
     grid-column: 1;
     width: 56.2vw;
     height: 31vw;
-    background-image: url('images/Projects1.png');
+    background-image: url('images/Projects1.svg');
     background-size: cover;
     background-repeat: no-repeat;
   }
