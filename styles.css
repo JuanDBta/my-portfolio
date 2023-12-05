@@ -103,8 +103,8 @@ header {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 4.4vw;
-  line-height: 6.6vw;
+  font-size: 3vw;
+  line-height: 5vw;
   letter-spacing: -0.01em;
   color: #1a2236;
   margin-inline: 5vw;
@@ -770,7 +770,7 @@ footer {
     flex-wrap: wrap;
     width: 41vw;
     height: 30vw;
-    margin-top: 15.7vw;
+    margin-top: 11.7vw;
     margin-left: 5vw;
   }
 
@@ -835,7 +835,7 @@ footer {
   .dot-grid {
     display: block;
     margin-left: 32vw;
-    margin-top: 7.5vw;
+    margin-top: -1.8vw;
   }
 
   .dot-grid img {
