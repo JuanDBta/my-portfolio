@@ -96,7 +96,7 @@ header {
   line-height: 100%;
   color: #1a2236;
   margin-inline: 5vw;
-  padding-bottom: 5vw;
+  padding-bottom: 1vw;
 }
 
 .myname-intro {
@@ -104,7 +104,7 @@ header {
   font-style: normal;
   font-weight: 400;
   font-size: 3vw;
-  line-height: 5vw;
+  line-height: 4vw;
   letter-spacing: -0.01em;
   color: #1a2236;
   margin-inline: 5vw;
@@ -802,11 +802,11 @@ footer {
     font-style: normal;
     font-weight: 400;
     font-size: 0.9vw;
-    line-height: 1.5vw;
+    line-height: 1.3vw;
     letter-spacing: -0.01em;
     color: #1a2236;
     margin-inline: 5vw;
-    margin-top: 8vw;
+    margin-top: 6vw;
   }
 
   .button-box {
@@ -821,7 +821,7 @@ footer {
     color: #fff;
     cursor: pointer;
     background: #1a2236;
-    margin-block: 2vw;
+    margin-block: 1vw;
     margin-inline: 5vw;
   }
 
@@ -835,7 +835,7 @@ footer {
   .dot-grid {
     display: block;
     margin-left: 32vw;
-    margin-top: -1.8vw;
+    margin-top: 8.7vw;
   }
 
   .dot-grid img {
