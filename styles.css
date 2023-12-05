@@ -680,11 +680,17 @@ footer {
   gap: 10vw;
 }
 
-.previous-next-arrows a img {
+#previous-button img {
+  width: 30vw;
+  margin-top: 2vw;
+  margin-left: -2vw;
+}
+
+#next-button img {
   margin-top: 2vw;
   width: 24vw;
-  height: 5vw;
-  margin-left: -2vw;
+  margin-right: -2vw;
+  
 }
 
 #main-background1 img {
