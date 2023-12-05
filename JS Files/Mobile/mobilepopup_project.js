@@ -7,7 +7,7 @@ const mainproject = [
   {
     name: 'BookingBites',
     description: 'Built with Ruby on Rails on the backend and React & Redux on the frontend, our responsive web application offers a seamless dining reservation experience. Users can conveniently choose their preferred dining ambience, whether it is the cozy bar, the chic lounge, the scenic rooftop, the tranquil garden, or the vibrant live music area.',
-    image: 'images/BookingBites-mobile.svg',
+    image: 'images/Projects1.svg',
     tech: ['Ruby On Rails', 'React/Redux', 'PostgreSQL'],
     liveLink: 'https://bookingbites-ve9h.onrender.com/',
     sourceLink: 'https://github.com/JuanDBta/booking-bites',
