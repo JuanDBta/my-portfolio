@@ -2,7 +2,7 @@
 
 <div align="center">
  
-  <img src="images/LOGO.jpg" alt="logo" width="160"  height="auto" />
+  <img src="images/Portfolio.png" alt="logo" width="160"  height="auto" />
   <br/>
 
   <h3><b>My Portfolio</b></h3>
