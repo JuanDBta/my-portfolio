@@ -33,7 +33,7 @@ const mainproject = [
   {
     name: 'MET Art App',
     description: 'This App connects the user with the Metropolitan Art Museum of New York API and display NINETEENTH CENTURY TOP ARTISTS. When you click an artists image you can access to all their paintings available in MET with main details like title, year of creation and medium.',
-    image: 'images/Projects6.svg',
+    image: 'images/MET-art.svg',
     tech: ['React', 'Redux', 'Jest'],
     liveLink: 'https://met-app.onrender.com/',
     sourceLink: 'https://github.com/JuanDBta/met-art-app',
