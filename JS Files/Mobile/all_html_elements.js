@@ -63,6 +63,9 @@ for (let i = 0; i < projects.length; i += 1) {
   const menuProjects = document.createElement('div');
   menuProjects.classList.add('menu-projects');
 
+  const imageToPreload = new Image();
+  imageToPreload.src = project.image;
+
   const backgroundProjects = document.createElement('div');
   backgroundProjects.classList.add('background-projects');
   const image = document.createElement('img');
