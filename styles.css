@@ -710,8 +710,9 @@ footer {
     display: flex;
     background-color: white;
     background-image: none;
-    margin-left: 7vw;
+    margin-left: 0;
     height: 5vw;
+    padding-left: 7vw;
     margin-bottom: 0;
     position: fixed;
   }
