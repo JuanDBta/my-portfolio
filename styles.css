@@ -20,6 +20,7 @@ header {
   background-position: left top;
   background-repeat: no-repeat;
   background-size: contain;
+  position: fixed;
 }
 
 .nav-bar {
@@ -31,6 +32,7 @@ header {
   background-position: left top, center bottom;
   background-repeat: no-repeat;
   background-size: 85vw 37vw, 100vw 45vw;
+  position: fixed;
 }
 
 .nav-bar.active {
