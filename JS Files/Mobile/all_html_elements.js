@@ -4,7 +4,7 @@ const projects = [
   {
     name: 'BookingBites',
     description: 'Built with Ruby on Rails on the backend and React & Redux on the frontend, our responsive web application offers a seamless dining reservation experience. Users can conveniently choose their preferred dining ambience, whether it is the cozy bar, the chic lounge, the scenic rooftop, the tranquil garden, or the vibrant live music area.',
-    image: 'images/BookingBites-mobile.svg',
+    image: 'images/Projects6.svg',
     tech: ['Ruby On Rails', 'React/Redux', 'PostgreSQL'],
     liveLink: 'https://bookingbites-ve9h.onrender.com/',
     sourceLink: 'https://github.com/JuanDBta/booking-bites',
@@ -31,7 +31,7 @@ const projects = [
   {
     name: 'MET Art App',
     description: 'This App connects the user with the Metropolitan Art Museum of New York API and display NINETEENTH CENTURY TOP ARTISTS. When you click an artists image you can access to all their paintings available in MET with main details like title, year of creation and medium.',
-    image: 'images/Projects6.svg',
+    image: 'images/Projects4.svg',
     tech: ['React', 'Redux', 'Jest'],
     liveLink: 'https://met-app.onrender.com/',
     sourceLink: 'https://github.com/JuanDBta/met-art-app',
