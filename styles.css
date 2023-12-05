@@ -678,6 +678,13 @@ footer {
   gap: 10vw;
 }
 
+.previous-next-arrows a img {
+  margin-top: 2vw;
+  width: 24vw;
+  height: 5vw;
+  margin-left: -2vw;
+}
+
 #main-background1 img {
   width: 100vw;
   object-fit: cover;
