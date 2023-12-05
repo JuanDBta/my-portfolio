@@ -28,6 +28,15 @@ window.addEventListener('resize', () => {
   }
 });
 
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 768) {
+    header.style.display = 'none';
+  } else {
+    header.style.display = 'block';
+  }
+});
+
+
 links.forEach((link) => {
   link.addEventListener('click', (event) => {
     event.preventDefault();

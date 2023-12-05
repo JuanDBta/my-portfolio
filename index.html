@@ -22,14 +22,14 @@
         <li><a href="#Hello" alt="Hello">Hello</a></li>
         <li><a href="#Portfolio" alt="Portfolio">Portfolio</a></li>
         <li><a href="#About" alt="About">About</a></li>
-        <li><a href="#Contact" alt="Contact">Contact</a></li>
+        <li><a href="#submit-collaboration" alt="Contact">Contact</a></li>
     </ul>
 </nav>
 
 <section class="headline">
     <div class="main">
-        <h1 class="title" id="Hello">Juan<br>Díaz</h1>
-        <p class="myname-intro">Hello! I am a software developer! I can
+        <h1 class="title">Juan<br>Díaz</h1>
+        <p class="myname-intro" id="Hello">Hello! I am a software developer! I can
             help you build a product, feature, or
             website. Take a look at my work.<br><br>
             If you like what you see and have a
@@ -45,7 +45,7 @@
 </section>
 
 <section class="projects-container">
-    <h1 class="title projects" id="Portfolio">Projects</h1>
+    <h1 class="title projects">Projects</h1>
 
     <div class="collage dot-grid-projects"><img src="Images SVG/image_dots.svg" alt="Dots"></div>
     <div class="collage collage1"><img src="Images SVG/image-geometry_collage1.svg" alt="Collage 1"></div>
@@ -130,16 +130,16 @@
     </div>
 </section>
 
-<section class="about-skills">
+<section class="about-skills" id="Portfolio">
     <div class="headlineabout">
-        <h1 class="title about" id="About">About</h1>
+        <h1 class="title about">About</h1>
         <p class="mynameintroabout" rel="noopener">I can help you build a product, feature, or
             website. Look through some of my work
             and experience! If you like what you see
             and have a project you need coded,
             don’t hesitate to contact me.</p>
         <a href="https://drive.google.com/file/d/1t7Jv9JKP-XGywFK6x5JDF5LD_U7xWVt5/view?usp=sharing" target="_blank" rel="noopener">
-            <button type="button" class="buttonboxabout">Get my CV
+            <button type="button" class="buttonboxabout" id="About">Get my CV
                 <img src="Images SVG/ic_download.svg" alt="Download" class="cv-image"></button>
         </a>
     </div>
@@ -181,7 +181,7 @@
 
 <section class="contact">
     <div class="headlinestarted">
-        <h2 class="title get" id="Contact">Get started</h2>
+        <h2 class="title get">Get started</h2>
         <p class="myname-intro started">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
     </div>
     <form action="https://formspree.io/f/xgebneoy" method="post">
@@ -195,7 +195,7 @@
                 <input type="email" id="email" name="email" placeholder="Write Your email..." required>
             </div>
         </div>
-        <div class="form-row">
+        <div class="form-row" id="Contact">
             <label id="label-textarea" for="contact-descrip">Your message</label>
             <textarea id="contact-descrip" name="contact-descrip" maxlength="500" cols="30" rows="10"
                       placeholder="Enter your message here..."></textarea>
