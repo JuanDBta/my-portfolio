@@ -690,7 +690,6 @@ footer {
   margin-top: 2vw;
   width: 24vw;
   margin-right: 0;
-  
 }
 
 #main-background1 img {
@@ -1661,20 +1660,23 @@ footer {
     margin-left: 1vw;
     margin-top: 0;
   }
+  
+  #previous-button img {
+    width: 5vw;
+    margin-top: 2vw;
+    margin-left: -11vw;
+  }
+  
+  #next-button img {
+    margin-top: 2vw;
+    width: 3.5vw;
+    margin-left: 1vw;
+  }
 
   .background-projects-description img {
     margin-left: 3vw;
     width: 20.5vw;
     margin-top: 2vw;
-  }
-
-  #next-button img {
-    width: 4vw;
-    margin-left: 2vw;
-  }
-
-  #previous-button img {
-    width: 5vw;
   }
 
   #dot-grid-template img {
