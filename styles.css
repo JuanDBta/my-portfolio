@@ -171,7 +171,6 @@ header {
 
 .image-projects {
   margin-top: 10vw;
-  display: none;
 }
 
 .collage {
@@ -733,7 +732,7 @@ footer {
     background-color: white;
     background-image: none;
     margin-left: 0;
-    height: 5vw;
+    height: 4vw;
     padding-left: 7vw;
     margin-bottom: 0;
     position: fixed;
@@ -752,8 +751,8 @@ footer {
     flex-direction: row;
     align-content: space-between;
     align-items: center;
-    gap: 2.5vw;
-    padding-left: 36vw;
+    gap: 5.3vw;
+    padding-left: 41vw;
     list-style: none;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -768,7 +767,7 @@ footer {
   .title-bar a {
     text-decoration: none;
     color: #1a2236;
-    font-size: 3.35vw;
+    font-size: 2.35vw;
   }
 
   .headline {
