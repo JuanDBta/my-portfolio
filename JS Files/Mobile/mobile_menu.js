@@ -27,7 +27,7 @@ links.forEach((link) => {
     event.preventDefault();
     const target = link.getAttribute('href');
     const targetElement = document.querySelector(target);
-    const navHeight = window.innerWidth * 0.18;
+    const navHeight = window.innerWidth * 0.17;
     const targetPosition = targetElement.offsetTop - navHeight;
     window.scrollTo({
       top: targetPosition,
