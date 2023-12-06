@@ -27,11 +27,11 @@ links.forEach((link) => {
     event.preventDefault();
     const target = link.getAttribute('href');
     const targetElement = document.querySelector(target);
-    const navHeight = document.querySelector('.nav-bar').offsetHeight;
+    const navHeight = window.innerWidth * 0.18;
     const targetPosition = targetElement.offsetTop - navHeight;
     window.scrollTo({
       top: targetPosition,
-      behavior: 'smooth',
+      behavior: 'auto',
     });
     closeMenu();
   });
