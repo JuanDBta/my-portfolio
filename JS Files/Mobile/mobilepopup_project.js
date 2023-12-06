@@ -94,13 +94,13 @@ closeCardButtonMobileVersion.addEventListener('click', () => {
     popupDisplayMobile.style.display = 'none';
     projectContainerMobileVersion.style.display = 'flex';
   } else {
-    projectContainerMobileVersion.style.display = 'grid';
+    projectContainerMobileVersion.style.display = 'flex';
   }
 });
 
 window.addEventListener('resize', () => {
   if (window.innerWidth >= 768) {
-    projectContainerMobileVersion.style.display = 'grid';
+    projectContainerMobileVersion.style.display = 'flex';
   } else {
     projectContainerMobileVersion.style.display = 'flex';
   }

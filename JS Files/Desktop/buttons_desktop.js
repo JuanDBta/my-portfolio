@@ -1,6 +1,6 @@
 function startCollaboration() {
     const contactSection = document.getElementById('Contact');
-    contactSection.scrollIntoView({ behavior: 'smooth' });
+    contactSection.scrollIntoView({ behavior: 'auto' });
 }
 
 const startIntroButton = document.getElementById('start-intro');

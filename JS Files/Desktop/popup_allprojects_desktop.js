@@ -130,7 +130,7 @@ closeCardButtonDesktop.addEventListener('click', () => {
   removeBlurEffect();
   if (window.innerWidth >= 768) {
     projectDisplayDesktop.style.display = 'none';
-    projectContainerDesktop.style.display = 'grid';
+    projectContainerDesktop.style.display = 'flex';
   } else {
     projectContainerDesktop.style.display = 'flex';
   }
