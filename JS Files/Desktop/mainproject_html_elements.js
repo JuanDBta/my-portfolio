@@ -60,12 +60,16 @@ pro.forEach((project) => {
   const menuProjectsMain = document.createElement('div');
   menuProjectsMain.classList.add('menu-projects-main');
 
+  const imageLink = document.createElement('a');
+  imageLink.setAttribute('href', project.liveLink);
+  imageLink.setAttribute('target', '_blank');
+
   const backgroundProjects = document.createElement('div');
   backgroundProjects.classList.add('background-projects-main');
   const image = document.createElement('img');
   image.setAttribute('src', project.image);
-  backgroundProjects.appendChild(image);
-  menuProjectsMain.appendChild(backgroundProjects);
+  imageLink.appendChild(image);
+  backgroundProjects.appendChild(imageLink);
 
   menuProjectsMain.appendChild(backgroundProjects);
 
