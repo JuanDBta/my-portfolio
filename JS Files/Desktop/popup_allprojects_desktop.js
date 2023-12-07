@@ -1,5 +1,4 @@
 const projectButtonsDesktop = document.querySelectorAll('.project-button');
-const projectButtonsDots = document.querySelectorAll('.projectbuttondots');
 const projectDisplayDesktop = document.querySelector('.popup-desktop');
 const closeCardButtonDesktop = document.querySelector('.desktoppopx');
 const projectContainerDesktop = document.querySelector('.projects-container');
@@ -99,9 +98,9 @@ function updateProjectInfo() {
   projectSourceButtonD.href = mainprojectdesktop[currentDesktopProject].sourceLink;
 }
 
-projectButtonsDesktop.forEach((button, index) => {
-  button.addEventListener('click', () => {
-    currentDesktopProject = index;
+
+for (let i = 0; i < projectButtonsDesktop.length; i += 1) {
+  projectButtonsDesktop[i].addEventListener('click', () => {
     projectDisplayDesktop.classList.add('active');
     applyBlurEffect();
     updateProjectInfo();
@@ -110,7 +109,7 @@ projectButtonsDesktop.forEach((button, index) => {
       projectContainerDesktop.style.display = 'none';
     }
   });
-});
+}
 
 closeCardButtonDesktop.addEventListener('click', () => {
   projectDisplayDesktop.classList.remove('active');
@@ -133,14 +132,6 @@ closeCardButtonDesktop.addEventListener('click', () => {
   }
 });
 
-projectLiveButtonD.addEventListener('click', () => {
-  window.open(mainprojectdesktop[currentDesktopProject].liveLink, '_blank');
-});
-
-projectSourceButtonD.addEventListener('click', () => {
-  window.open(mainprojectdesktop[currentDesktopProject].sourceLink, '_blank');
-});
-
 const previousButtonD = projectDisplayDesktop.querySelector('#previous-button');
 const nextButtonD = projectDisplayDesktop.querySelector('#next-button');
 
@@ -158,4 +149,12 @@ nextButtonD.addEventListener('click', () => {
     currentDesktopProject = 0;
   }
   updateProjectInfo();
+});
+
+projectLiveButtonD.addEventListener('click', () => {
+  window.open(mainprojectdesktop[currentDesktopProject].liveLink, '_blank');
+});
+
+projectSourceButtonD.addEventListener('click', () => {
+  window.open(mainprojectdesktop[currentDesktopProject].sourceLink, '_blank');
 });
