@@ -109,10 +109,10 @@ for (let i = 0; i < pro.length; i += 1) {
   button.addEventListener('click', () => {
     currentDesktopProject = i;
     updateProjectInfo();
-    popupDisplayDesktop.classList.add('active');
+    projectDisplayDesktop.classList.add('active');
     if (window.innerWidth > 768) {
-      popupDisplayDesktop.style.display = 'block';
-      projectContainerMobileVersion.style.display = 'none';
+      projectDisplayDesktop.style.display = 'block';
+      projectContainerDesktop.style.display = 'none';
     }
   });
 
