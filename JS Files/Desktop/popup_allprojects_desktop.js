@@ -99,9 +99,9 @@ function updateProjectInfo() {
   projectSourceButtonD.href = mainprojectdesktop[currentDesktopProject].sourceLink;
 }
 
-for (let i = 0; i < projectButtonsDesktop.length; i += 1) {
-  projectButtonsDesktop[i].addEventListener('click', () => {
-    currentDesktopProject = 1;
+projectButtonsDesktop.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    currentDesktopProject = index;
     projectDisplayDesktop.classList.add('active');
     applyBlurEffect();
     updateProjectInfo();
@@ -110,27 +110,24 @@ for (let i = 0; i < projectButtonsDesktop.length; i += 1) {
       projectContainerDesktop.style.display = 'none';
     }
   });
-}
-
-for (let i = 0; i < projectButtonsDots.length; i += 1) {
-  projectButtonsDots[i].addEventListener('click', () => {
-    currentDesktopProject = 3;
-    projectDisplayDesktop.classList.add('active');
-    applyBlurEffect();
-    updateProjectInfo();
-    if (window.innerWidth >= 768) {
-      projectDisplayDesktop.style.display = 'block';
-      projectContainerDesktop.style.display = 'none';
-    }
-  });
-}
+});
 
 closeCardButtonDesktop.addEventListener('click', () => {
   projectDisplayDesktop.classList.remove('active');
   removeBlurEffect();
+  const portfolioSection = document.getElementById('Portfolio');
+  const navHeight = window.innerWidth * 0.17;
+  const targetPosition = portfolioSection.offsetTop + navHeight;
+  
   if (window.innerWidth >= 768) {
     projectDisplayDesktop.style.display = 'none';
     projectContainerDesktop.style.display = 'flex';
+    setTimeout(() => {
+      window.scrollTo({
+        top: targetPosition,
+        behavior: 'auto',
+      });
+    }, 300);
   } else {
     projectContainerDesktop.style.display = 'flex';
   }
