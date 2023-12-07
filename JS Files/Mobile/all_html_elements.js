@@ -66,11 +66,16 @@ for (let i = 0; i < projects.length; i += 1) {
   const imageToPreload = new Image();
   imageToPreload.src = project.image;
 
+  const imageLinkMobile = document.createElement('a');
+  imageLinkMobile.setAttribute('href', project.liveLink);
+  imageLinkMobile.setAttribute('target', '_blank');
+
   const backgroundProjects = document.createElement('div');
   backgroundProjects.classList.add('background-projects');
   const image = document.createElement('img');
   image.setAttribute('src', project.image);
-  backgroundProjects.appendChild(image);
+  imageLinkMobile.appendChild(image)
+  backgroundProjects.appendChild(imageLinkMobile);
   menuProjects.appendChild(backgroundProjects);
 
   const title = document.createElement('h3');
