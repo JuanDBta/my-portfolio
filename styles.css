@@ -184,7 +184,7 @@ header {
 
 .projects-container {
   width: 90vw;
-  height: 650vw;
+  height: 670vw;
   margin-left: 0;
   flex-direction: column;
 }
@@ -286,7 +286,7 @@ header {
   line-height: 3.5vw;
   color: #fff;
   width: 90vw;
-  margin-left: 4vw;
+  margin-left: 5vw;
   height: 10vw;
 }
 
