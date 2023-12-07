@@ -56,7 +56,8 @@ const pro = [
   },
 ];
 
-pro.forEach((project) => {
+for (let i = 0; i < pro.length; i += 1) {
+  const project = pro[i];
   const menuProjectsMain = document.createElement('div');
   menuProjectsMain.classList.add('menu-projects-main');
 
@@ -105,7 +106,17 @@ pro.forEach((project) => {
   button.appendChild(arrowImage);
   goesHereSection.appendChild(button);
 
+  button.addEventListener('click', () => {
+    currentDesktopProject = i;
+    updateProjectInfo();
+    popupDisplayDesktop.classList.add('active');
+    if (window.innerWidth > 768) {
+      popupDisplayDesktop.style.display = 'block';
+      projectContainerMobileVersion.style.display = 'none';
+    }
+  });
+
   menuProjectsMain.appendChild(goesHereSection);
 
   parentElement.appendChild(menuProjectsMain);
-});
+}

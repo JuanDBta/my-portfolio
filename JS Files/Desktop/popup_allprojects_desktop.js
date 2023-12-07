@@ -96,7 +96,20 @@ function updateProjectInfo() {
   }
   projectLiveButtonD.href = mainprojectdesktop[currentDesktopProject].liveLink;
   projectSourceButtonD.href = mainprojectdesktop[currentDesktopProject].sourceLink;
+
+  projectLiveButtonD.setAttribute('data-project-index', currentDesktopProject);
+  projectSourceButtonD.setAttribute('data-project-index', currentDesktopProject);
 }
+
+projectLiveButtonD.addEventListener('click', () => {
+  const projectIndex = projectLiveButtonD.getAttribute('data-project-index');
+  window.open(mainprojectdesktop[projectIndex].liveLink, '_blank');
+});
+
+projectSourceButtonD.addEventListener('click', () => {
+  const projectIndex = projectSourceButtonD.getAttribute('data-project-index');
+  window.open(mainprojectdesktop[projectIndex].sourceLink, '_blank');
+});
 
 
 for (let i = 0; i < projectButtonsDesktop.length; i += 1) {
