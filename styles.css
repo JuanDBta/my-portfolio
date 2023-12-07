@@ -43,7 +43,7 @@ header {
   display: none;
   width: 100%;
   height: 170vw;
-  background-color: white;
+  background-color: #fff;
   background-image: url('Images SVG/menumobile_imagegeometry1.svg'), url('Images SVG/menumobile_imagegeometry2.svg');
   background-position: left top, center bottom;
   background-repeat: no-repeat;
@@ -947,6 +947,17 @@ footer {
     line-height: 1vw;
   }
 
+  .short-description-desktop {
+    font-family: Poppins, sans-serif;
+    font-size: 0.9vw;
+    font-weight: 300;
+    line-height: 1.1vw;
+    color: #fff;
+    width: 17vw;
+    margin-left: 1.5vw;
+    height: 5vw;
+  }
+
   .project-button {
     margin-inline: 1.5vw;
     width: 11.5vw;
@@ -964,7 +975,7 @@ footer {
     display: flex;
     align-items: center;
     padding-left: 1vw;
-    margin-top: 8vw;
+    margin-top: 2vw;
   }
 
   .project-button img {
