@@ -31,7 +31,7 @@ const mainprojectdesktop = [
     description: 'The Blog app is a classic example of a blog website. I created a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.',
     image: 'images/Projects3.svg',
     tech: ['Ruby On Rails', 'PostgreSQL', 'RSpec'],
-    liveLink: 'https://blog-app-po5m.onrender.com/',
+    liveLink: 'https://blog-app-ix14.onrender.com/',
     sourceLink: 'https://github.com/JuanDBta/blog-app',
   },
 

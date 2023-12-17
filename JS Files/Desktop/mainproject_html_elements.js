@@ -24,7 +24,7 @@ const pro = [
     description: 'Interactive website that displays a list of posts, allowing users to engage by adding comments and likes, as well as creating their own posts.',
     image: 'images/Projects3.png',
     tech: ['Ruby On Rails', 'PostgreSQL', 'RSpec'],
-    liveLink: 'https://blog-app-po5m.onrender.com/',
+    liveLink: 'https://blog-app-ix14.onrender.com/',
     sourceLink: 'https://github.com/JuanDBta/blog-app',
   },
 
