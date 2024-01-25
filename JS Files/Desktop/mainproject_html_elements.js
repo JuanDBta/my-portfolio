@@ -38,12 +38,12 @@ const pro = [
   },
 
   {
-    name: 'Space Hub',
-    description: 'Web app connects live SpaceX API, enabling users to book rockets and join space missions.',
-    image: 'images/Projects5.png',
-    tech: ['React', 'Redux', 'Jest'],
-    liveLink: 'https://spacex-4e71.onrender.com/',
-    sourceLink: 'https://github.com/JuanDBta/spacex',
+    name: 'Search Box',
+    description: 'Provides a sleek, responsive interface for users to search articles. Delivers real-time data visualization of search trends. Simple, fast, and user-centric. ',
+    image: 'images/search_project.png',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    liveLink: 'https://search-project.onrender.com/',
+    sourceLink: 'https://github.com/JuanDBta/search-project-frontend-vanillajs',
   },
 
   {

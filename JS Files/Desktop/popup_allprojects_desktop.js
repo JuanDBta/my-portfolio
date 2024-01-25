@@ -45,12 +45,12 @@ const mainprojectdesktop = [
   },
 
   {
-    name: 'Space Hub',
-    description: 'In this website, we worked with the real live data from the SpaceX API. We built a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.',
-    image: 'images/Projects5.svg',
-    tech: ['React', 'Redux', 'Jest'],
-    liveLink: 'https://spacex-4e71.onrender.com/',
-    sourceLink: 'https://github.com/JuanDBta/spacex',
+    name: 'Search Box',
+    description: 'Provides a sleek, responsive interface for users to search articles. Delivers real-time data visualization of search trends. Simple, fast, and user-centric. ',
+    image: 'images/search_project.png',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    liveLink: 'https://search-project.onrender.com/',
+    sourceLink: 'https://github.com/JuanDBta/search-project-frontend-vanillajs',
   },
 
   {
